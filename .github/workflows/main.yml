@@ -11,7 +11,7 @@ on:
   pull_request:
     branches: [ master ]
 
-defaults: &defaults
+defaults:
     runs-on: ubuntu-latest
 jobs:
   sanity_check:
@@ -29,7 +29,6 @@ jobs:
             name: Store checkstyle report
             path: navit/android/checkstyle
   build_linux:
-    <<: *defaults
     needs: sanity_check
     steps:
       - uses: actions/checkout@v2
@@ -48,7 +47,6 @@ jobs:
         run: |
             bash scripts/update_download_center.sh
   run_doxygen:
-    <<: *defaults
     needs: [build_android, build_wince, build_tomtom_minimal, build_linux, build_tomtom_plugin, build_win32]
     steps:
       - uses: actions/checkout@v2
@@ -62,7 +60,6 @@ jobs:
         with:
           path: /root/project/doc
   build_sailfish:
-    <<: *defaults
     needs: sanity_check
     container:
         image: jkoan/test:sailfish
@@ -78,7 +75,6 @@ jobs:
       #    name: Store rpm
       #    path: rpmbuild/RPMS/
   build_android:
-    <<: *defaults
     needs: sanity_check
     container:
         image: jkoan/test
@@ -124,7 +120,6 @@ jobs:
         run: |
             bash scripts/update_download_center.sh
   build_win32:
-    <<: *defaults
     needs: sanity_check
     container:
         image: ubuntu:16.04
@@ -148,7 +143,6 @@ jobs:
         run: |
             bash scripts/update_download_center.sh
   build_wince:
-    <<: *defaults
     needs: sanity_check
     container:
         image: navit/dockerfiles:wince
@@ -186,7 +180,6 @@ jobs:
         run: |
             bash scripts/update_download_center.sh
   build_tomtom_plugin:
-    <<: *defaults
     needs: sanity_check
     container:
         image: navit/tomtom-ng
@@ -206,7 +199,6 @@ jobs:
         run: |
             bash scripts/update_download_center.sh
   merge_trunk_in_master:
-    <<: *defaults
     needs: [build_android, build_wince, build_tomtom_minimal, build_linux, build_tomtom_plugin, build_win32]
     if: github.ref == 'trunk'
     steps:
