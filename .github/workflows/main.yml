@@ -142,6 +142,7 @@ jobs:
         run: |
             bash scripts/update_download_center.sh
   build_wince:
+    runs-on: ubuntu-latest
     needs: sanity_check
     container:
         image: navit/dockerfiles:wince
