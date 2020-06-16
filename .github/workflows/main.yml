@@ -18,6 +18,8 @@ jobs:
           run: bash scripts/ci_sanity_checks.sh
         - name: status
           run: git status
+        - name: versioninfo
+          run: ./gradlew printVersion
         - name: Run CheckStyle Test
           run: ./gradlew checkstyleMain
         - uses: actions/upload-artifact@v1
