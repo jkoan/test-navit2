@@ -13,7 +13,7 @@ jobs:
     container:
         image: navit/sanity_check:latest
     steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@v2.2
         - name: run sanity check script
           run: bash scripts/ci_sanity_checks.sh
         - name: env
