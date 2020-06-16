@@ -7,10 +7,6 @@ name: Build Navit
 
 on: [push, pull_request]
 
-defaults:
-  run:
-    working-directory: ${{github.workspace}}
-
 jobs:
   sanity_check:
     runs-on: ubuntu-latest
