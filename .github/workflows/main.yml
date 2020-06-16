@@ -17,7 +17,7 @@ jobs:
         - name: run sanity check script
           run: bash scripts/ci_sanity_checks.sh
         - name: Run CheckStyle Test
-          run: ./gradlew checkstyleMain
+          run: ./gradlew checkstyleMain -d
         - uses: actions/upload-artifact@v1
           with:
             name: Store checkstyle report
