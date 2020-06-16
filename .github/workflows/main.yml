@@ -19,7 +19,7 @@ jobs:
         - name: env
           run: env
         - name: Run CheckStyle Test
-          run: ./gradlew checkstyleMain -d
+          run: ./gradlew checkstyleMain
         - uses: actions/upload-artifact@v1
           with:
             name: Store checkstyle report
