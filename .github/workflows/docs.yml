@@ -12,7 +12,7 @@ on:
     paths:
     - 'docs/**'
 
-defaults: 
+defaults:
     runs-on: ubuntu-latest
     container:
       image: debian:latest
