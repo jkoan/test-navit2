@@ -13,9 +13,8 @@ import org.ajoberstar.grgit.Grgit
 import java.time.format.DateTimeFormatter
 
 ext {
-	println("Version Name: $projectDir")
-	println("path: $path")
-    git = Grgit.open(currentDir: projectDir)
+	println("Version Name: $project.rootDir")
+    git = Grgit.open(currentDir: project.rootDir)
    	println("Git: $git")
     gitVersionName = git.describe(match: ["v[0-9.rc]*"])
     hh = Integer.parseInt(DateTimeFormatter.ofPattern("HH").format(git.head().dateTime))
