@@ -24,8 +24,6 @@ jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
-    container:
-      image: debian:latest
     permissions:
       actions: read
       contents: read
@@ -46,14 +44,16 @@ jobs:
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
         # queries: ./path/to/local/query, your-org/your-repo/queries@main
+      with:
+        languages: cpp
 
     #- run: |
     #   make bootstrap
     #   make release
     - name: Setup requirements
       run: |
-           bash scripts/setup_common_requirements.sh
-           apt-get install -y libpng-dev libfreetype6-dev libdbus-glib-1-dev libgtk2.0-dev curl
+           sudo bash scripts/setup_common_requirements.sh
+           sudo apt-get install -y libpng-dev libfreetype6-dev libdbus-glib-1-dev libgtk2.0-dev curl
     - name: Build for Linux
       run: bash scripts/build_linux.sh
 
