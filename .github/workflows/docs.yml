@@ -20,6 +20,8 @@ jobs:
   check_spelling:
     runs-on: ubuntu-latest
     steps:
+      - name: Run LanguageTool with reviewdog
+        uses: reviewdog/action-languagetool@v1.0.3
       - uses: actions/checkout@v1
       - name: Install curl
         run: apt-get update && apt-get -y install curl
