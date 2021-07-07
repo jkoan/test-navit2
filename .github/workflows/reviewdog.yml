@@ -27,4 +27,6 @@ jobs:
             level: info
             patterns: |
               **/*.md
+              **/*.c
+              **/*.rst
               !**/testdata/**
