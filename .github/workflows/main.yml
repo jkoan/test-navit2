@@ -13,9 +13,9 @@ jobs:
     container:
         image: navit/sanity_check:latest
     steps:
+        - uses: actions/checkout@v2.2.0
         - name: Run LanguageTool with reviewdog
           uses: reviewdog/action-languagetool@v1.0.3
-        - uses: actions/checkout@v2.2.0
         - name: run sanity check script
           run: bash scripts/ci_sanity_checks.sh
         - name: status
