@@ -14,8 +14,6 @@ jobs:
         image: navit/sanity_check:latest
     steps:
         - uses: actions/checkout@v2.2.0
-        - name: Setup Requirements
-         run: apt update && apt install astyle
         - name: Run LanguageTool with reviewdog
           uses: reviewdog/action-languagetool@v1.0.3
           with:
