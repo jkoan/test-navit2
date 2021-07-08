@@ -65,3 +65,16 @@ jobs:
       with:
         github_token: ${{ secrets.github_token }}
         reporter: github-pr-review
+  contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: reviewdog/action-setup@v1
+      - uses: actions/checkout@master
+      
+      - name: Update Contributors
+        run: bash scripts/generate_contributors.sh
+        
+      - name: reviewdog / Contributor list
+        uses: reviewdog/action-suggester@v1
+        with:
+          tool_name: contributor_list
