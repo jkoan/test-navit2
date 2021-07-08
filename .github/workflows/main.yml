@@ -14,15 +14,6 @@ jobs:
         image: navit/sanity_check:latest
     steps:
         - uses: actions/checkout@v2.2.0
-        - name: Run LanguageTool with reviewdog
-          uses: reviewdog/action-languagetool@v1.0.3
-          with:
-            github_token: ${{ secrets.github_token }}
-            # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
-            reporter: github-pr-review
-            # Change reporter level if you need.
-            level: info
-          
         - name: run sanity check script
           run: bash scripts/ci_sanity_checks.sh
         - name: status
