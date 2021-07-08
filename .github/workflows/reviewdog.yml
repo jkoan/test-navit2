@@ -44,4 +44,5 @@ jobs:
             find -iname "*.cpp" -exec astyle --indent=spaces=4 --style=attach -n --max-code-length=120 -xf -xh {} \;
         - uses: reviewdog/action-suggester@v1
           with:
+            github_token: ${{ secrets.github_token }}
             tool_name: astyle
