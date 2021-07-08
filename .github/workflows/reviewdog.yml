@@ -37,7 +37,7 @@ jobs:
     steps:
         - uses: actions/checkout@v2
         - name: Setup Requirements
-          run: apt update && apt install astyle
+          run: sudo apt update && sudo apt install astyle
         - name: Run Formating
           run: |
             find -iname "*.c" -exec astyle --indent=spaces=4 --style=attach -n --max-code-length=120 -xf -xh {} \;
