@@ -30,3 +30,16 @@ jobs:
               **/*.c
               **/*.rst
               !**/testdata/**
+
+  formater:
+    name: runner / code style
+    runs-on: ubuntu-latest
+    steps:
+        - name: Run Formating
+          run: |
+            find -iname "*.c" -exec astyle --indent=spaces=4 --style=attach -n --max-code-length=120 -xf -xh {} \;
+            find -iname "*.cpp" -exec astyle --indent=spaces=4 --style=attach -n --max-code-length=120 -xf -xh {} \;
+        - uses: actions/checkout@v2
+        - uses: reviewdog/action-suggester@v1
+          with:
+            tool_name: astyle
