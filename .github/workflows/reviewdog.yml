@@ -22,7 +22,7 @@ jobs:
       - uses: reviewdog/action-setup@v1
       - run: sudo bash scripts/setup_common_requirements.sh
       - run: sudo apt-get install -y libpng-dev libfreetype6-dev libdbus-glib-1-dev libgtk2.0-dev curl
-      - run: "sudo bash scripts/build_linux.sh | reviewdog -efm='%f:%l:%c: %m' -diff='git diff FETCH_HEAD' -name=gcc -reporter='github-check' -level=warning"
+      - run: "sudo bash scripts/build_linux.sh 2>&1 | reviewdog -efm='%f:%l:%c: %m' -name=gcc -reporter='github-check' -level=warning"
         env:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.github_token }}
 
