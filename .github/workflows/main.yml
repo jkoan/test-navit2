@@ -13,7 +13,9 @@ jobs:
     container:
         image: navit/sanity_check:latest
     steps:
-        - uses: actions/checkout@v2.2.0
+        - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
         - name: run sanity check script
           run: bash scripts/ci_sanity_checks.sh
         - name: status
@@ -33,6 +35,8 @@ jobs:
       image: debian:latest
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - run: |
           apt-get update && apt-get install -y git
       - name: Setup requirements
@@ -55,6 +59,8 @@ jobs:
       image: debian:latest
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - name: Install doxygen and other essentials
         run: apt-get update && apt-get -y install doxygen ca-certificates git rsync
       - name: Run doxygen
@@ -71,6 +77,8 @@ jobs:
         image: hoehnp/sailfishos-platform-sdk:3.1.0.12
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       # TODO currently broken because of USER in Dockerimage and probably because of double containers as well
       #- name: run build
       #  run: contrib/sailfish/build_sailfish_ci.sh
@@ -91,6 +99,8 @@ jobs:
       KEYSTORE: '/home/circleci/.keystore'
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - name: Install requirements
         run: scripts/setup_android.sh
       - name: Setup Keystore and Playstore Keys
@@ -134,6 +144,8 @@ jobs:
         image: ubuntu:16.04
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - run: |
           apt-get update && apt-get install -y git
       - name: Prepare the Windows build environment
@@ -159,6 +171,8 @@ jobs:
         image: navit/dockerfiles:wince
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - run: |
           apt-get update && apt-get install -y git-core
       - name: Prepare the WinCE build environment
@@ -179,6 +193,8 @@ jobs:
         image: navit/tomtom-ng
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - name: Prepare the tomtom build environment
         run: |
             bash scripts/setup_common_requirements.sh
@@ -199,6 +215,8 @@ jobs:
         image: navit/tomtom-ng
     steps:
       - uses: actions/checkout@v2
+          with:
+            repository: navit-gps/navit
       - name: Prepare the tomtom build environment
         run: |
             bash scripts/setup_common_requirements.sh
