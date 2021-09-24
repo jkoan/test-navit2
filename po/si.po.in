@@ -203,9 +203,6 @@ msgstr ""
 msgid "Enter the roundabout %s"
 msgstr ""
 
-msgid "then enter the roundabout"
-msgstr ""
-
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -308,10 +305,6 @@ msgstr "පහසුවෙන් "
 #. TRANSLATORS: as in "turn strongly right"
 msgid "strongly "
 msgstr "ශක්තිමත් ලෙස "
-
-#, c-format
-msgid "then take the %1$s road to the %2$s"
-msgstr ""
 
 #, c-format
 msgid "Take the %1$s road to the %2$s"
@@ -2071,9 +2064,6 @@ msgstr "පිරිසැලසුම"
 msgid "Height Profile"
 msgstr "උසේ පැතිපෙනුම"
 
-msgid "please install a map *.heightlines.bin to provide elevationdata"
-msgstr ""
-
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2179,6 +2169,7 @@ msgstr "මුළු තිරය"
 msgid "Window Mode"
 msgstr "කවුළු ප්‍රකාරය"
 
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2191,6 +2182,8 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "විස්තරය"
 

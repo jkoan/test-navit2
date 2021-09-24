@@ -224,9 +224,12 @@ msgstr "Brzy najeďte na kruhový objezd"
 msgid "Enter the roundabout %s"
 msgstr "Vjeďte na kruhový objezd po %s"
 
+<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -331,10 +334,13 @@ msgid "strongly "
 msgstr "ostře "
 
 #, c-format
+<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Jeďte na %1$s silnici %2$s"
 
@@ -404,15 +410,15 @@ msgstr "Příkaz"
 msgid "Length"
 msgstr "Délka"
 
-msgid "mi"
-msgstr ""
-
 msgid "km"
 msgstr "km"
 
+<<<<<<< HEAD
 msgid "feet"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "m"
 msgstr "m"
 
@@ -1573,25 +1579,34 @@ msgstr ""
 "\t-h: vytisknout tyto informace o použití a zavřít.\n"
 "\t-v: vytisknout verzi a zavřít.\n"
 
+<<<<<<< HEAD
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #, c-format
 msgid "Error parsing config file '%s': %s"
 msgstr ""
 
 #, c-format
+<<<<<<< HEAD
 msgid "Using config file '%s'"
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Error: No configuration found in config file '%s'"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "unknown street"
 msgstr "neznámá ulice"
 
@@ -1730,9 +1745,6 @@ msgstr "Zobrazit pozici _kurzoru"
 msgid "_Lock on Road"
 msgstr "Jet jen po silnici"
 
-msgid "_Follow Vehicle"
-msgstr ""
-
 msgid "_Keep orientation to the North"
 msgstr "_Orientovat na sever"
 
@@ -1802,10 +1814,6 @@ msgstr "Taxi"
 msgid "Shopping"
 msgstr "Nakupování"
 
-#. Input is in kilometers
-msgid "Select a search radius from screen center in km"
-msgstr ""
-
 #. Input is in miles.
 msgid "Select a search radius from screen center in miles"
 msgstr ""
@@ -1815,17 +1823,23 @@ msgid "POI %s. %s"
 msgstr "POI %s. %s"
 
 #, c-format
+<<<<<<< HEAD
 msgid "Set destination to %ld, %ld "
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Set map to %ld, %ld "
 msgstr ""
 
+<<<<<<< HEAD
 #, c-format
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "POI search"
 msgstr "Vyhledávání POI"
 
@@ -1843,9 +1857,6 @@ msgstr "Kategorie"
 
 msgid "Direction"
 msgstr "Směr"
-
-msgid "Distance"
-msgstr ""
 
 msgid "Name"
 msgstr "Název"
@@ -1889,10 +1900,6 @@ msgstr "3D"
 
 msgid "OT"
 msgstr "OT"
-
-#, c-format
-msgid "Route %4.1f%s    %02d:%02d ETA"
-msgstr ""
 
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "Trasa 0000km  0+00:00 ETA"
@@ -2102,9 +2109,12 @@ msgstr "Rozvržení"
 msgid "Height Profile"
 msgstr "Výškový profil"
 
+<<<<<<< HEAD
 msgid "please install a map *.heightlines.bin to provide elevationdata"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2114,9 +2124,12 @@ msgstr "Popis trasy"
 msgid "Show Locale"
 msgstr "Zobrazit jazyk"
 
+<<<<<<< HEAD
 msgid "Network info"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Former Destinations"
 msgstr "Minulé cíle"
 
@@ -2212,25 +2225,26 @@ msgstr "Celá obrazovka"
 msgid "Window Mode"
 msgstr "V okně"
 
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Manual zoom"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Layers"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Zoom to route"
 msgstr ""
 
 msgid "Description"
 msgstr "Popis"
-
-msgid ""
-"Drop last\n"
-"Waypoint"
-msgstr ""
 
 msgid ""
 "Drop next\n"
@@ -2391,10 +2405,6 @@ msgstr "Žádné umístění. Zkuste znovu po opravě umístění."
 msgid "Maps containing current location"
 msgstr "Mapy obsahující nynější umístění"
 
-#. Android resource: @strings/maps_installed
-msgid "Installed maps"
-msgstr ""
-
 #. Android resource: @strings/map_downloading
 msgid "downloading"
 msgstr "stahování…"
@@ -2406,11 +2416,6 @@ msgstr "Médium zvolené pro uchovávání map není k dispozici"
 #. Android resource: @strings/map_download_error_writing_map
 msgid "Error writing map!"
 msgstr "Chyba při zápisu mapy!"
-
-#. Android resource: @strings/map_location_changed
-#, c-format
-msgid "New location set to %s Restart Navit to apply the changes."
-msgstr ""
 
 #. Android resource: @strings/map_location_unavailable
 #, c-format
@@ -2534,12 +2539,6 @@ msgid ""
 "Navit can use any text to speech engine installed on your device. The "
 "currently selected engine reports it is unable to speak in your language. "
 "Should we ask the system to show voice download dialog?"
-msgstr ""
-
-#. Android resource: @strings/permissions_not_granted
-msgid ""
-"Navit needs permission to access GPS and read the map.\n"
-"If you change your mind please restart Navit and grant the permissions"
 msgstr ""
 
 #. Android resource: @strings/permissions_info_box_title
@@ -2901,10 +2900,6 @@ msgstr "Havaj"
 #. Android resource: @strings/usa
 msgid "USA"
 msgstr "USA"
-
-#. Android resource: @strings/except_alaska_and_hawaii
-msgid "(except Alaska and Hawaii)"
-msgstr ""
 
 #. Android resource: @strings/midwest
 msgid "Midwest"

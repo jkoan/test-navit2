@@ -22,8 +22,11 @@
 # marZiano https://launchpad.net/~m3marte
 # pataquets https://launchpad.net/~pataquets
 # singesang https://launchpad.net/~singesang
+<<<<<<< HEAD
 # gallegonovato <fran-carro@hotmail.es>, 2024.
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2025.
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -224,9 +227,12 @@ msgstr "Entre en la próxima rotonda"
 msgid "Enter the roundabout %s"
 msgstr "Entre en la rotonda %s"
 
+<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -331,10 +337,13 @@ msgid "strongly "
 msgstr "bruscamente "
 
 #, c-format
+<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Tome la %1$s carretera %2$s"
 
@@ -404,6 +413,7 @@ msgstr "Orden"
 msgid "Length"
 msgstr "Longitud"
 
+<<<<<<< HEAD
 msgid "mi"
 msgstr ""
 
@@ -413,6 +423,11 @@ msgstr "km"
 msgid "feet"
 msgstr ""
 
+=======
+msgid "km"
+msgstr "km"
+
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "m"
 msgstr "m"
 
@@ -1573,25 +1588,20 @@ msgstr ""
 "\t-h: muestra este mensaje de ayuda y termina.\n"
 "\t-v: muestra la versión y termina.\n"
 
-#. We have not found an existing config file from all possibilities
-msgid "No config file navit.xml, navit.xml.local found"
-msgstr ""
-
 #, c-format
 msgid "Error parsing config file '%s': %s"
-msgstr ""
-
-#, c-format
-msgid "Using config file '%s'"
 msgstr ""
 
 #, c-format
 msgid "Error: No configuration found in config file '%s'"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "unknown street"
 msgstr "calle desconocida"
 
@@ -1730,9 +1740,6 @@ msgstr "_Mostrar posición del cursor"
 msgid "_Lock on Road"
 msgstr "_Bloqueo en la ruta"
 
-msgid "_Follow Vehicle"
-msgstr ""
-
 msgid "_Keep orientation to the North"
 msgstr "Mantener _orientación al Norte"
 
@@ -1815,15 +1822,7 @@ msgid "POI %s. %s"
 msgstr "POI %s. %s"
 
 #, c-format
-msgid "Set destination to %ld, %ld "
-msgstr ""
-
-#, c-format
 msgid "Set map to %ld, %ld "
-msgstr ""
-
-#, c-format
-msgid "Set next visit to %ld, %ld "
 msgstr ""
 
 msgid "POI search"
@@ -1889,10 +1888,6 @@ msgstr "3D"
 
 msgid "OT"
 msgstr "OT"
-
-#, c-format
-msgid "Route %4.1f%s    %02d:%02d ETA"
-msgstr ""
 
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "Ruta 0000km  0+00:00 TEL"
@@ -2102,9 +2097,12 @@ msgstr "Diseño"
 msgid "Height Profile"
 msgstr "Perfil de altura"
 
+<<<<<<< HEAD
 msgid "please install a map *.heightlines.bin to provide elevationdata"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2114,9 +2112,12 @@ msgstr "Descripción de ruta"
 msgid "Show Locale"
 msgstr "Mostrar locale"
 
+<<<<<<< HEAD
 msgid "Network info"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Former Destinations"
 msgstr "Destinos anteriores"
 
@@ -2212,15 +2213,21 @@ msgstr "Pantalla completa"
 msgid "Window Mode"
 msgstr "Modo ventana"
 
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Manual zoom"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Layers"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Zoom to route"
 msgstr ""
 
@@ -2537,12 +2544,15 @@ msgstr ""
 "El sintetizador seleccionado actualmente informa de que no puede hablar en "
 "su idioma. ¿Desea ver el diálogo de descarga de voces del sistema?"
 
+<<<<<<< HEAD
 #. Android resource: @strings/permissions_not_granted
 msgid ""
 "Navit needs permission to access GPS and read the map.\n"
 "If you change your mind please restart Navit and grant the permissions"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/permissions_info_box_title
 msgid "One or more ungranted permissions"
 msgstr ""

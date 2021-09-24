@@ -13,8 +13,11 @@
 # ilovekiruna https://launchpad.net/~ilovekiruna
 # jan https://launchpad.net/~jandegr1
 # lopho https://launchpad.net/~lopho
+<<<<<<< HEAD
 # "J. Lavoie" <j.lavoie@net-c.ca>, 2024.
 # Andi Chandler <andi@gowling.com>, 2025.
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -216,9 +219,12 @@ msgstr "Enter the roundabout soon"
 msgid "Enter the roundabout %s"
 msgstr "Enter the roundabout %s"
 
+<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -323,10 +329,13 @@ msgid "strongly "
 msgstr "strongly "
 
 #, c-format
+<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Take the %1$s road to the %2$s"
 
@@ -396,6 +405,7 @@ msgstr "Command"
 msgid "Length"
 msgstr "Length"
 
+<<<<<<< HEAD
 msgid "mi"
 msgstr ""
 
@@ -405,6 +415,11 @@ msgstr "km"
 msgid "feet"
 msgstr ""
 
+=======
+msgid "km"
+msgstr "km"
+
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "m"
 msgstr "m"
 
@@ -1515,10 +1530,13 @@ msgstr "Wallis and Futuna"
 msgid "Samoa"
 msgstr "Samoa"
 
+<<<<<<< HEAD
 #. 412
 msgid "Kosovo"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. 887
 msgid "Yemen"
 msgstr "Yemen"
@@ -1564,15 +1582,19 @@ msgstr ""
 "\t-h: print this usage info and exit.\n"
 "\t-v: print the version and exit.\n"
 
+<<<<<<< HEAD
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #, c-format
 msgid "Error parsing config file '%s': %s"
 msgstr ""
 
 #, c-format
+<<<<<<< HEAD
 msgid "Using config file '%s'"
 msgstr ""
 
@@ -1582,6 +1604,10 @@ msgstr ""
 
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
+=======
+msgid "Error: No configuration found in config file '%s'"
+msgstr "Error: No configuration found in config file '%s'"
+>>>>>>> 1c9d7d11e (Update translation files)
 
 msgid "unknown street"
 msgstr "unknown street"
@@ -1721,9 +1747,12 @@ msgstr "Show position _cursor"
 msgid "_Lock on Road"
 msgstr "Lock on road"
 
+<<<<<<< HEAD
 msgid "_Follow Vehicle"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "_Keep orientation to the North"
 msgstr "_Keep orientation to the North"
 
@@ -1793,10 +1822,13 @@ msgstr "Taxi"
 msgid "Shopping"
 msgstr "Shopping"
 
+<<<<<<< HEAD
 #. Input is in kilometers
 msgid "Select a search radius from screen center in km"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Input is in miles.
 msgid "Select a search radius from screen center in miles"
 msgstr ""
@@ -1806,17 +1838,23 @@ msgid "POI %s. %s"
 msgstr "POI %s. %s"
 
 #, c-format
+<<<<<<< HEAD
 msgid "Set destination to %ld, %ld "
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Set map to %ld, %ld "
 msgstr ""
 
+<<<<<<< HEAD
 #, c-format
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "POI search"
 msgstr "POI search"
 
@@ -1835,9 +1873,12 @@ msgstr "Category"
 msgid "Direction"
 msgstr "Direction"
 
+<<<<<<< HEAD
 msgid "Distance"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Name"
 msgstr "Name"
 
@@ -1881,10 +1922,13 @@ msgstr "3D"
 msgid "OT"
 msgstr "QT"
 
+<<<<<<< HEAD
 #, c-format
 msgid "Route %4.1f%s    %02d:%02d ETA"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "Route 0000km  0+00:00 ETA"
 
@@ -2093,9 +2137,12 @@ msgstr "Layout"
 msgid "Height Profile"
 msgstr "Height Profile"
 
+<<<<<<< HEAD
 msgid "please install a map *.heightlines.bin to provide elevationdata"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2105,9 +2152,12 @@ msgstr "Route Description"
 msgid "Show Locale"
 msgstr "Show Locale"
 
+<<<<<<< HEAD
 msgid "Network info"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Former Destinations"
 msgstr "Former Destinations"
 
@@ -2199,15 +2249,21 @@ msgstr "Fullscreen"
 msgid "Window Mode"
 msgstr "Window Mode"
 
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Manual zoom"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Layers"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Zoom to route"
 msgstr ""
 
@@ -2215,11 +2271,14 @@ msgid "Description"
 msgstr "Description"
 
 msgid ""
+<<<<<<< HEAD
 "Drop last\n"
 "Waypoint"
 msgstr ""
 
 msgid ""
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 "Drop next\n"
 "Waypoint"
 msgstr ""
@@ -2254,10 +2313,13 @@ msgstr "Yes"
 msgid "Cancel"
 msgstr "Cancel"
 
+<<<<<<< HEAD
 #. Android resource: @strings/channel_name
 msgid "Navit"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/notification_ticker
 msgid "Navit started"
 msgstr "Navit started"
@@ -2322,6 +2384,7 @@ msgstr "Set map location"
 msgid "Route to here"
 msgstr "Route to here"
 
+<<<<<<< HEAD
 #. Android resource: @strings/position_popup_view
 msgid "View"
 msgstr ""
@@ -2330,6 +2393,8 @@ msgstr ""
 msgid "Use position with"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/map_delete
 msgid "Delete this map?"
 msgstr "Delete this map?"
@@ -2378,10 +2443,13 @@ msgstr "No location. Reopen after location fix."
 msgid "Maps containing current location"
 msgstr "Maps containing current location"
 
+<<<<<<< HEAD
 #. Android resource: @strings/maps_installed
 msgid "Installed maps"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/map_downloading
 msgid "downloading"
 msgstr "downloading"
@@ -2394,11 +2462,14 @@ msgstr "Media selected for map storage is not available"
 msgid "Error writing map!"
 msgstr "Error writing map!"
 
+<<<<<<< HEAD
 #. Android resource: @strings/map_location_changed
 #, c-format
 msgid "New location set to %s Restart Navit to apply the changes."
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/map_location_unavailable
 #, c-format
 msgid ""
@@ -2526,12 +2597,15 @@ msgstr ""
 "currently selected engine reports it is unable to speak in your language. "
 "Should we ask the system to show voice download dialog?"
 
+<<<<<<< HEAD
 #. Android resource: @strings/permissions_not_granted
 msgid ""
 "Navit needs permission to access GPS and read the map.\n"
 "If you change your mind please restart Navit and grant the permissions"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/permissions_info_box_title
 msgid "One or more ungranted permissions"
 msgstr ""
@@ -2892,10 +2966,13 @@ msgstr "Hawaii"
 msgid "USA"
 msgstr "USA"
 
+<<<<<<< HEAD
 #. Android resource: @strings/except_alaska_and_hawaii
 msgid "(except Alaska and Hawaii)"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/midwest
 msgid "Midwest"
 msgstr "Midwest"

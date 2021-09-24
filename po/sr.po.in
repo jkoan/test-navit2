@@ -12,18 +12,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-12-16 19:22+0100\n"
 "PO-Revision-Date: 2024-04-13 17:26+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/navit/navit-core/"
 "sr/>\n"
+=======
+"PO-Revision-Date: 2018-05-10 17:33+0000\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
+"Language-Team: српски <xfce4@xfce4.org>\n"
+>>>>>>> 1c9d7d11e (Update translation files)
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.5-dev\n"
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+>>>>>>> 1c9d7d11e (Update translation files)
 "X-Report-Errors: https://translations.launchpad.net/navit/trunk/+pots/navit\n"
 
 msgid "Running from source directory\n"
@@ -214,9 +225,6 @@ msgstr "Ускоро прелазак на обилазницу"
 msgid "Enter the roundabout %s"
 msgstr ""
 
-msgid "then enter the roundabout"
-msgstr ""
-
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -321,10 +329,6 @@ msgid "strongly "
 msgstr "јако "
 
 #, c-format
-msgid "then take the %1$s road to the %2$s"
-msgstr ""
-
-#, c-format
 msgid "Take the %1$s road to the %2$s"
 msgstr "Прати %1$s пут до %2$s"
 
@@ -394,14 +398,8 @@ msgstr "Наредба"
 msgid "Length"
 msgstr "Дужина"
 
-msgid "mi"
-msgstr ""
-
 msgid "km"
 msgstr "km"
-
-msgid "feet"
-msgstr ""
 
 msgid "m"
 msgstr "m"
@@ -1553,15 +1551,19 @@ msgid ""
 "\t-v: print the version and exit.\n"
 msgstr ""
 
+<<<<<<< HEAD
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #, c-format
 msgid "Error parsing config file '%s': %s"
 msgstr ""
 
 #, c-format
+<<<<<<< HEAD
 msgid "Using config file '%s'"
 msgstr ""
 
@@ -1571,6 +1573,10 @@ msgstr ""
 
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
+=======
+msgid "Error: No configuration found in config file '%s'"
+msgstr "ГРЕШКА: Нису пронађене поставке у датотеци подешавања „%s"
+>>>>>>> 1c9d7d11e (Update translation files)
 
 msgid "unknown street"
 msgstr "непозната улица"
@@ -1710,9 +1716,6 @@ msgstr "Прикажи _показивач положаја"
 msgid "_Lock on Road"
 msgstr "Прати пут"
 
-msgid "_Follow Vehicle"
-msgstr ""
-
 msgid "_Keep orientation to the North"
 msgstr "_Држи усмерење према северу"
 
@@ -1795,17 +1798,23 @@ msgid "POI %s. %s"
 msgstr "Занимљива тачка %s. %s"
 
 #, c-format
+<<<<<<< HEAD
 msgid "Set destination to %ld, %ld "
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Set map to %ld, %ld "
 msgstr ""
 
+<<<<<<< HEAD
 #, c-format
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "POI search"
 msgstr "Претрага занимљивих тачака"
 
@@ -1869,10 +1878,6 @@ msgstr "3Д"
 
 msgid "OT"
 msgstr "ОТ"
-
-#, c-format
-msgid "Route %4.1f%s    %02d:%02d ETA"
-msgstr ""
 
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "Рута 0000км 0+00:00 ПВД"
@@ -2082,9 +2087,6 @@ msgstr "Распоред"
 msgid "Height Profile"
 msgstr "Висински профил"
 
-msgid "please install a map *.heightlines.bin to provide elevationdata"
-msgstr ""
-
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2093,9 +2095,6 @@ msgstr "Опис путање"
 
 msgid "Show Locale"
 msgstr "Прикажи име превода"
-
-msgid "Network info"
-msgstr ""
 
 msgid "Former Destinations"
 msgstr "Претходна одредишта"
@@ -2192,13 +2191,7 @@ msgstr "Цео екран"
 msgid "Window Mode"
 msgstr "Режим прозора"
 
-msgid "Auto zoom"
-msgstr ""
-
 msgid "Manual zoom"
-msgstr ""
-
-msgid "Layers"
 msgstr ""
 
 msgid "Zoom to route"
@@ -2369,10 +2362,6 @@ msgstr "Нема положаја. Отварам поново по исправ
 msgid "Maps containing current location"
 msgstr "Карте које садрже тренутни положај"
 
-#. Android resource: @strings/maps_installed
-msgid "Installed maps"
-msgstr ""
-
 #. Android resource: @strings/map_downloading
 msgid "downloading"
 msgstr "преузимање"
@@ -2384,11 +2373,6 @@ msgstr ""
 #. Android resource: @strings/map_download_error_writing_map
 msgid "Error writing map!"
 msgstr "Десила се грешка при упису карте!"
-
-#. Android resource: @strings/map_location_changed
-#, c-format
-msgid "New location set to %s Restart Navit to apply the changes."
-msgstr ""
 
 #. Android resource: @strings/map_location_unavailable
 #, c-format
@@ -2512,12 +2496,6 @@ msgid ""
 "Navit can use any text to speech engine installed on your device. The "
 "currently selected engine reports it is unable to speak in your language. "
 "Should we ask the system to show voice download dialog?"
-msgstr ""
-
-#. Android resource: @strings/permissions_not_granted
-msgid ""
-"Navit needs permission to access GPS and read the map.\n"
-"If you change your mind please restart Navit and grant the permissions"
 msgstr ""
 
 #. Android resource: @strings/permissions_info_box_title
@@ -2879,10 +2857,6 @@ msgstr "Хаваји"
 #. Android resource: @strings/usa
 msgid "USA"
 msgstr "САД"
-
-#. Android resource: @strings/except_alaska_and_hawaii
-msgid "(except Alaska and Hawaii)"
-msgstr ""
 
 #. Android resource: @strings/midwest
 msgid "Midwest"

@@ -20,7 +20,10 @@
 # rob https://launchpad.net/~rvdb
 # wb9688 https://launchpad.net/~wb9688
 # worldcitizen https://launchpad.net/~joop-boonen
+<<<<<<< HEAD
 # adevoss <arnobugs@hotmail.com>, 2025.
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -222,9 +225,12 @@ msgstr "straks de rotonde oprijden"
 msgid "Enter the roundabout %s"
 msgstr "%s de rotonde oprijden"
 
+<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -329,10 +335,13 @@ msgid "strongly "
 msgstr "scherp "
 
 #, c-format
+<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Neem de %1$s straat naar %2$s"
 
@@ -402,6 +411,7 @@ msgstr "Opdracht"
 msgid "Length"
 msgstr "Lengte"
 
+<<<<<<< HEAD
 msgid "mi"
 msgstr ""
 
@@ -411,6 +421,11 @@ msgstr "km"
 msgid "feet"
 msgstr ""
 
+=======
+msgid "km"
+msgstr "km"
+
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "m"
 msgstr "m"
 
@@ -1572,15 +1587,19 @@ msgstr ""
 "\t-h: print deze gebruiksinfo en sluit af.\n"
 "\t-v: print de versie en sluit af.\n"
 
+<<<<<<< HEAD
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #, c-format
 msgid "Error parsing config file '%s': %s"
 msgstr ""
 
 #, c-format
+<<<<<<< HEAD
 msgid "Using config file '%s'"
 msgstr ""
 
@@ -1590,6 +1609,10 @@ msgstr ""
 
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
+=======
+msgid "Error: No configuration found in config file '%s'"
+msgstr "Fout: Geen configuratie gevondein in configuratiebestand '%s'"
+>>>>>>> 1c9d7d11e (Update translation files)
 
 msgid "unknown street"
 msgstr "onbekende weg"
@@ -1731,9 +1754,12 @@ msgstr "laat positie zien"
 msgid "_Lock on Road"
 msgstr "Huidige locatie altijd op de weg"
 
+<<<<<<< HEAD
 msgid "_Follow Vehicle"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "_Keep orientation to the North"
 msgstr "houd het kaart noorden boven"
 
@@ -1803,10 +1829,6 @@ msgstr "Taxi"
 msgid "Shopping"
 msgstr "Winkelen"
 
-#. Input is in kilometers
-msgid "Select a search radius from screen center in km"
-msgstr ""
-
 #. Input is in miles.
 msgid "Select a search radius from screen center in miles"
 msgstr ""
@@ -1816,17 +1838,23 @@ msgid "POI %s. %s"
 msgstr "POI %s. %s"
 
 #, c-format
+<<<<<<< HEAD
 msgid "Set destination to %ld, %ld "
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Set map to %ld, %ld "
 msgstr ""
 
+<<<<<<< HEAD
 #, c-format
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "POI search"
 msgstr "POI zoeken"
 
@@ -1844,9 +1872,6 @@ msgstr "Categorie"
 
 msgid "Direction"
 msgstr "Richting"
-
-msgid "Distance"
-msgstr ""
 
 msgid "Name"
 msgstr "Naam"
@@ -1891,10 +1916,13 @@ msgstr "3D"
 msgid "OT"
 msgstr "OT"
 
+<<<<<<< HEAD
 #, c-format
 msgid "Route %4.1f%s    %02d:%02d ETA"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "Route 0000km  0+00:00 Aankomsttijd"
 
@@ -2103,9 +2131,12 @@ msgstr "Opmaak"
 msgid "Height Profile"
 msgstr "Hoogteprofiel"
 
+<<<<<<< HEAD
 msgid "please install a map *.heightlines.bin to provide elevationdata"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2115,9 +2146,12 @@ msgstr "Routebeschrijving"
 msgid "Show Locale"
 msgstr "Toon taal"
 
+<<<<<<< HEAD
 msgid "Network info"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Former Destinations"
 msgstr "Vorige bestemmingen"
 
@@ -2213,25 +2247,26 @@ msgstr "Beeldvullend"
 msgid "Window Mode"
 msgstr "Venstermodus"
 
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Manual zoom"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Layers"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Zoom to route"
 msgstr ""
 
 msgid "Description"
 msgstr "Beschrijving"
-
-msgid ""
-"Drop last\n"
-"Waypoint"
-msgstr ""
 
 msgid ""
 "Drop next\n"
@@ -2392,10 +2427,13 @@ msgstr "Geen locatie. Heropen nadat er een locatie-fix is."
 msgid "Maps containing current location"
 msgstr "Kaarten die de huidige locatie bevatten"
 
+<<<<<<< HEAD
 #. Android resource: @strings/maps_installed
 msgid "Installed maps"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/map_downloading
 msgid "downloading"
 msgstr "aan het downloaden"
@@ -2407,11 +2445,6 @@ msgstr "De gekozen locatie voor opslag van de kaarten is niet beschikbaar."
 #. Android resource: @strings/map_download_error_writing_map
 msgid "Error writing map!"
 msgstr "Wegschrijven van kaart mislukt!"
-
-#. Android resource: @strings/map_location_changed
-#, c-format
-msgid "New location set to %s Restart Navit to apply the changes."
-msgstr ""
 
 #. Android resource: @strings/map_location_unavailable
 #, c-format
@@ -2540,12 +2573,15 @@ msgstr ""
 "gebruiken. De momenteel geselecteerde engine meldt dat het niet in uw taal "
 "kan spreken. Wil U de spraak download dialoog van Uw toestel starten?"
 
+<<<<<<< HEAD
 #. Android resource: @strings/permissions_not_granted
 msgid ""
 "Navit needs permission to access GPS and read the map.\n"
 "If you change your mind please restart Navit and grant the permissions"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. Android resource: @strings/permissions_info_box_title
 msgid "One or more ungranted permissions"
 msgstr ""
@@ -2905,10 +2941,6 @@ msgstr "Hawaï"
 #. Android resource: @strings/usa
 msgid "USA"
 msgstr "VS"
-
-#. Android resource: @strings/except_alaska_and_hawaii
-msgid "(except Alaska and Hawaii)"
-msgstr ""
 
 #. Android resource: @strings/midwest
 msgid "Midwest"

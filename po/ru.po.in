@@ -24,7 +24,10 @@
 # kisaa https://launchpad.net/~kisaa-mail
 # tryagain https://launchpad.net/~mdankov
 # Павел https://launchpad.net/~pavel-sgn
+<<<<<<< HEAD
 # Yurt Page <yurtpage@gmail.com>, 2025.
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -231,9 +234,12 @@ msgstr "Скоро круговое движение"
 msgid "Enter the roundabout %s"
 msgstr "%s круговое движение"
 
+<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -338,10 +344,13 @@ msgid "strongly "
 msgstr "круто "
 
 #, c-format
+<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Выезжайте на %1$s дорогу в направлении %2$s"
 
@@ -2099,9 +2108,6 @@ msgstr "Схема"
 msgid "Height Profile"
 msgstr "Профиль высот"
 
-msgid "please install a map *.heightlines.bin to provide elevationdata"
-msgstr ""
-
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2209,6 +2215,7 @@ msgstr "Во весь экран"
 msgid "Window Mode"
 msgstr "Режим окна"
 
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2221,6 +2228,8 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Описание"
 

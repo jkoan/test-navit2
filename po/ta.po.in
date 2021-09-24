@@ -4,8 +4,11 @@
 # Many thanks to the contributors of this translation:
 # Dinesh Ramalingam https://launchpad.net/~dinodinu+navit
 # Rajiv Subrahmanyam https://launchpad.net/~rajiv-public
+<<<<<<< HEAD
 # தமிழ்நேரம் <anishprabu.t@gmail.com>, 2025.
 # jkoan <jkoan@gmx.de>, 2025.
+=======
+>>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -207,9 +210,6 @@ msgstr "விரைவில் ரவுண்டானாவை உள்ள�
 msgid "Enter the roundabout %s"
 msgstr "ரவுண்டானா %s ஐ உள்ளிடவும்"
 
-msgid "then enter the roundabout"
-msgstr ""
-
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -312,10 +312,6 @@ msgstr "இயல்பாக "
 #. TRANSLATORS: as in "turn strongly right"
 msgid "strongly "
 msgstr "வலுவாக "
-
-#, c-format
-msgid "then take the %1$s road to the %2$s"
-msgstr ""
 
 #, c-format
 msgid "Take the %1$s road to the %2$s"
@@ -2085,9 +2081,6 @@ msgstr "மனையமைவு"
 msgid "Height Profile"
 msgstr "உயர சுயவிவரம்"
 
-msgid "please install a map *.heightlines.bin to provide elevationdata"
-msgstr ""
-
 msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
@@ -2201,10 +2194,14 @@ msgstr ""
 msgid "Manual zoom"
 msgstr ""
 
+<<<<<<< HEAD
 msgid "Layers"
 msgstr ""
 
 msgid "Zoom to route"
+=======
+msgid "Description"
+>>>>>>> 1c9d7d11e (Update translation files)
 msgstr ""
 
 msgid "Description"
