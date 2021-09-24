@@ -1,0 +1,1 @@
+Dieses Release deaktiviert die Möglichkeit zum Fehler-Report, bis wir unsere Datenschutzbedingungen angepasst haben.
