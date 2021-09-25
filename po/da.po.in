@@ -154,17 +154,17 @@ msgstr ""
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
-msgstr ""
+msgstr "%1$spå %2$s"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
-msgstr ""
+msgstr "%1$spå %2$s"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Neuter form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|neuter form"
-msgstr ""
+msgstr "%1$spå %2$s"
 
 msgid "onto the motorway ramp"
 msgstr "op på rampen"
@@ -231,22 +231,22 @@ msgstr "så"
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
+msgstr "derefter sammenlægge%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
+msgstr "Sammenlægning %1$s%2$s"
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
+msgstr "derefter sammenlægge%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
+msgstr "Sammenlægning %1$s%2$s"
 
 msgid "on your left"
 msgstr ""
@@ -1544,8 +1544,8 @@ msgstr ""
 msgid "Error parsing config file '%s': %s"
 msgstr ""
 
-#, c-format
-msgid "Error: No configuration found in config file '%s'"
+<<<<<<< HEAD
+msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
 
 <<<<<<< HEAD
@@ -1761,16 +1761,8 @@ msgstr ""
 msgid "Shopping"
 msgstr ""
 
-#. Input is in miles.
-msgid "Select a search radius from screen center in miles"
-msgstr ""
-
 #, c-format
 msgid "POI %s. %s"
-msgstr ""
-
-#, c-format
-msgid "Set map to %ld, %ld "
 msgstr ""
 
 msgid "POI search"
@@ -2042,9 +2034,6 @@ msgstr "Layout"
 msgid "Height Profile"
 msgstr "Lodret profil"
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr "Route Beskrivelse"
 
@@ -2144,19 +2133,11 @@ msgstr "Fuldskærm"
 msgid "Window Mode"
 msgstr "Vinduestilstand"
 
-msgid "Manual zoom"
-msgstr ""
-
 msgid "Zoom to route"
 msgstr ""
 
 msgid "Description"
 msgstr "Beskrivelse"
-
-msgid ""
-"Drop next\n"
-"Waypoint"
-msgstr ""
 
 msgid "Satellite Status"
 msgstr ""
@@ -2322,13 +2303,6 @@ msgstr ""
 msgid "Error writing map!"
 msgstr ""
 
-#. Android resource: @strings/map_location_unavailable
-#, c-format
-msgid ""
-"Current map location %s is not available Please restart Navit after you "
-"attach an SD card or select a different map location."
-msgstr ""
-
 #. Android resource: @strings/address_search_title
 msgid "Address search"
 msgstr ""
@@ -2442,10 +2416,6 @@ msgid ""
 "Navit can use any text to speech engine installed on your device. The "
 "currently selected engine reports it is unable to speak in your language. "
 "Should we ask the system to show voice download dialog?"
-msgstr ""
-
-#. Android resource: @strings/permissions_info_box_title
-msgid "One or more ungranted permissions"
 msgstr ""
 
 #. Android resource: @strings/whole_planet
