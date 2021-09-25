@@ -35,10 +35,10 @@ msgid "zeroth"
 msgstr ""
 
 msgid "first"
-msgstr ""
+msgstr "birinshi"
 
 msgid "second"
-msgstr ""
+msgstr "Sekýnt"
 
 msgid "third"
 msgstr ""
@@ -212,7 +212,7 @@ msgid "soon"
 msgstr ""
 
 msgid "now"
-msgstr ""
+msgstr "qazir"
 
 msgid "then"
 msgstr ""
@@ -292,7 +292,7 @@ msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
 msgid "right"
-msgstr ""
+msgstr "Оңға"
 
 #. TRANSLATORS: "left" as in "turn left"
 msgid "left"
@@ -364,7 +364,7 @@ msgid "Interchange"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Шығу"
 
 #. Android resource: @strings/position_popup_title
 msgid "Position"
@@ -2062,9 +2062,6 @@ msgid "Layout"
 msgstr ""
 
 msgid "Height Profile"
-msgstr ""
-
-msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
 msgid "Route Description"
