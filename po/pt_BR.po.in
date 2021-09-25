@@ -1826,10 +1826,6 @@ msgstr "Táxi"
 msgid "Shopping"
 msgstr "Comprando"
 
-#. Input is in miles.
-msgid "Select a search radius from screen center in miles"
-msgstr ""
-
 #, c-format
 msgid "POI %s. %s"
 msgstr "POI %s. %s"
