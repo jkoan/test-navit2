@@ -4,11 +4,8 @@
 # Many thanks to the contributors of this translation:
 # Dinesh Ramalingam https://launchpad.net/~dinodinu+navit
 # Rajiv Subrahmanyam https://launchpad.net/~rajiv-public
-<<<<<<< HEAD
 # தமிழ்நேரம் <anishprabu.t@gmail.com>, 2025.
 # jkoan <jkoan@gmx.de>, 2025.
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -2081,9 +2078,6 @@ msgstr "மனையமைவு"
 msgid "Height Profile"
 msgstr "உயர சுயவிவரம்"
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr "பாதை விளக்கம்"
 
@@ -2194,14 +2188,10 @@ msgstr ""
 msgid "Manual zoom"
 msgstr ""
 
-<<<<<<< HEAD
 msgid "Layers"
 msgstr ""
 
 msgid "Zoom to route"
-=======
-msgid "Description"
->>>>>>> 1c9d7d11e (Update translation files)
 msgstr ""
 
 msgid "Description"
