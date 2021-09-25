@@ -38,14 +38,11 @@
 # singesang https://launchpad.net/~singesang
 # spaetz https://launchpad.net/~spaetz
 # vsandre https://launchpad.net/~vsandre
-<<<<<<< HEAD
 # "J. Lavoie" <j.lavoie@net-c.ca>, 2024.
 # jkoan <jkoan@gmx.de>, 2024.
 # Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
 # Patrick Höhn <hoehnp@gmx.de>, 2025.
 # Christof Schulze <christof.schulze@gmx.net>, 2025.
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -248,12 +245,9 @@ msgstr "Demnächst in den Kreisverkehr einfahren"
 msgid "Enter the roundabout %s"
 msgstr "%s in den Kreisverkehr einfahren"
 
-<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -358,13 +352,10 @@ msgid "strongly "
 msgstr "scharf "
 
 #, c-format
-<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr "dann die %1$s Straße %2$s"
 
 #, c-format
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Die %1$s Straße %2$s abbiegen"
 
@@ -434,7 +425,6 @@ msgstr "Anweisung"
 msgid "Length"
 msgstr "Länge"
 
-<<<<<<< HEAD
 msgid "mi"
 msgstr ""
 
@@ -444,11 +434,6 @@ msgstr "km"
 msgid "feet"
 msgstr ""
 
-=======
-msgid "km"
-msgstr "km"
-
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "m"
 msgstr "m"
 
@@ -1561,13 +1546,10 @@ msgstr "Wallis und Futuna"
 msgid "Samoa"
 msgstr "Samoa"
 
-<<<<<<< HEAD
 #. 412
 msgid "Kosovo"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #. 887
 msgid "Yemen"
 msgstr "Jemen"
@@ -1614,14 +1596,12 @@ msgstr ""
 "\t-h: zeige diesen Hilfetext und beende.\n"
 "\t-v: zeige die Version und beende.\n"
 
-<<<<<<< HEAD
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr "Konfigurationsdatei nicht gefunden"
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #, c-format
+<<<<<<< HEAD
 msgid "Error parsing config file '%s': %s"
 msgstr "Fehler beim Lesen der Konfigurationsdatei '%s': %s"
 
@@ -1629,6 +1609,10 @@ msgstr "Fehler beim Lesen der Konfigurationsdatei '%s': %s"
 <<<<<<< HEAD
 msgid "Using config file '%s'"
 msgstr "Nutze Konfigurationsdatei '%s'"
+=======
+msgid "Error: No configuration found in config file '%s'"
+msgstr "Fehler: Konnte keine Konfiguration in Datei '%s' finden"
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 
 #, c-format
 =======
@@ -1858,6 +1842,7 @@ msgid "Shopping"
 msgstr "Einkaufen"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. Input is in kilometers
 msgid "Select a search radius from screen center in km"
 msgstr "Eingabe ist in Kilometern"
@@ -1868,10 +1853,13 @@ msgstr "Eingabe ist in Kilometern"
 msgid "Select a search radius from screen center in miles"
 msgstr "Eingabe in Meilen"
 
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 #, c-format
 msgid "POI %s. %s"
 msgstr "POI %s. %s"
 
+<<<<<<< HEAD
 #, c-format
 <<<<<<< HEAD
 msgid "Set destination to %ld, %ld "
@@ -1890,6 +1878,8 @@ msgstr ""
 
 =======
 >>>>>>> 1c9d7d11e (Update translation files)
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 msgid "POI search"
 msgstr "POI Suche"
 
@@ -2173,6 +2163,7 @@ msgid "Height Profile"
 msgstr "Höhenprofil"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "please install a map *.heightlines.bin to provide elevationdata"
 msgstr "Bitte Karte mit Höhenlinien installieren zur Nutzung des Höhenprofils"
 
@@ -2181,6 +2172,8 @@ msgstr "Bitte Karte mit Höhenlinien installieren zur Nutzung des Höhenprofils"
 msgid "The route must cross at least 2 heightlines"
 msgstr "Die Route muss mindestens 2 Höhenlinien schneiden"
 
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 msgid "Route Description"
 msgstr "Wegbeschreibung"
 
@@ -2289,6 +2282,7 @@ msgid "Window Mode"
 msgstr "Fenstermodus"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2297,17 +2291,22 @@ msgstr ""
 msgid "Manual zoom"
 msgstr ""
 
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 msgid "Zoom to route"
 msgstr "Zoom auf Route"
 
 msgid "Description"
 msgstr "Beschreibung"
 
+<<<<<<< HEAD
 msgid ""
 "Drop next\n"
 "Waypoint"
 msgstr "nächsten Wegpunkt entfernen"
 
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 msgid "Satellite Status"
 msgstr "Satellitenstatus"
 
@@ -2489,6 +2488,7 @@ msgid "Error writing map!"
 msgstr "Fehler beim speichern der Karte!"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. Android resource: @strings/map_location_changed
 #, c-format
 msgid "New location set to %s Restart Navit to apply the changes."
@@ -2503,6 +2503,8 @@ msgid ""
 "attach an SD card or select a different map location."
 msgstr ""
 
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 #. Android resource: @strings/address_search_title
 msgid "Address search"
 msgstr "Adresse suchen"
@@ -2624,6 +2626,7 @@ msgstr ""
 "System den Voice-Download Dialog öffnen?"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. Android resource: @strings/permissions_not_granted
 msgid ""
 "Navit needs permission to access GPS and read the map.\n"
@@ -2636,6 +2639,8 @@ msgstr ""
 msgid "One or more ungranted permissions"
 msgstr ""
 
+=======
+>>>>>>> 9ec55936f (Translated using Weblate (German))
 #. Android resource: @strings/whole_planet
 msgid "Whole Planet"
 msgstr "Ganze Welt"
@@ -3192,3 +3197,25 @@ msgstr "Französisch-Guayana"
 #, c-format
 #~ msgid "%d m"
 #~ msgstr "%d m"
+<<<<<<< HEAD
+=======
+
+#, c-format
+#~ msgid "Set next visit to %ld, %ld \n"
+#~ msgstr "Setze nächsten Besuch auf %ld, %ld \n"
+
+# TRANSLATORS: This is the distance to a Point of Interest (POI) in the POI window. It will be feet (imperial) or, meters (metric), depending on the user's preference.
+msgid "Distance(m)"
+msgstr "Strecke"
+
+msgid "Select a distance to look for (km)"
+msgstr "Wählen Sie einen Suchradius von der Bildschirmmitte aus"
+
+#, c-format
+msgid "in %d m"
+msgstr "in %d m"
+
+#, c-format
+msgid "%d m"
+msgstr "%d m"
+>>>>>>> 9ec55936f (Translated using Weblate (German))
