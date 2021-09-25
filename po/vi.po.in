@@ -2063,9 +2063,6 @@ msgstr "Layout"
 msgid "Height Profile"
 msgstr "Thông tin chiều cao"
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr "Mô tả hành trình"
 
@@ -2164,7 +2161,6 @@ msgstr "Toàn màn hình"
 msgid "Window Mode"
 msgstr "Chế độ cửa sổ"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2177,8 +2173,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Mô tả"
 
