@@ -30,51 +30,51 @@ msgstr ""
 
 #, c-format
 msgid "setting '%s' to '%s'\n"
-msgstr ""
+msgstr "X9X」を「X17X」に設定する。\n"
 
 #. TRANSLATORS: the following counts refer to streets
 msgid "zeroth"
-msgstr ""
+msgstr "ゼロス"
 
 msgid "first"
-msgstr ""
+msgstr "最初へ"
 
 msgid "second"
-msgstr ""
+msgstr "秒"
 
 msgid "third"
-msgstr ""
+msgstr "第三"
 
 msgid "fourth"
-msgstr ""
+msgstr "第四"
 
 msgid "fifth"
-msgstr ""
+msgstr "第五週"
 
 msgid "sixth"
-msgstr ""
+msgstr "第6"
 
 #. TRANSLATORS: the following counts refer to roundabout exits
 msgid "zeroth exit"
-msgstr ""
+msgstr "ゼロ番目の出口"
 
 msgid "first exit"
-msgstr ""
+msgstr "最初の出口"
 
 msgid "second exit"
-msgstr ""
+msgstr "第二出口"
 
 msgid "third exit"
-msgstr ""
+msgstr "第三出口"
 
 msgid "fourth exit"
-msgstr ""
+msgstr "第4出口"
 
 msgid "fifth exit"
-msgstr ""
+msgstr "第5出口"
 
 msgid "sixth exit"
-msgstr ""
+msgstr "6番出口"
 
 #, c-format
 msgid "%d feet"
@@ -108,15 +108,15 @@ msgstr "%d メートル"
 
 #, c-format
 msgid "in %d meters"
-msgstr ""
+msgstr "X3X]メートルで"
 
 #, c-format
 msgid "%d.%d kilometers"
-msgstr ""
+msgstr "%d.%dキロメートル"
 
 #, c-format
 msgid "in %d.%d kilometers"
-msgstr ""
+msgstr "X3X]では、%dキロメートル。"
 
 #, c-format
 msgid "one kilometer"
@@ -141,20 +141,20 @@ msgstr ""
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
-msgstr ""
+msgstr "%1$sonly %2$sonly"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
-msgstr ""
+msgstr "%1$sonly %2$sonly"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Neuter form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|neuter form"
-msgstr ""
+msgstr "%1$sonly %2$sonly"
 
 msgid "onto the motorway ramp"
-msgstr ""
+msgstr "高速道路のランプへ"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name
 #, c-format
@@ -164,25 +164,25 @@ msgstr ""
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%sinto %s%s%s|masculine form"
-msgstr ""
+msgstr "%sを%s%s%sにする。"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%sinto %s%s%s|feminine form"
-msgstr ""
+msgstr "%sを%s%s%sにする。"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Neuter form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%sinto %s%s%s|neuter form"
-msgstr ""
+msgstr "%sを%s%s%sにする。"
 
 #. TRANSLATORS: gives the name of the next road to turn into (into the E17)
 #, c-format
 msgid "%sinto the %s"
-msgstr ""
+msgstr "%sを%sにする。"
 
 msgid "When possible, please turn around"
-msgstr ""
+msgstr "可能な限り、後ろを向いてください"
 
 #. TRANSLATORS: the argument is the destination to follow
 #, c-format
@@ -191,7 +191,7 @@ msgstr ""
 
 #, c-format
 msgid "Follow the road for the next %s"
-msgstr ""
+msgstr "次の%sに向けて道を進む。"
 
 msgid "Enter the roundabout soon"
 msgstr ""
@@ -218,22 +218,22 @@ msgstr ""
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
+msgstr "とすると、マージ%1$s。"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
+msgstr "マージ%1$s%2$sの場合"
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
+msgstr "とすると、マージ%1$s。"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
+msgstr "マージ%1$s%2$sの場合"
 
 msgid "on your left"
 msgstr ""
@@ -298,42 +298,42 @@ msgstr "左"
 
 #. TRANSLATORS: as in "turn easily right"
 msgid "easily "
-msgstr ""
+msgstr "簡単に "
 
 #. TRANSLATORS: as in "turn strongly right"
 msgid "strongly "
-msgstr ""
+msgstr "強く "
 
 #, c-format
 msgid "Take the %1$s road to the %2$s"
-msgstr ""
+msgstr "X9X]の道を通って%2$sへ。"
 
 #, c-format
 msgid "after %i roads"
-msgstr ""
+msgstr "X6X]道路の後"
 
 #. TRANSLATORS: the first arg. is strength, the second is direction, the third is distance, the fourth is destination
 #, c-format
 msgid "Turn %1$s%2$s %3$s%4$s"
-msgstr ""
+msgstr "ターン %1$s%2$s%3$s%4$s。"
 
 #. TRANSLATORS: Left U-turn, the stuff after | doesn't have to be included.
 msgid "then make a U-turn|left"
-msgstr ""
+msgstr "そしてUターンする"
 
 #. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|left"
-msgstr ""
+msgstr "Uターンする %1$s 。"
 
 #. TRANSLATORS: Right U-turn, the stuff after | doesn't have to be included.
 msgid "then make a U-turn|right"
-msgstr ""
+msgstr "そしてUターンする"
 
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|right"
-msgstr ""
+msgstr "Uターンする %1$s 。"
 
 #. An empty placeholder that we can use in the future for
 #. * some motorway commands that are now suppressed but we
@@ -351,7 +351,7 @@ msgid "follow"
 msgstr ""
 
 msgid "then you have reached your destination."
-msgstr ""
+msgstr "であれば、目的地に到着したことになります。"
 
 #. TRANSLATORS: the arg. is distance
 #, c-format
@@ -359,10 +359,10 @@ msgid "You have reached your destination %s"
 msgstr "目的地の%sにつきました"
 
 msgid "Interchange"
-msgstr ""
+msgstr "インターチェンジ"
 
 msgid "Exit"
-msgstr ""
+msgstr "終了"
 
 #. Android resource: @strings/position_popup_title
 msgid "Position"
@@ -2062,9 +2062,6 @@ msgstr ""
 msgid "Height Profile"
 msgstr ""
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr ""
 
@@ -2979,3 +2976,11 @@ msgstr ""
 #. Android resource: @strings/guyane_francaise
 msgid "Guyane Francaise"
 msgstr ""
+
+#, c-format
+msgid "in %d m"
+msgstr "X3X]mで"
+
+#, c-format
+msgid "%d m"
+msgstr "%d m"
