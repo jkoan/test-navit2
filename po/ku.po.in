@@ -116,7 +116,7 @@ msgstr "%d.%d كیلۆمەتر"
 
 #, c-format
 msgid "in %d.%d kilometers"
-msgstr ""
+msgstr "%d.%d كیلۆمەتر"
 
 #, c-format
 msgid "one kilometer"
@@ -364,7 +364,7 @@ msgid "Interchange"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "Exit"
 
 #. Android resource: @strings/position_popup_title
 msgid "Position"
@@ -2062,9 +2062,6 @@ msgid "Layout"
 msgstr ""
 
 msgid "Height Profile"
-msgstr ""
-
-msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
 msgid "Route Description"
