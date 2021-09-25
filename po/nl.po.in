@@ -1829,10 +1829,6 @@ msgstr "Taxi"
 msgid "Shopping"
 msgstr "Winkelen"
 
-#. Input is in miles.
-msgid "Select a search radius from screen center in miles"
-msgstr ""
-
 #, c-format
 msgid "POI %s. %s"
 msgstr "POI %s. %s"
@@ -2268,11 +2264,6 @@ msgstr ""
 msgid "Description"
 msgstr "Beschrijving"
 
-msgid ""
-"Drop next\n"
-"Waypoint"
-msgstr ""
-
 msgid "Satellite Status"
 msgstr "GPS-status"
 
@@ -2445,13 +2436,6 @@ msgstr "De gekozen locatie voor opslag van de kaarten is niet beschikbaar."
 #. Android resource: @strings/map_download_error_writing_map
 msgid "Error writing map!"
 msgstr "Wegschrijven van kaart mislukt!"
-
-#. Android resource: @strings/map_location_unavailable
-#, c-format
-msgid ""
-"Current map location %s is not available Please restart Navit after you "
-"attach an SD card or select a different map location."
-msgstr ""
 
 #. Android resource: @strings/address_search_title
 msgid "Address search"
