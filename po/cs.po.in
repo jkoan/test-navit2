@@ -247,22 +247,22 @@ msgstr "pak"
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
+msgstr "pak merge%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
+msgstr "Sloučení %1$s%2$s"
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
+msgstr "pak merge%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
+msgstr "Sloučení %1$s%2$s"
 
 msgid "on your left"
 msgstr "na levé straně"
@@ -1814,10 +1814,6 @@ msgstr "Taxi"
 msgid "Shopping"
 msgstr "Nakupování"
 
-#. Input is in miles.
-msgid "Select a search radius from screen center in miles"
-msgstr ""
-
 #, c-format
 msgid "POI %s. %s"
 msgstr "POI %s. %s"
@@ -2246,11 +2242,6 @@ msgstr ""
 msgid "Description"
 msgstr "Popis"
 
-msgid ""
-"Drop next\n"
-"Waypoint"
-msgstr ""
-
 msgid "Satellite Status"
 msgstr "Stav satelitu"
 
@@ -2416,13 +2407,6 @@ msgstr "Médium zvolené pro uchovávání map není k dispozici"
 #. Android resource: @strings/map_download_error_writing_map
 msgid "Error writing map!"
 msgstr "Chyba při zápisu mapy!"
-
-#. Android resource: @strings/map_location_unavailable
-#, c-format
-msgid ""
-"Current map location %s is not available Please restart Navit after you "
-"attach an SD card or select a different map location."
-msgstr ""
 
 #. Android resource: @strings/address_search_title
 msgid "Address search"
