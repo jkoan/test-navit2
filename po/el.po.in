@@ -150,17 +150,17 @@ msgstr ""
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
-msgstr ""
+msgstr "%1$sσε %2$s"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
-msgstr ""
+msgstr "%1$sσε %2$s"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Neuter form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|neuter form"
-msgstr ""
+msgstr "%1$sσε %2$s"
 
 msgid "onto the motorway ramp"
 msgstr "στη ράμπα"
@@ -227,22 +227,22 @@ msgstr "και"
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
+msgstr "τότε συγχώνευση%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
+msgstr "Συγχώνευση %1$s%2$s"
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
+msgstr "τότε συγχώνευση%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
+msgstr "Συγχώνευση %1$s%2$s"
 
 msgid "on your left"
 msgstr ""
@@ -368,7 +368,7 @@ msgid "You have reached your destination %s"
 msgstr "Φτάσατε στον προορισμό σας %s"
 
 msgid "Interchange"
-msgstr ""
+msgstr "Διασύνδεση"
 
 msgid "Exit"
 msgstr "Εξοδος"
@@ -2070,9 +2070,6 @@ msgstr "Διάταξη"
 
 msgid "Height Profile"
 msgstr "Ύψος προφίλ"
-
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
 
 msgid "Route Description"
 msgstr "Περιγραφή Διαδρομής"
