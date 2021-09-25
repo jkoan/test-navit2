@@ -361,7 +361,7 @@ msgid "Interchange"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "종료하기"
 
 #. Android resource: @strings/position_popup_title
 msgid "Position"
@@ -2061,9 +2061,6 @@ msgstr ""
 msgid "Height Profile"
 msgstr ""
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr ""
 
@@ -2978,3 +2975,7 @@ msgstr ""
 #. Android resource: @strings/guyane_francaise
 msgid "Guyane Francaise"
 msgstr ""
+
+#, c-format
+msgid "%d m"
+msgstr "%d m"
