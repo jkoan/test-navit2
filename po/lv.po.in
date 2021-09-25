@@ -152,17 +152,17 @@ msgstr ""
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
-msgstr ""
+msgstr "%1$s uz %2$s"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
-msgstr ""
+msgstr "%1$s uz %2$s"
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Neuter form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|neuter form"
-msgstr ""
+msgstr "%1$s uz %2$s"
 
 msgid "onto the motorway ramp"
 msgstr "uz uzbrauktuves"
@@ -229,22 +229,22 @@ msgstr "pēc tam"
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
+msgstr "tad apvieno%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
+msgstr "Apvienošana %1$s%2$s"
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
+msgstr "tad apvieno%1$s"
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
+msgstr "Apvienošana %1$s%2$s"
 
 msgid "on your left"
 msgstr ""
@@ -370,7 +370,7 @@ msgid "You have reached your destination %s"
 msgstr "Jūs esat sasniedzis galamērķi %s"
 
 msgid "Interchange"
-msgstr ""
+msgstr "Apmaiņa"
 
 msgid "Exit"
 msgstr "Nobrauktuve"
@@ -2073,9 +2073,6 @@ msgstr "Izklājums"
 msgid "Height Profile"
 msgstr "Augstuma profils"
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr "Maršruta apraksts"
 
@@ -2180,7 +2177,6 @@ msgstr "Pilnekrāns"
 msgid "Window Mode"
 msgstr "Loga režīms"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2193,8 +2189,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Apraksts"
 
