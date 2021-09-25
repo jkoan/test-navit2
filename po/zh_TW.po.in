@@ -199,12 +199,9 @@ msgstr "即將進入圓環"
 msgid "Enter the roundabout %s"
 msgstr "在 %s 進入圓環"
 
-<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -309,13 +306,10 @@ msgid "strongly "
 msgstr "急 "
 
 #, c-format
-<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "進入 %1$s 往 %2$s"
 
@@ -2190,7 +2184,6 @@ msgstr "全螢幕"
 msgid "Window Mode"
 msgstr "視窗模式"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2203,8 +2196,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "備註"
 
