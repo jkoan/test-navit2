@@ -118,7 +118,7 @@ msgstr "%d.%d kilometer"
 
 #, c-format
 msgid "in %d.%d kilometers"
-msgstr ""
+msgstr "%d.%d kilometer"
 
 #, c-format
 msgid "one kilometer"
@@ -2064,9 +2064,6 @@ msgid "Layout"
 msgstr ""
 
 msgid "Height Profile"
-msgstr ""
-
-msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
 msgid "Route Description"
