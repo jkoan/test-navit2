@@ -38,7 +38,7 @@ msgid "first"
 msgstr "ಮೊದಲ"
 
 msgid "second"
-msgstr ""
+msgstr "ಸೆಕೆಂಡುಗಳು"
 
 msgid "third"
 msgstr ""
@@ -212,7 +212,7 @@ msgid "soon"
 msgstr ""
 
 msgid "now"
-msgstr ""
+msgstr "ಈಗಲೆ"
 
 msgid "then"
 msgstr ""
@@ -292,11 +292,11 @@ msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
 msgid "right"
-msgstr ""
+msgstr "ಬಲ"
 
 #. TRANSLATORS: "left" as in "turn left"
 msgid "left"
-msgstr ""
+msgstr "ಉಳಿದ ಸಮಯ"
 
 #. TRANSLATORS: as in "turn easily right"
 msgid "easily "
@@ -364,7 +364,7 @@ msgid "Interchange"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
+msgstr "ನಿರ್ಗಮಿಸಿ"
 
 #. Android resource: @strings/position_popup_title
 msgid "Position"
@@ -2062,9 +2062,6 @@ msgid "Layout"
 msgstr ""
 
 msgid "Height Profile"
-msgstr ""
-
-msgid "The route must cross at least 2 heightlines"
 msgstr ""
 
 msgid "Route Description"
