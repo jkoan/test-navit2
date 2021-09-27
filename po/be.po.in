@@ -133,7 +133,7 @@ msgstr[2] "%d кіламетраў"
 #, c-format
 msgid "in one kilometer"
 msgid_plural "in %d kilometers"
-msgstr[0] ""
+msgstr[0] "%d кіламетр"
 msgstr[1] ""
 msgstr[2] ""
 
@@ -2116,9 +2116,6 @@ msgid "Fullscreen"
 msgstr "Поўнаэкранны рэжым"
 
 msgid "Window Mode"
-msgstr ""
-
-msgid "Zoom to route"
 msgstr ""
 
 msgid "Description"
