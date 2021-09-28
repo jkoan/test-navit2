@@ -1537,10 +1537,6 @@ msgid ""
 msgstr ""
 
 #, c-format
-msgid "Error parsing config file '%s': %s"
-msgstr ""
-
-#, c-format
 msgid "Error: No configuration found in config file '%s'"
 msgstr ""
 
@@ -1757,16 +1753,8 @@ msgstr ""
 msgid "Shopping"
 msgstr ""
 
-#. Input is in miles.
-msgid "Select a search radius from screen center in miles"
-msgstr ""
-
 #, c-format
 msgid "POI %s. %s"
-msgstr ""
-
-#, c-format
-msgid "Set map to %ld, %ld "
 msgstr ""
 
 msgid "POI search"
@@ -2038,9 +2026,6 @@ msgstr ""
 msgid "Height Profile"
 msgstr ""
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr ""
 
@@ -2136,18 +2121,10 @@ msgstr ""
 msgid "Window Mode"
 msgstr ""
 
-msgid "Manual zoom"
-msgstr ""
-
 msgid "Zoom to route"
 msgstr ""
 
 msgid "Description"
-msgstr ""
-
-msgid ""
-"Drop next\n"
-"Waypoint"
 msgstr ""
 
 msgid "Satellite Status"
@@ -2314,13 +2291,6 @@ msgstr ""
 msgid "Error writing map!"
 msgstr ""
 
-#. Android resource: @strings/map_location_unavailable
-#, c-format
-msgid ""
-"Current map location %s is not available Please restart Navit after you "
-"attach an SD card or select a different map location."
-msgstr ""
-
 #. Android resource: @strings/address_search_title
 msgid "Address search"
 msgstr ""
@@ -2434,10 +2404,6 @@ msgid ""
 "Navit can use any text to speech engine installed on your device. The "
 "currently selected engine reports it is unable to speak in your language. "
 "Should we ask the system to show voice download dialog?"
-msgstr ""
-
-#. Android resource: @strings/permissions_info_box_title
-msgid "One or more ungranted permissions"
 msgstr ""
 
 #. Android resource: @strings/whole_planet

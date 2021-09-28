@@ -2087,9 +2087,6 @@ msgstr "Распоред"
 msgid "Height Profile"
 msgstr "Висински профил"
 
-msgid "The route must cross at least 2 heightlines"
-msgstr ""
-
 msgid "Route Description"
 msgstr "Опис путање"
 
@@ -2190,9 +2187,6 @@ msgstr "Цео екран"
 
 msgid "Window Mode"
 msgstr "Режим прозора"
-
-msgid "Manual zoom"
-msgstr ""
 
 msgid "Zoom to route"
 msgstr ""
@@ -2374,13 +2368,6 @@ msgstr ""
 msgid "Error writing map!"
 msgstr "Десила се грешка при упису карте!"
 
-#. Android resource: @strings/map_location_unavailable
-#, c-format
-msgid ""
-"Current map location %s is not available Please restart Navit after you "
-"attach an SD card or select a different map location."
-msgstr ""
-
 #. Android resource: @strings/address_search_title
 msgid "Address search"
 msgstr "Претрага адреса"
@@ -2496,10 +2483,6 @@ msgid ""
 "Navit can use any text to speech engine installed on your device. The "
 "currently selected engine reports it is unable to speak in your language. "
 "Should we ask the system to show voice download dialog?"
-msgstr ""
-
-#. Android resource: @strings/permissions_info_box_title
-msgid "One or more ungranted permissions"
 msgstr ""
 
 #. Android resource: @strings/whole_planet
