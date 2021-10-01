@@ -80,15 +80,7 @@ msgid "sixth exit"
 msgstr "第六個出口"
 
 #, c-format
-msgid "%d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d feet"
-msgstr ""
-
-#, c-format
-msgid "%d.%d miles"
 msgstr ""
 
 #, c-format
@@ -130,11 +122,6 @@ msgstr[0] "%d 千米"
 msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "在 %d 千米內"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
@@ -187,17 +174,9 @@ msgstr "%s進入 %s"
 msgid "When possible, please turn around"
 msgstr "如可以請掉頭"
 
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
-
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "直走到下一个%s"
-
-msgid "Enter the roundabout soon"
-msgstr ""
 
 #. TRANSLATORS: %s is the distance to the roundabout
 #, c-format
@@ -238,15 +217,7 @@ msgstr "然后合并%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "合并%1$s%2$s"
 
-msgid "on your left"
-msgstr ""
-
 msgid "on your right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -254,16 +225,7 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 msgid "at exit"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -271,19 +233,9 @@ msgstr ""
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -338,21 +290,6 @@ msgstr "然后调头"
 msgid "Make a U-turn %1$s|right"
 msgstr "调头 %1$s"
 
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
-msgstr ""
-
 msgid "then you have reached your destination."
 msgstr "然後會到達目的地"
 
@@ -398,14 +335,8 @@ msgstr "抵达终点距离"
 msgid "Destination Time"
 msgstr "抵达终点时间"
 
-msgid "Roadbook"
-msgstr ""
-
 #, c-format
 msgid "Waypoint %d"
-msgstr ""
-
-msgid "Visit before..."
 msgstr ""
 
 msgid "Set as position"
@@ -416,10 +347,6 @@ msgstr "设置目的地地址"
 
 msgid "Add as bookmark"
 msgstr "添加书签"
-
-#, c-format
-msgid "Point 0x%x 0x%x"
-msgstr ""
 
 #, c-format
 msgid "Screen coord : %d %d"
@@ -556,10 +483,6 @@ msgstr "汶萊"
 msgid "Bolivia"
 msgstr "玻利維亞"
 
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
-
 #. 076
 #. Android resource: @strings/brazil
 msgid "Brazil"
@@ -658,10 +581,6 @@ msgstr "古巴"
 #. 132
 msgid "Cape Verde"
 msgstr "佛得角"
-
-#. 531
-msgid "Curacao"
-msgstr ""
 
 #. 162
 msgid "Christmas Island"
@@ -1340,10 +1259,6 @@ msgstr "索馬里"
 msgid "Suriname"
 msgstr "蘇里南"
 
-#. 728
-msgid "South Sudan"
-msgstr ""
-
 #. 678
 msgid "Sao Tome and Principe"
 msgstr "聖多美和普林西比"
@@ -1351,10 +1266,6 @@ msgstr "聖多美和普林西比"
 #. 222
 msgid "El Salvador"
 msgstr "薩爾瓦多"
-
-#. 534
-msgid "Sint Maarten (Dutch part)"
-msgstr ""
 
 #. 760
 msgid "Syrian Arab Republic"
@@ -1521,9 +1432,6 @@ msgstr "赞比亚"
 msgid "Zimbabwe"
 msgstr "津巴布韦"
 
-msgid "* Unknown, add is_in tags to those cities"
-msgstr ""
-
 msgid ""
 "navit usage:\n"
 "navit [options] [configfile]\n"
@@ -1558,22 +1466,11 @@ msgstr ""
 msgid "unknown street"
 msgstr ""
 
-#. Safe cast: attr_generic_set_attr does not modify its parameter.
-msgid "Unnamed vehicle"
-msgstr ""
-
 msgid "Failed to write bookmarks file"
-msgstr ""
-
-#. Strings from navit_shipped.xml
-msgid "Map Point"
 msgstr ""
 
 msgid "Car"
 msgstr "汽車"
-
-msgid "Iso2"
-msgstr ""
 
 msgid "Iso3"
 msgstr ""
@@ -1627,13 +1524,7 @@ msgstr "路"
 msgid "_Former Destinations"
 msgstr "前一个目的地"
 
-msgid "_Bookmarks"
-msgstr ""
-
 msgid "_Map"
-msgstr ""
-
-msgid "_Layout"
 msgstr ""
 
 msgid "_Projection"
@@ -1654,22 +1545,13 @@ msgstr "缩小"
 msgid "Increase zoom level"
 msgstr "增加放大層次"
 
-msgid "_Recalculate"
-msgstr ""
-
 msgid "Redraw map"
 msgstr "重畫地圖"
 
 msgid "_Info"
 msgstr "信息"
 
-msgid "Set _destination"
-msgstr ""
-
 msgid "Opens address search dialog"
-msgstr ""
-
-msgid "_POI search"
 msgstr ""
 
 msgid "Opens POI search dialog"
@@ -1687,9 +1569,6 @@ msgstr "退出"
 msgid "Quit the application"
 msgstr "結束這個程式"
 
-msgid "Show position _cursor"
-msgstr ""
-
 msgid "_Lock on Road"
 msgstr ""
 
@@ -1702,14 +1581,8 @@ msgstr ""
 msgid "Switches map orientation to the north or the vehicle"
 msgstr "將地圖向着北面或車輛前進方向"
 
-msgid "_Roadbook"
-msgstr ""
-
 msgid "Show/hide route description"
 msgstr "顯示或隱藏路線說明"
-
-msgid "_Autozoom"
-msgstr ""
 
 msgid "Enable/disable automatic zoom level changing"
 msgstr "啟用或停用自動放大"
@@ -1720,49 +1593,25 @@ msgstr "全屏"
 msgid "Data"
 msgstr "資料"
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant"
-msgstr ""
-
-msgid "Restaurant. Fast food"
 msgstr ""
 
 msgid "Hotel"
 msgstr ""
 
-msgid "Car parking"
-msgstr ""
-
 msgid "Fuel station"
-msgstr ""
-
-msgid "Bank"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "Train station"
-msgstr ""
-
-msgid "School"
 msgstr ""
 
 msgid "Police"
 msgstr ""
 
-msgid "Justice"
-msgstr ""
-
 msgid "Taxi"
-msgstr ""
-
-msgid "Shopping"
 msgstr ""
 
 #. Input is in kilometers
@@ -1799,9 +1648,6 @@ msgid "Select a POI"
 msgstr ""
 
 msgid " "
-msgstr ""
-
-msgid "Category"
 msgstr ""
 
 msgid "Direction"
@@ -1844,9 +1690,6 @@ msgstr "北偏西"
 msgid "No"
 msgstr "否"
 
-msgid "2D"
-msgstr ""
-
 msgid "3D"
 msgstr ""
 
@@ -1860,21 +1703,12 @@ msgstr ""
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "路線 0000千米  0+00:00 ETA"
 
-msgid "Help"
-msgstr ""
-
 #, c-format
 msgid "Waypoint %s"
 msgstr ""
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "於瀏覽器檢視"
-
-msgid "Item type"
-msgstr ""
 
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
@@ -1886,17 +1720,11 @@ msgstr "門牌號"
 msgid "View Attributes"
 msgstr "檢視屬性"
 
-msgid "Set as position (and deactivate vehicle)"
-msgstr ""
-
 msgid "POIs"
 msgstr ""
 
 msgid "View on map"
 msgstr "於地圖檢視"
-
-msgid "Remove search results from the map"
-msgstr ""
 
 msgid "Show results on the map"
 msgstr ""
@@ -1916,19 +1744,10 @@ msgstr "貼上書籤"
 msgid "Delete Bookmark"
 msgstr "刪除書籤"
 
-msgid "Delete waypoint"
-msgstr ""
-
 msgid "Bookmarks"
 msgstr "書籤"
 
-msgid "Bookmarks as waypoints"
-msgstr ""
-
 msgid "Save waypoints"
-msgstr ""
-
-msgid "Replace with waypoints"
 msgstr ""
 
 msgid "Delete Folder"
@@ -1946,27 +1765,14 @@ msgstr "貼上書籤"
 msgid "Bookmark %s"
 msgstr "書籤 %s"
 
-#, c-format
-msgid "Download %s"
-msgstr ""
-
 msgid "Map Download"
-msgstr ""
-
-msgid "Active"
 msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
 
-msgid "Download completely"
-msgstr ""
-
 msgid "Show Satellite Status"
 msgstr "顯示衛星狀況"
-
-msgid " Elevation "
-msgstr ""
 
 msgid " Azimuth "
 msgstr " 方位角 "
@@ -1991,9 +1797,6 @@ msgstr "當前設定組合：%s"
 msgid "Change profile to: %s"
 msgstr "將設定組合改為：%s"
 
-msgid "Set as active"
-msgstr ""
-
 msgid "Show Satellite status"
 msgstr "顯示衛星狀況"
 
@@ -2009,21 +1812,11 @@ msgstr "改名"
 msgid "About Navit"
 msgstr "關於 Navit"
 
-#. Authors
-msgid "By"
-msgstr ""
-
 #. Contributors
 msgid "And all the Navit Team"
 msgstr ""
 
-msgid "members and contributors."
-msgstr ""
-
 msgid "Waypoints"
-msgstr ""
-
-msgid "Enter Coordinates"
 msgstr ""
 
 #.
@@ -2035,17 +1828,11 @@ msgstr ""
 msgid "Latitude Longitude"
 msgstr ""
 
-msgid "Enter coordinates, for example:"
-msgstr ""
-
 msgid "Vehicle"
 msgstr "机动车"
 
 msgid "Rules"
 msgstr "規則"
-
-msgid "Lock on road"
-msgstr ""
 
 msgid "Northing"
 msgstr "向北"
@@ -2053,14 +1840,8 @@ msgstr "向北"
 msgid "Map follows Vehicle"
 msgstr "地圖跟隨車輛前進方向"
 
-msgid "Plan with Waypoints"
-msgstr ""
-
 msgid "Maps"
 msgstr "地圖"
-
-msgid "Layout"
-msgstr ""
 
 msgid "Height Profile"
 msgstr ""
@@ -2077,9 +1858,6 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "前一个目的地"
 
-msgid "- No former destinations available -"
-msgstr ""
-
 msgid "Message"
 msgstr "訊息"
 
@@ -2095,21 +1873,11 @@ msgstr "主選單"
 msgid "House number"
 msgstr "屋號"
 
-msgid "Next"
-msgstr ""
-
 msgid "Prev"
-msgstr ""
-
-msgid "Return to route!"
 msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"
-msgstr ""
-
-#. warning told
-msgid "Please decrease your speed"
 msgstr ""
 
 msgid "Vehicle Position"

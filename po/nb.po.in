@@ -93,10 +93,6 @@ msgid "in %d feet"
 msgstr "om %d fot"
 
 #, c-format
-msgid "%d.%d miles"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -140,19 +136,9 @@ msgid_plural "in %d kilometers"
 msgstr[0] "om en kilometer"
 msgstr[1] "om %d kilometer"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
-msgstr ""
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%1$sonto %2$s|masculine form"
 msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
@@ -256,11 +242,6 @@ msgstr "på venstresiden"
 msgid "on your right"
 msgstr "på høyresiden"
 
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
@@ -273,29 +254,14 @@ msgstr "avkjøring"
 msgid "at exit"
 msgstr "Ved utgang"
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -416,10 +382,6 @@ msgstr "Tid til målet"
 
 msgid "Roadbook"
 msgstr "Kjørebok"
-
-#, c-format
-msgid "Waypoint %d"
-msgstr ""
 
 msgid "Visit before..."
 msgstr ""
@@ -571,10 +533,6 @@ msgstr "Brunei"
 #. Android resource: @strings/bolivia
 msgid "Bolivia"
 msgstr "Bolivia"
-
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
 
 #. 076
 #. Android resource: @strings/brazil
@@ -1540,18 +1498,6 @@ msgstr "Zimbabwe"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "Ukjent, legg is_in-tagger til de byene."
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -1573,10 +1519,6 @@ msgstr ""
 
 msgid "unknown street"
 msgstr "Ukjent adresse"
-
-#. Safe cast: attr_generic_set_attr does not modify its parameter.
-msgid "Unnamed vehicle"
-msgstr ""
 
 msgid "Failed to write bookmarks file"
 msgstr ""
@@ -1679,14 +1621,8 @@ msgstr "Tegn kartet på nytt"
 msgid "_Info"
 msgstr "Info"
 
-msgid "Set _destination"
-msgstr ""
-
 msgid "Opens address search dialog"
 msgstr "Åpne søkedialog for adresser"
-
-msgid "_POI search"
-msgstr ""
 
 msgid "Opens POI search dialog"
 msgstr ""
@@ -1702,9 +1638,6 @@ msgstr "_Avslutt"
 
 msgid "Quit the application"
 msgstr "Avslutt applikasjonen"
-
-msgid "Show position _cursor"
-msgstr ""
 
 msgid "_Lock on Road"
 msgstr "Lås til vei"
@@ -1726,9 +1659,6 @@ msgstr "Vis/Sjul rutebeskrivelse"
 
 msgid "_Autozoom"
 msgstr "Auto-zoom"
-
-msgid "Enable/disable automatic zoom level changing"
-msgstr ""
 
 msgid "_Fullscreen"
 msgstr "Fullskjerm"
@@ -1771,9 +1701,6 @@ msgstr "Skole"
 
 msgid "Police"
 msgstr "Politi"
-
-msgid "Justice"
-msgstr ""
 
 msgid "Taxi"
 msgstr "Drosje"
@@ -1829,9 +1756,6 @@ msgstr ""
 msgid "Name"
 msgstr "Navn"
 
-msgid "Visit Before"
-msgstr ""
-
 msgid "N"
 msgstr "N"
 
@@ -1879,18 +1803,11 @@ msgstr "Rute 0000km 0+00:00 estimert tid"
 msgid "Help"
 msgstr "Hjelp"
 
-#, c-format
-msgid "Waypoint %s"
-msgstr ""
-
 msgid "Select waypoint to insert the new one before"
 msgstr ""
 
 msgid "View in Browser"
 msgstr "Vis i browser"
-
-msgid "Item type"
-msgstr ""
 
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
@@ -1902,17 +1819,11 @@ msgstr "Husnummer"
 msgid "View Attributes"
 msgstr "Vis attributter"
 
-msgid "Set as position (and deactivate vehicle)"
-msgstr ""
-
 msgid "POIs"
 msgstr "Landemerker"
 
 msgid "View on map"
 msgstr "Vis på kart"
-
-msgid "Remove search results from the map"
-msgstr ""
 
 msgid "Show results on the map"
 msgstr ""
@@ -1932,19 +1843,10 @@ msgstr "Lim inn bokmerke"
 msgid "Delete Bookmark"
 msgstr "Slett bokmerke"
 
-msgid "Delete waypoint"
-msgstr ""
-
 msgid "Bookmarks"
 msgstr "Bokmerker"
 
-msgid "Bookmarks as waypoints"
-msgstr ""
-
 msgid "Save waypoints"
-msgstr ""
-
-msgid "Replace with waypoints"
 msgstr ""
 
 msgid "Delete Folder"
@@ -1966,14 +1868,8 @@ msgstr "Bokmerk %s"
 msgid "Download %s"
 msgstr "Last ned %s"
 
-msgid "Map Download"
-msgstr ""
-
 msgid "Active"
 msgstr "Aktiv"
-
-msgid "Download Enabled"
-msgstr ""
 
 msgid "Download completely"
 msgstr ""
@@ -2036,19 +1932,7 @@ msgstr "Og alle i Navit teamet"
 msgid "members and contributors."
 msgstr "medlemmer og bidragsytere."
 
-msgid "Waypoints"
-msgstr ""
-
 msgid "Enter Coordinates"
-msgstr ""
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
 msgstr ""
 
 msgid "Enter coordinates, for example:"
@@ -2068,9 +1952,6 @@ msgstr "Hold nord oppover"
 
 msgid "Map follows Vehicle"
 msgstr "Kart følger kjøretøy"
-
-msgid "Plan with Waypoints"
-msgstr ""
 
 msgid "Maps"
 msgstr "Kart"
@@ -2093,9 +1974,6 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "Tidligere reisemål"
 
-msgid "- No former destinations available -"
-msgstr ""
-
 msgid "Message"
 msgstr "Melding"
 
@@ -2116,9 +1994,6 @@ msgstr "Neste."
 
 msgid "Prev"
 msgstr "Forrige"
-
-msgid "Return to route!"
-msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"
@@ -2158,11 +2033,6 @@ msgstr "Avslutt"
 
 msgid "Actions"
 msgstr "Handlinger"
-
-msgid ""
-"Former\n"
-"Destinations"
-msgstr ""
 
 msgid "Coordinates"
 msgstr "Koordinater"
@@ -2208,19 +2078,10 @@ msgid ""
 "Waypoint"
 msgstr ""
 
-msgid "Satellite Status"
-msgstr ""
-
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_shortest"
-msgstr ""
-
 msgid "car_avoid_tolls"
-msgstr ""
-
-msgid "car_pedantic"
 msgstr ""
 
 msgid "horse"
@@ -2250,10 +2111,6 @@ msgstr ""
 msgid "Navit running"
 msgstr ""
 
-#. Android resource: @strings/initial_info_box_title
-msgid "Welcome to Navit"
-msgstr ""
-
 #. Android resource: @strings/initial_info_box_message
 msgid ""
 "Thank you for installing Navit!\n"
@@ -2264,10 +2121,6 @@ msgid ""
 "Mapdata: (c) OpenStreetMap contributors\n"
 "\n"
 "Enjoy Navit!"
-msgstr ""
-
-#. Android resource: @strings/initial_info_box_OK
-msgid "OK"
 msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
@@ -2282,16 +2135,8 @@ msgstr "Zoom inn"
 msgid "Zoom out"
 msgstr "Zoom ut"
 
-#. Android resource: @strings/optionsmenu_download_maps
-msgid "Download maps"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_toggle_poi
 msgid "Toggle POIs"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_exit_navit
-msgid "Exit Navit"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_backup_restore
@@ -2392,10 +2237,6 @@ msgstr ""
 msgid "Address search"
 msgstr ""
 
-#. Android resource: @strings/address_enter_destination
-msgid "Enter destination"
-msgstr ""
-
 #. Android resource: @strings/address_partial_match
 msgid "Match partial address"
 msgstr ""
@@ -2410,25 +2251,13 @@ msgstr "Søk"
 msgid "    <string name="
 msgstr ""
 
-#. Android resource: @strings/address_search_not_found
-msgid "Address not found"
-msgstr ""
-
 #. Android resource: @strings/address_search_getting_results
 msgid "Getting search results"
-msgstr ""
-
-#. Android resource: @strings/address_search_loading_results
-msgid "Loading search results"
 msgstr ""
 
 #. Android resource: @strings/address_search_no_results
 msgid "No results found"
 msgstr "Fant ingen resultater"
-
-#. Android resource: @strings/address_search_no_text_entered
-msgid "No text entered"
-msgstr ""
 
 #. Android resource: @strings/address_search_set_destination
 msgid "Setting destination to:"
@@ -2454,16 +2283,8 @@ msgstr ""
 msgid "Backup failed"
 msgstr "Sikkerhetskopiering feilet"
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/failed_to_restore
 msgid "Failed to restore"
-msgstr ""
-
-#. Android resource: @strings/backup_successful
-msgid "Backup successful"
 msgstr ""
 
 #. Android resource: @strings/restore_successful_please_restart_navit
@@ -2472,16 +2293,8 @@ msgid ""
 "Please restart Navit"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/restore_failed
 msgid "Restore failed"
-msgstr ""
-
-#. Android resource: @strings/select_backup
-msgid "Select backup"
 msgstr ""
 
 #. Android resource: @strings/backup
@@ -2491,10 +2304,6 @@ msgstr "Ta sikkerhetskopi"
 #. Android resource: @strings/restore
 msgid "Restore"
 msgstr "Gjenopprett"
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""

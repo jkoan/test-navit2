@@ -78,15 +78,7 @@ msgid "sixth exit"
 msgstr "seigarren irteera"
 
 #, c-format
-msgid "%d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d feet"
-msgstr ""
-
-#, c-format
-msgid "%d.%d miles"
 msgstr ""
 
 #, c-format
@@ -133,19 +125,9 @@ msgid_plural "in %d kilometers"
 msgstr[0] "kilometro batean"
 msgstr[1] "%d kilometrotan"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
-msgstr ""
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%1$sonto %2$s|masculine form"
 msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
@@ -189,17 +171,9 @@ msgstr "%s %s-an"
 msgid "When possible, please turn around"
 msgstr "Ahal duzunean eman itzulia, mesedez"
 
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
-
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "Jarraitu bidean urrengo %s-arte"
-
-msgid "Enter the roundabout soon"
-msgstr ""
 
 #. TRANSLATORS: %s is the distance to the roundabout
 #, c-format
@@ -217,17 +191,9 @@ msgstr "hurrengotan"
 msgid "now"
 msgstr "orain"
 
-msgid "then"
-msgstr ""
-
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|right"
 msgstr ""
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
@@ -235,15 +201,7 @@ msgstr ""
 msgid "then merge%1$s|left"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|left"
-msgstr ""
-
 msgid "on your left"
-msgstr ""
-
-msgid "on your right"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
@@ -251,16 +209,8 @@ msgstr ""
 msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
-#, c-format
-msgid "Take the exit %1$s %2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
 msgid "at interchange"
-msgstr ""
-
-msgid "at exit"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -268,29 +218,14 @@ msgstr ""
 msgid "then continue straight%1$s"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then keep right%1$s"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then keep left%1$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep left %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
@@ -322,37 +257,14 @@ msgstr "%i bideen ondoren"
 msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr "Biratu %1$s%2$s-ra %3$s%4$s-tan"
 
-#. TRANSLATORS: Left U-turn, the stuff after | doesn't have to be included.
-msgid "then make a U-turn|left"
-msgstr ""
-
 #. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|left"
 msgstr ""
 
-#. TRANSLATORS: Right U-turn, the stuff after | doesn't have to be included.
-msgid "then make a U-turn|right"
-msgstr ""
-
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|right"
-msgstr ""
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
 msgstr ""
 
 msgid "then you have reached your destination."
@@ -402,10 +314,6 @@ msgstr "Helbururaino denbora"
 
 msgid "Roadbook"
 msgstr "Gida"
-
-#, c-format
-msgid "Waypoint %d"
-msgstr ""
 
 msgid "Visit before..."
 msgstr ""
@@ -558,10 +466,6 @@ msgstr "Bruneiko Sultanerria"
 msgid "Bolivia"
 msgstr "Bolivia"
 
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
-
 #. 076
 #. Android resource: @strings/brazil
 msgid "Brazil"
@@ -660,10 +564,6 @@ msgstr "Kuba"
 #. 132
 msgid "Cape Verde"
 msgstr "Cabo Verde"
-
-#. 531
-msgid "Curacao"
-msgstr ""
 
 #. 162
 msgid "Christmas Island"
@@ -1342,10 +1242,6 @@ msgstr "Somalia"
 msgid "Suriname"
 msgstr "Surinam"
 
-#. 728
-msgid "South Sudan"
-msgstr ""
-
 #. 678
 msgid "Sao Tome and Principe"
 msgstr "Sao Tome eta Printze"
@@ -1353,10 +1249,6 @@ msgstr "Sao Tome eta Printze"
 #. 222
 msgid "El Salvador"
 msgstr "El Salvador"
-
-#. 534
-msgid "Sint Maarten (Dutch part)"
-msgstr ""
 
 #. 760
 msgid "Syrian Arab Republic"
@@ -1526,18 +1418,6 @@ msgstr "Zimbabwe"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "* Ezezaguna, gehitu -en_dago etiketak hiri hauentzat"
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -1557,14 +1437,8 @@ msgstr ""
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
 
-msgid "unknown street"
-msgstr ""
-
 #. Safe cast: attr_generic_set_attr does not modify its parameter.
 msgid "Unnamed vehicle"
-msgstr ""
-
-msgid "Failed to write bookmarks file"
 msgstr ""
 
 #. Strings from navit_shipped.xml
@@ -1671,9 +1545,6 @@ msgstr "Helburua ezarri"
 msgid "Opens address search dialog"
 msgstr "Ireki helbidea bilatzeko lehioa"
 
-msgid "_POI search"
-msgstr ""
-
 msgid "Opens POI search dialog"
 msgstr ""
 
@@ -1722,43 +1593,22 @@ msgstr "Pantaila osoa"
 msgid "Data"
 msgstr "Datuak"
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant"
-msgstr ""
-
-msgid "Restaurant. Fast food"
 msgstr ""
 
 msgid "Hotel"
 msgstr ""
 
-msgid "Car parking"
-msgstr ""
-
 msgid "Fuel station"
-msgstr ""
-
-msgid "Bank"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "Train station"
 msgstr ""
 
-msgid "School"
-msgstr ""
-
 msgid "Police"
-msgstr ""
-
-msgid "Justice"
 msgstr ""
 
 msgid "Taxi"
@@ -1791,16 +1641,10 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "POI search"
-msgstr ""
-
 msgid "Select a category"
 msgstr ""
 
 msgid "Select a POI"
-msgstr ""
-
-msgid " "
 msgstr ""
 
 msgid "Category"
@@ -1810,9 +1654,6 @@ msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Name"
 msgstr ""
 
 msgid "Visit Before"
@@ -1852,9 +1693,6 @@ msgstr "2D"
 msgid "3D"
 msgstr "3D"
 
-msgid "OT"
-msgstr ""
-
 #, c-format
 msgid "Route %4.1f%s    %02d:%02d ETA"
 msgstr ""
@@ -1865,18 +1703,11 @@ msgstr "Ibilbide 0000km 0+00:00 EDI"
 msgid "Help"
 msgstr "Laguntza"
 
-#, c-format
-msgid "Waypoint %s"
-msgstr ""
-
 msgid "Select waypoint to insert the new one before"
 msgstr ""
 
 msgid "View in Browser"
 msgstr "Ikusi nabigatzailean"
-
-msgid "Item type"
-msgstr ""
 
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
@@ -1888,17 +1719,11 @@ msgstr "Etxebizitza zenbakiak"
 msgid "View Attributes"
 msgstr "Atributoak erakutsi"
 
-msgid "Set as position (and deactivate vehicle)"
-msgstr ""
-
 msgid "POIs"
 msgstr "PIak"
 
 msgid "View on map"
 msgstr "Mapan Ikusi"
-
-msgid "Remove search results from the map"
-msgstr ""
 
 msgid "Show results on the map"
 msgstr ""
@@ -1918,19 +1743,10 @@ msgstr "Itsatsi Gogokoa"
 msgid "Delete Bookmark"
 msgstr "Ezabatu Gogokoa"
 
-msgid "Delete waypoint"
-msgstr ""
-
 msgid "Bookmarks"
 msgstr "Gogokoak"
 
-msgid "Bookmarks as waypoints"
-msgstr ""
-
 msgid "Save waypoints"
-msgstr ""
-
-msgid "Replace with waypoints"
 msgstr ""
 
 msgid "Delete Folder"
@@ -1948,20 +1764,10 @@ msgstr "Itsatsi gogokoa"
 msgid "Bookmark %s"
 msgstr "%s marka"
 
-#, c-format
-msgid "Download %s"
-msgstr ""
-
 msgid "Map Download"
 msgstr ""
 
-msgid "Active"
-msgstr ""
-
 msgid "Download Enabled"
-msgstr ""
-
-msgid "Download completely"
 msgstr ""
 
 msgid "Show Satellite Status"
@@ -2022,19 +1828,7 @@ msgstr "Eta Navit talde osoa"
 msgid "members and contributors."
 msgstr "partaide eta laguntzaileak."
 
-msgid "Waypoints"
-msgstr ""
-
 msgid "Enter Coordinates"
-msgstr ""
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
 msgstr ""
 
 msgid "Enter coordinates, for example:"
@@ -2054,9 +1848,6 @@ msgstr "Iparrerantz"
 
 msgid "Map follows Vehicle"
 msgstr "Mapak ibilgailua jarraitzen du"
-
-msgid "Plan with Waypoints"
-msgstr ""
 
 msgid "Maps"
 msgstr "Mapak"
@@ -2079,9 +1870,6 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "Aurreko Helburuak"
 
-msgid "- No former destinations available -"
-msgstr ""
-
 msgid "Message"
 msgstr "Mezua"
 
@@ -2097,13 +1885,7 @@ msgstr "Menu nagusia"
 msgid "House number"
 msgstr "Etxebizitza zenbakia"
 
-msgid "Next"
-msgstr ""
-
 msgid "Prev"
-msgstr ""
-
-msgid "Return to route!"
 msgstr ""
 
 #. warning told
@@ -2144,11 +1926,6 @@ msgstr "Irten"
 
 msgid "Actions"
 msgstr "Ekintzak"
-
-msgid ""
-"Former\n"
-"Destinations"
-msgstr ""
 
 msgid "Coordinates"
 msgstr ""
@@ -2194,26 +1971,14 @@ msgid ""
 "Waypoint"
 msgstr ""
 
-msgid "Satellite Status"
-msgstr ""
-
 msgid "NMEA Data"
-msgstr ""
-
-msgid "car_shortest"
 msgstr ""
 
 msgid "car_avoid_tolls"
 msgstr ""
 
-msgid "car_pedantic"
-msgstr ""
-
 msgid "horse"
 msgstr "zaldia"
-
-msgid "Truck"
-msgstr ""
 
 #. Strings from android/res/values/strings.xml
 #. Android resource: @strings/yes
@@ -2236,10 +2001,6 @@ msgstr ""
 msgid "Navit running"
 msgstr ""
 
-#. Android resource: @strings/initial_info_box_title
-msgid "Welcome to Navit"
-msgstr ""
-
 #. Android resource: @strings/initial_info_box_message
 msgid ""
 "Thank you for installing Navit!\n"
@@ -2252,32 +2013,16 @@ msgid ""
 "Enjoy Navit!"
 msgstr ""
 
-#. Android resource: @strings/initial_info_box_OK
-msgid "OK"
-msgstr ""
-
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_in
-msgid "Zoom in"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_zoom_out
 msgid "Zoom out"
 msgstr ""
 
-#. Android resource: @strings/optionsmenu_download_maps
-msgid "Download maps"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_toggle_poi
 msgid "Toggle POIs"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_exit_navit
-msgid "Exit Navit"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_backup_restore
@@ -2378,10 +2123,6 @@ msgstr ""
 msgid "Address search"
 msgstr ""
 
-#. Android resource: @strings/address_enter_destination
-msgid "Enter destination"
-msgstr ""
-
 #. Android resource: @strings/address_partial_match
 msgid "Match partial address"
 msgstr ""
@@ -2400,16 +2141,8 @@ msgstr ""
 msgid "Address not found"
 msgstr ""
 
-#. Android resource: @strings/address_search_getting_results
-msgid "Getting search results"
-msgstr ""
-
 #. Android resource: @strings/address_search_loading_results
 msgid "Loading search results"
-msgstr ""
-
-#. Android resource: @strings/address_search_no_results
-msgid "No results found"
 msgstr ""
 
 #. Android resource: @strings/address_search_no_text_entered
@@ -2436,50 +2169,24 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/backup_failed
-msgid "Backup failed"
-msgstr ""
-
 #. Android resource: @strings/no_backup_found
 msgid "No backup found"
-msgstr ""
-
-#. Android resource: @strings/failed_to_restore
-msgid "Failed to restore"
 msgstr ""
 
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/restore_successful_please_restart_navit
-msgid ""
-"Restore Successful\n"
-"Please restart Navit"
-msgstr ""
-
 #. Android resource: @strings/backup_not_found
 msgid "Backup not found"
-msgstr ""
-
-#. Android resource: @strings/restore_failed
-msgid "Restore failed"
 msgstr ""
 
 #. Android resource: @strings/select_backup
 msgid "Select backup"
 msgstr ""
 
-#. Android resource: @strings/backup
-msgid "Backup"
-msgstr ""
-
 #. Android resource: @strings/restore
 msgid "Restore"
-msgstr ""
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

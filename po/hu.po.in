@@ -137,11 +137,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "egy kilométer után"
 msgstr[1] "%d kilométer után"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
@@ -210,12 +205,9 @@ msgstr "Hajtson be a körforgalomba hamarosan."
 msgid "Enter the roundabout %s"
 msgstr "Hajtson be a körforgalomba %s múlva"
 
-<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -250,9 +242,6 @@ msgstr "akkor egyesülj%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Összevonás %1$s%2$s"
 
-msgid "on your left"
-msgstr ""
-
 msgid "on your right"
 msgstr ""
 
@@ -273,29 +262,14 @@ msgstr "a csomópontnál"
 msgid "at exit"
 msgstr "a kijáratnál"
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -349,21 +323,6 @@ msgstr "aztán fordujon meg"
 #, c-format
 msgid "Make a U-turn %1$s|right"
 msgstr "Fordujon meg %1$s"
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
-msgstr ""
 
 msgid "then you have reached your destination."
 msgstr "majd eléri az úticélját."
@@ -1757,9 +1716,6 @@ msgstr "Szálloda"
 msgid "Car parking"
 msgstr "Parkoló"
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Bank"
 msgstr "Bank"
 
@@ -1834,9 +1790,6 @@ msgstr ""
 
 msgid "Name"
 msgstr "Név:"
-
-msgid "Visit Before"
-msgstr ""
 
 msgid "N"
 msgstr "É"
@@ -2048,15 +2001,6 @@ msgstr "Útvonalpontok"
 msgid "Enter Coordinates"
 msgstr "Koordináták megadása"
 
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr "Koordináták megadása, pl:"
 
@@ -2165,11 +2109,6 @@ msgstr "Kilépés"
 msgid "Actions"
 msgstr "Műveletek"
 
-msgid ""
-"Former\n"
-"Destinations"
-msgstr ""
-
 msgid "Coordinates"
 msgstr "Koordináták"
 
@@ -2189,7 +2128,6 @@ msgstr "Teljes képernyő"
 msgid "Window Mode"
 msgstr "Ablak mód"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2202,8 +2140,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Leírás"
 
@@ -2223,20 +2159,11 @@ msgstr "Műhold állapot"
 msgid "NMEA Data"
 msgstr "NMEA adat"
 
-msgid "car_shortest"
-msgstr ""
-
 msgid "car_avoid_tolls"
-msgstr ""
-
-msgid "car_pedantic"
 msgstr ""
 
 msgid "horse"
 msgstr "ló"
-
-msgid "Truck"
-msgstr ""
 
 #. Strings from android/res/values/strings.xml
 #. Android resource: @strings/yes
@@ -2504,10 +2431,6 @@ msgstr "Biztonsági mentés"
 #. Android resource: @strings/restore
 msgid "Restore"
 msgstr "Visszaállítás"
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""

@@ -142,11 +142,6 @@ msgstr[0] "o %d kilometrov"
 msgstr[1] "o jeden kilometer"
 msgstr[2] "o %d kilometre"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
@@ -198,22 +193,12 @@ msgstr "%s na %s"
 msgid "When possible, please turn around"
 msgstr "Ak to bude možné, prosím, otočte sa"
 
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
-
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "Pokračujte naďalej po ceste %s"
 
 msgid "Enter the roundabout soon"
 msgstr "Vstúpte do kruhového objazdu onedlho"
-
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
 
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
@@ -249,15 +234,7 @@ msgstr "potom merge%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Zlúčenie %1$s%2$s"
 
-msgid "on your left"
-msgstr ""
-
 msgid "on your right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -265,16 +242,7 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 msgid "at exit"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -282,19 +250,9 @@ msgstr ""
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -348,21 +306,6 @@ msgstr "potom otočte sa"
 #, c-format
 msgid "Make a U-turn %1$s|right"
 msgstr "Otočte sa %1$s"
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
-msgstr ""
 
 msgid "then you have reached your destination."
 msgstr "potom dosiahnete svoj cieľ cesty"
@@ -1535,18 +1478,6 @@ msgstr "Zimbabwe"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "* Neznáme, pridajte is_in tag v týchto mestách."
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -1680,9 +1611,6 @@ msgstr "Nastaviť _destination"
 msgid "Opens address search dialog"
 msgstr "Otvorí dialóg hľadania adresy"
 
-msgid "_POI search"
-msgstr ""
-
 msgid "Opens POI search dialog"
 msgstr ""
 
@@ -1731,43 +1659,22 @@ msgstr "Celá obrazovka"
 msgid "Data"
 msgstr "Dáta"
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant"
-msgstr ""
-
-msgid "Restaurant. Fast food"
 msgstr ""
 
 msgid "Hotel"
 msgstr ""
 
-msgid "Car parking"
-msgstr ""
-
 msgid "Fuel station"
-msgstr ""
-
-msgid "Bank"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "Train station"
 msgstr ""
 
-msgid "School"
-msgstr ""
-
 msgid "Police"
-msgstr ""
-
-msgid "Justice"
 msgstr ""
 
 msgid "Taxi"
@@ -1800,9 +1707,6 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "POI search"
-msgstr ""
-
 msgid "Select a category"
 msgstr ""
 
@@ -1812,16 +1716,10 @@ msgstr ""
 msgid " "
 msgstr ""
 
-msgid "Category"
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Name"
 msgstr ""
 
 msgid "Visit Before"
@@ -2036,15 +1934,6 @@ msgstr "Body trasy"
 
 msgid "Enter Coordinates"
 msgstr "Vložte súradnice"
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
-msgstr ""
 
 msgid "Enter coordinates, for example:"
 msgstr "Vložte súradnice, napríklad:"
@@ -2490,10 +2379,6 @@ msgstr "Záloha"
 #. Android resource: @strings/restore
 msgid "Restore"
 msgstr "Obnova"
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""

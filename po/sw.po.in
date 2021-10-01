@@ -54,10 +54,6 @@ msgstr "ya tano"
 msgid "sixth"
 msgstr "ya sita"
 
-#. TRANSLATORS: the following counts refer to roundabout exits
-msgid "zeroth exit"
-msgstr ""
-
 msgid "first exit"
 msgstr "exit ya kwanza"
 
@@ -77,15 +73,7 @@ msgid "sixth exit"
 msgstr "exit ya sita"
 
 #, c-format
-msgid "%d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d feet"
-msgstr ""
-
-#, c-format
-msgid "%d.%d miles"
 msgstr ""
 
 #, c-format
@@ -132,19 +120,9 @@ msgid_plural "in %d kilometers"
 msgstr[0] "baada ya kilomita %d"
 msgstr[1] "baada ya kilomita %d"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
-msgstr ""
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%1$sonto %2$s|masculine form"
 msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
@@ -188,17 +166,9 @@ msgstr "%skufuata %s"
 msgid "When possible, please turn around"
 msgstr "Geuka na kurudi nyuma inapowezekana"
 
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
-
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "Buata barabara kwa %s"
-
-msgid "Enter the roundabout soon"
-msgstr ""
 
 #. TRANSLATORS: %s is the distance to the roundabout
 #, c-format
@@ -219,19 +189,9 @@ msgstr "sasa"
 msgid "then"
 msgstr "halafu"
 
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
-
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|left"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
@@ -239,15 +199,7 @@ msgstr ""
 msgid "Merge %1$s%2$s|left"
 msgstr ""
 
-msgid "on your left"
-msgstr ""
-
 msgid "on your right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -255,16 +207,7 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 msgid "at exit"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -272,19 +215,9 @@ msgstr ""
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -299,10 +232,6 @@ msgstr "kulia"
 #. TRANSLATORS: "left" as in "turn left"
 msgid "left"
 msgstr "kushoto"
-
-#. TRANSLATORS: as in "turn easily right"
-msgid "easily "
-msgstr ""
 
 #. TRANSLATORS: as in "turn strongly right"
 msgid "strongly "
@@ -321,37 +250,14 @@ msgstr "baada ya barabara %i"
 msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr "piga kona %1$s%2$s %3$s%4$s"
 
-#. TRANSLATORS: Left U-turn, the stuff after | doesn't have to be included.
-msgid "then make a U-turn|left"
-msgstr ""
-
 #. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|left"
 msgstr ""
 
-#. TRANSLATORS: Right U-turn, the stuff after | doesn't have to be included.
-msgid "then make a U-turn|right"
-msgstr ""
-
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|right"
-msgstr ""
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
 msgstr ""
 
 msgid "then you have reached your destination."
@@ -399,14 +305,8 @@ msgstr "umbali mpaka lengo"
 msgid "Destination Time"
 msgstr "saa ya kufika"
 
-msgid "Roadbook"
-msgstr ""
-
 #, c-format
 msgid "Waypoint %d"
-msgstr ""
-
-msgid "Visit before..."
 msgstr ""
 
 msgid "Set as position"
@@ -417,10 +317,6 @@ msgstr "chagua kama lengo"
 
 msgid "Add as bookmark"
 msgstr "hifadhi kama bookmark"
-
-#, c-format
-msgid "Point 0x%x 0x%x"
-msgstr ""
 
 #, c-format
 msgid "Screen coord : %d %d"
@@ -438,10 +334,6 @@ msgstr "Muungano wa Falme za Nchi za Kiarabu"
 msgid "Afghanistan"
 msgstr "Afghanistani"
 
-#. 028
-msgid "Antigua and Barbuda"
-msgstr ""
-
 #. 660
 msgid "Anguilla"
 msgstr ""
@@ -453,10 +345,6 @@ msgstr ""
 
 #. 051
 msgid "Armenia"
-msgstr ""
-
-#. 530
-msgid "Netherlands Antilles"
 msgstr ""
 
 #. 024
@@ -487,10 +375,6 @@ msgstr "Austria"
 msgid "Australia"
 msgstr "Australia"
 
-#. 533
-msgid "Aruba"
-msgstr ""
-
 #. 248
 msgid "Aland Islands"
 msgstr "Viziwa vya Alandi"
@@ -504,10 +388,6 @@ msgstr ""
 #. Android resource: @strings/bosnia_and_herzegovina
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia na Herzegovina"
-
-#. 052
-msgid "Barbados"
-msgstr ""
 
 #. 050
 msgid "Bangladesh"
@@ -540,25 +420,13 @@ msgstr "Burundi"
 msgid "Benin"
 msgstr "Benin"
 
-#. 652
-msgid "Saint Barthelemy"
-msgstr ""
-
 #. 060
 msgid "Bermuda"
-msgstr ""
-
-#. 096
-msgid "Brunei Darussalam"
 msgstr ""
 
 #. 068
 #. Android resource: @strings/bolivia
 msgid "Bolivia"
-msgstr ""
-
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
 #. 076
@@ -569,10 +437,6 @@ msgstr ""
 #. 044
 msgid "Bahamas"
 msgstr "Visiwa vya Bahama"
-
-#. 064
-msgid "Bhutan"
-msgstr ""
 
 #. 074
 msgid "Bouvet Island"
@@ -656,10 +520,6 @@ msgstr "Kosta Rika"
 msgid "Cuba"
 msgstr "Kuba"
 
-#. 132
-msgid "Cape Verde"
-msgstr ""
-
 #. 531
 msgid "Curacao"
 msgstr ""
@@ -723,10 +583,6 @@ msgstr "Misri"
 msgid "Western Sahara"
 msgstr "Sahara ya magharibi"
 
-#. 232
-msgid "Eritrea"
-msgstr ""
-
 #. 724
 #. Android resource: @strings/spain
 msgid "Spain"
@@ -746,10 +602,6 @@ msgstr ""
 msgid "Fiji"
 msgstr ""
 
-#. 238
-msgid "Falkland Islands (Malvinas)"
-msgstr ""
-
 #. 583
 msgid "Micronesia, Federated States of"
 msgstr ""
@@ -764,25 +616,13 @@ msgstr ""
 msgid "France"
 msgstr "Ufaransa"
 
-#. 266
-msgid "Gabon"
-msgstr ""
-
 #. 826
 #. Android resource: @strings/united_kingdom
 msgid "United Kingdom"
 msgstr "Uingereza"
 
-#. 308
-msgid "Grenada"
-msgstr ""
-
 #. 268
 msgid "Georgia"
-msgstr ""
-
-#. 254
-msgid "French Guiana"
 msgstr ""
 
 #. 831
@@ -792,10 +632,6 @@ msgstr ""
 #. 288
 msgid "Ghana"
 msgstr "Ghana"
-
-#. 292
-msgid "Gibraltar"
-msgstr ""
 
 #. 304
 msgid "Greenland"
@@ -810,10 +646,6 @@ msgstr "Gambia"
 msgid "Guinea"
 msgstr "Guinea"
 
-#. 312
-msgid "Guadeloupe"
-msgstr ""
-
 #. 226
 msgid "Equatorial Guinea"
 msgstr "Guinea ya Ikweta"
@@ -823,16 +655,8 @@ msgstr "Guinea ya Ikweta"
 msgid "Greece"
 msgstr "Ugiriki"
 
-#. 239
-msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
-
 #. 320
 msgid "Guatemala"
-msgstr ""
-
-#. 316
-msgid "Guam"
 msgstr ""
 
 #. 624
@@ -846,10 +670,6 @@ msgstr ""
 
 #. 344
 msgid "Hong Kong"
-msgstr ""
-
-#. 334
-msgid "Heard Island and McDonald Islands"
 msgstr ""
 
 #. 340
@@ -886,10 +706,6 @@ msgstr ""
 msgid "Israel"
 msgstr "Israel"
 
-#. 833
-msgid "Isle of Man"
-msgstr ""
-
 #. 356
 #. Android resource: @strings/india
 msgid "India"
@@ -919,17 +735,9 @@ msgstr ""
 msgid "Italy"
 msgstr "Italia"
 
-#. 832
-msgid "Jersey"
-msgstr ""
-
 #. 388
 #. Android resource: @strings/jamaica
 msgid "Jamaica"
-msgstr ""
-
-#. 400
-msgid "Jordan"
 msgstr ""
 
 #. 392
@@ -959,10 +767,6 @@ msgstr "Kiribati"
 msgid "Comoros"
 msgstr "Visiwa vya Komoro"
 
-#. 659
-msgid "Saint Kitts and Nevis"
-msgstr ""
-
 #. 408
 msgid "Korea, Democratic People's Republic of"
 msgstr "Korea ya Kaskazini"
@@ -970,10 +774,6 @@ msgstr "Korea ya Kaskazini"
 #. 410
 msgid "Korea, Republic of"
 msgstr "Korea ya Kusini"
-
-#. 414
-msgid "Kuwait"
-msgstr ""
 
 #. 136
 msgid "Cayman Islands"
@@ -992,16 +792,8 @@ msgstr ""
 msgid "Lebanon"
 msgstr "Lebanon"
 
-#. 662
-msgid "Saint Lucia"
-msgstr ""
-
 #. 438
 msgid "Liechtenstein"
-msgstr ""
-
-#. 144
-msgid "Sri Lanka"
 msgstr ""
 
 #. 430
@@ -1042,25 +834,13 @@ msgstr "Moroko"
 msgid "Monaco"
 msgstr "Monako"
 
-#. 498
-msgid "Moldova, Republic of"
-msgstr ""
-
 #. 499
 msgid "Montenegro"
-msgstr ""
-
-#. 663
-msgid "Saint Martin (French part)"
 msgstr ""
 
 #. 450
 #. Android resource: @strings/madagascar
 msgid "Madagascar"
-msgstr ""
-
-#. 584
-msgid "Marshall Islands"
 msgstr ""
 
 #. 807
@@ -1071,41 +851,21 @@ msgstr ""
 msgid "Mali"
 msgstr "Mali"
 
-#. 104
-msgid "Myanmar"
-msgstr ""
-
 #. 496
 #. Android resource: @strings/mongolia
 msgid "Mongolia"
 msgstr "Mongolia"
 
-#. 446
-msgid "Macao"
-msgstr ""
-
 #. 580
 msgid "Northern Mariana Islands"
-msgstr ""
-
-#. 474
-msgid "Martinique"
 msgstr ""
 
 #. 478
 msgid "Mauritania"
 msgstr ""
 
-#. 500
-msgid "Montserrat"
-msgstr ""
-
 #. 470
 msgid "Malta"
-msgstr ""
-
-#. 480
-msgid "Mauritius"
 msgstr ""
 
 #. 462
@@ -1144,16 +904,8 @@ msgstr ""
 msgid "Niger"
 msgstr ""
 
-#. 574
-msgid "Norfolk Island"
-msgstr ""
-
 #. 566
 msgid "Nigeria"
-msgstr ""
-
-#. 558
-msgid "Nicaragua"
 msgstr ""
 
 #. 528
@@ -1161,17 +913,9 @@ msgstr ""
 msgid "Netherlands"
 msgstr "Uholanzi"
 
-#. 578
-msgid "Norway"
-msgstr ""
-
 #. 524
 #. Android resource: @strings/nepal
 msgid "Nepal"
-msgstr ""
-
-#. 520
-msgid "Nauru"
 msgstr ""
 
 #. 570
@@ -1187,17 +931,9 @@ msgstr ""
 msgid "Oman"
 msgstr ""
 
-#. 591
-msgid "Panama"
-msgstr ""
-
 #. 604
 #. Android resource: @strings/peru
 msgid "Peru"
-msgstr ""
-
-#. 258
-msgid "French Polynesia"
 msgstr ""
 
 #. 598
@@ -1223,16 +959,8 @@ msgstr ""
 msgid "Saint Pierre and Miquelon"
 msgstr ""
 
-#. 612
-msgid "Pitcairn"
-msgstr ""
-
 #. 630
 msgid "Puerto Rico"
-msgstr ""
-
-#. 275
-msgid "Palestinian Territory, Occupied"
 msgstr ""
 
 #. 620
@@ -1240,17 +968,9 @@ msgstr ""
 msgid "Portugal"
 msgstr ""
 
-#. 585
-msgid "Palau"
-msgstr ""
-
 #. 600
 #. Android resource: @strings/paraguay
 msgid "Paraguay"
-msgstr ""
-
-#. 634
-msgid "Qatar"
 msgstr ""
 
 #. 638
@@ -1286,16 +1006,8 @@ msgstr ""
 msgid "Solomon Islands"
 msgstr ""
 
-#. 690
-msgid "Seychelles"
-msgstr ""
-
 #. 736
 msgid "Sudan"
-msgstr ""
-
-#. 752
-msgid "Sweden"
 msgstr ""
 
 #. 702
@@ -1303,16 +1015,8 @@ msgstr ""
 msgid "Singapore"
 msgstr ""
 
-#. 654
-msgid "Saint Helena"
-msgstr ""
-
 #. 705
 msgid "Slovenia"
-msgstr ""
-
-#. 744
-msgid "Svalbard and Jan Mayen"
 msgstr ""
 
 #. 703
@@ -1320,16 +1024,8 @@ msgstr ""
 msgid "Slovakia"
 msgstr ""
 
-#. 694
-msgid "Sierra Leone"
-msgstr ""
-
 #. 674
 msgid "San Marino"
-msgstr ""
-
-#. 686
-msgid "Senegal"
 msgstr ""
 
 #. 706
@@ -1345,40 +1041,20 @@ msgstr ""
 msgid "South Sudan"
 msgstr ""
 
-#. 678
-msgid "Sao Tome and Principe"
-msgstr ""
-
 #. 222
 msgid "El Salvador"
-msgstr ""
-
-#. 534
-msgid "Sint Maarten (Dutch part)"
 msgstr ""
 
 #. 760
 msgid "Syrian Arab Republic"
 msgstr ""
 
-#. 748
-msgid "Swaziland"
-msgstr ""
-
 #. 796
 msgid "Turks and Caicos Islands"
 msgstr ""
 
-#. 148
-msgid "Chad"
-msgstr ""
-
 #. 260
 msgid "French Southern Territories"
-msgstr ""
-
-#. 768
-msgid "Togo"
 msgstr ""
 
 #. 764
@@ -1386,25 +1062,13 @@ msgstr ""
 msgid "Thailand"
 msgstr ""
 
-#. 762
-msgid "Tajikistan"
-msgstr ""
-
 #. 772
 msgid "Tokelau"
-msgstr ""
-
-#. 626
-msgid "Timor-Leste"
 msgstr ""
 
 #. 795
 #. Android resource: @strings/turkmenistan
 msgid "Turkmenistan"
-msgstr ""
-
-#. 788
-msgid "Tunisia"
 msgstr ""
 
 #. 776
@@ -1418,10 +1082,6 @@ msgstr ""
 
 #. 780
 msgid "Trinidad and Tobago"
-msgstr ""
-
-#. 798
-msgid "Tuvalu"
 msgstr ""
 
 #. 158
@@ -1447,25 +1107,13 @@ msgstr ""
 msgid "United States Minor Outlying Islands"
 msgstr ""
 
-#. 840
-msgid "United States"
-msgstr ""
-
 #. 858
 #. Android resource: @strings/uruguay
 msgid "Uruguay"
 msgstr ""
 
-#. 860
-msgid "Uzbekistan"
-msgstr ""
-
 #. 336
 msgid "Holy See (Vatican City State)"
-msgstr ""
-
-#. 670
-msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
 #. 862
@@ -1473,24 +1121,12 @@ msgstr ""
 msgid "Venezuela"
 msgstr ""
 
-#. 092
-msgid "Virgin Islands, British"
-msgstr ""
-
 #. 850
 msgid "Virgin Islands, U.S."
 msgstr ""
 
-#. 704
-msgid "Viet Nam"
-msgstr ""
-
 #. 548
 msgid "Vanuatu"
-msgstr ""
-
-#. 876
-msgid "Wallis and Futuna"
 msgstr ""
 
 #. 882
@@ -1518,23 +1154,7 @@ msgstr ""
 msgid "Zambia"
 msgstr ""
 
-#. 716
-msgid "Zimbabwe"
-msgstr ""
-
 msgid "* Unknown, add is_in tags to those cities"
-msgstr ""
-
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
 msgstr ""
 
 #. We have not found an existing config file from all possibilities
@@ -1563,26 +1183,14 @@ msgstr ""
 msgid "Unnamed vehicle"
 msgstr ""
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 #. Strings from navit_shipped.xml
 msgid "Map Point"
 msgstr "eneo kwenye ramani"
 
-msgid "Car"
-msgstr ""
-
 msgid "Iso2"
 msgstr ""
 
-msgid "Iso3"
-msgstr ""
-
 msgid "Country"
-msgstr ""
-
-msgid "Postal"
 msgstr ""
 
 msgid "Town"
@@ -1600,69 +1208,35 @@ msgstr "Namba"
 msgid "Enter Destination"
 msgstr "andika lengo"
 
-msgid "Zip Code"
-msgstr ""
-
 msgid "City"
 msgstr "Mji"
-
-msgid "District/Township"
-msgstr ""
 
 msgid "Map"
 msgstr "ramani"
 
-msgid "Bookmark"
-msgstr ""
-
 msgid "Destination"
 msgstr "lengo"
 
-#. TRANSLATORS: These texts are for menu items in GTK GUI. The _ indicates the mnemonic key (=underlined character) for this menu item. Please place the _ before a suitable character in the translation (or omit it if no mnemonic key is desired).
-msgid "_Display"
-msgstr ""
-
 msgid "_Route"
-msgstr ""
-
-msgid "_Former Destinations"
 msgstr ""
 
 msgid "_Bookmarks"
 msgstr ""
 
-msgid "_Map"
-msgstr ""
-
 msgid "_Layout"
-msgstr ""
-
-msgid "_Projection"
 msgstr ""
 
 msgid "_Vehicle"
 msgstr ""
 
-msgid "Zoom_Out"
-msgstr ""
-
 msgid "Decrease zoom level"
-msgstr ""
-
-msgid "Zoom_In"
 msgstr ""
 
 msgid "Increase zoom level"
 msgstr ""
 
-msgid "_Recalculate"
-msgstr ""
-
 msgid "Redraw map"
 msgstr "chora ramani kwa upya"
-
-msgid "_Info"
-msgstr ""
 
 msgid "Set _destination"
 msgstr ""
@@ -1670,13 +1244,7 @@ msgstr ""
 msgid "Opens address search dialog"
 msgstr "fungua pa kutafutia lengo"
 
-msgid "_POI search"
-msgstr ""
-
 msgid "Opens POI search dialog"
-msgstr ""
-
-msgid "_Stop Navigation"
 msgstr ""
 
 msgid "Test"
@@ -1687,9 +1255,6 @@ msgstr "funga"
 
 msgid "Quit the application"
 msgstr "funga app"
-
-msgid "Show position _cursor"
-msgstr ""
 
 msgid "_Lock on Road"
 msgstr ""
@@ -1703,67 +1268,34 @@ msgstr ""
 msgid "Switches map orientation to the north or the vehicle"
 msgstr ""
 
-msgid "_Roadbook"
-msgstr ""
-
 msgid "Show/hide route description"
 msgstr "onyesha orodha ya maelekezo"
 
-msgid "_Autozoom"
-msgstr ""
-
 msgid "Enable/disable automatic zoom level changing"
-msgstr ""
-
-msgid "_Fullscreen"
 msgstr ""
 
 msgid "Data"
 msgstr ""
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant"
-msgstr ""
-
-msgid "Restaurant. Fast food"
 msgstr ""
 
 msgid "Hotel"
 msgstr ""
 
-msgid "Car parking"
-msgstr ""
-
 msgid "Fuel station"
-msgstr ""
-
-msgid "Bank"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "Train station"
-msgstr ""
-
-msgid "School"
 msgstr ""
 
 msgid "Police"
 msgstr ""
 
-msgid "Justice"
-msgstr ""
-
 msgid "Taxi"
-msgstr ""
-
-msgid "Shopping"
 msgstr ""
 
 #. Input is in kilometers
@@ -1799,13 +1331,7 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Category"
-msgstr ""
-
-msgid "Direction"
 msgstr ""
 
 msgid "Distance"
@@ -1817,38 +1343,19 @@ msgstr ""
 msgid "Visit Before"
 msgstr ""
 
-msgid "N"
-msgstr ""
-
 msgid "NE"
-msgstr ""
-
-msgid "E"
 msgstr ""
 
 msgid "SE"
 msgstr ""
 
-msgid "S"
-msgstr ""
-
 msgid "SW"
-msgstr ""
-
-msgid "W"
 msgstr ""
 
 msgid "NW"
 msgstr ""
 
-#. Android resource: @strings/no
-msgid "No"
-msgstr ""
-
 msgid "2D"
-msgstr ""
-
-msgid "3D"
 msgstr ""
 
 msgid "OT"
@@ -1864,14 +1371,7 @@ msgstr ""
 msgid "Help"
 msgstr "Msaada"
 
-#, c-format
-msgid "Waypoint %s"
-msgstr ""
-
 msgid "Select waypoint to insert the new one before"
-msgstr ""
-
-msgid "View in Browser"
 msgstr ""
 
 msgid "Item type"
@@ -1887,92 +1387,48 @@ msgstr "namba za nyumba"
 msgid "View Attributes"
 msgstr "angalia sifa"
 
-msgid "Set as position (and deactivate vehicle)"
-msgstr ""
-
 msgid "POIs"
 msgstr ""
 
 msgid "View on map"
 msgstr "angalia kwenye ramani"
 
-msgid "Remove search results from the map"
-msgstr ""
-
 msgid "Show results on the map"
-msgstr ""
-
-msgid "Cut Bookmark"
 msgstr ""
 
 msgid "Copy Bookmark"
 msgstr ""
 
-msgid "Rename Bookmark"
-msgstr ""
-
 msgid "Paste Bookmark"
-msgstr ""
-
-msgid "Delete Bookmark"
 msgstr ""
 
 msgid "Delete waypoint"
 msgstr ""
 
-msgid "Bookmarks"
-msgstr ""
-
 msgid "Bookmarks as waypoints"
 msgstr ""
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Replace with waypoints"
-msgstr ""
-
-msgid "Delete Folder"
 msgstr ""
 
 #. Adds the Bookmark folders
 msgid "Add Bookmark folder"
 msgstr ""
 
-#. Pastes the Bookmark
-msgid "Paste bookmark"
-msgstr ""
-
 #, c-format
 msgid "Bookmark %s"
-msgstr ""
-
-#, c-format
-msgid "Download %s"
 msgstr ""
 
 msgid "Map Download"
 msgstr ""
 
-msgid "Active"
-msgstr ""
-
 msgid "Download Enabled"
-msgstr ""
-
-msgid "Download completely"
 msgstr ""
 
 msgid "Show Satellite Status"
 msgstr "onyesha mawasiliano ya gps"
 
-msgid " Elevation "
-msgstr ""
-
 msgid " Azimuth "
-msgstr ""
-
-msgid "Show NMEA Data"
 msgstr ""
 
 msgid "car"
@@ -1992,14 +1448,8 @@ msgstr "mbinu inayotumiwa: %s"
 msgid "Change profile to: %s"
 msgstr "badilisha mbinu kwenda %s"
 
-msgid "Set as active"
-msgstr ""
-
 msgid "Show Satellite status"
 msgstr "onyesha mawasiliano ya gps"
-
-msgid "Show NMEA data"
-msgstr ""
 
 msgid "Add Bookmark"
 msgstr ""
@@ -2018,13 +1468,7 @@ msgstr "kwa"
 msgid "And all the Navit Team"
 msgstr "na timu yote ya navit"
 
-msgid "members and contributors."
-msgstr ""
-
 msgid "Waypoints"
-msgstr ""
-
-msgid "Enter Coordinates"
 msgstr ""
 
 #.
@@ -2034,9 +1478,6 @@ msgstr ""
 #. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
 #. gui_internal_widget_append(w, we)
 msgid "Latitude Longitude"
-msgstr ""
-
-msgid "Enter coordinates, for example:"
 msgstr ""
 
 msgid "Vehicle"
@@ -2054,17 +1495,11 @@ msgstr "angalia kaskazini"
 msgid "Map follows Vehicle"
 msgstr "ramani inafuata kisafirisho"
 
-msgid "Plan with Waypoints"
-msgstr ""
-
 msgid "Maps"
 msgstr "ramani"
 
 msgid "Layout"
 msgstr "Mpangilio"
-
-msgid "Height Profile"
-msgstr ""
 
 msgid "Route Description"
 msgstr "maelekezo ya njia"
@@ -2078,17 +1513,11 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "malengo yaliyopita"
 
-msgid "- No former destinations available -"
-msgstr ""
-
 msgid "Message"
 msgstr "Ujumbe"
 
 msgid "Back"
 msgstr "Nyuma"
-
-msgid "Back to map"
-msgstr ""
 
 msgid "Main Menu"
 msgstr "menyu kuu"
@@ -2096,21 +1525,11 @@ msgstr "menyu kuu"
 msgid "House number"
 msgstr "namba ya nyumba"
 
-msgid "Next"
-msgstr ""
-
 msgid "Prev"
-msgstr ""
-
-msgid "Return to route!"
 msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"
-msgstr ""
-
-#. warning told
-msgid "Please decrease your speed"
 msgstr ""
 
 msgid "Vehicle Position"

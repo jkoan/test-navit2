@@ -152,19 +152,9 @@ msgstr[0] "за %d километара"
 msgstr[1] "за %d километара"
 msgstr[2] "за %d километара"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
-msgstr ""
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%1$sonto %2$s|masculine form"
 msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
@@ -208,22 +198,12 @@ msgstr "%sна %s"
 msgid "When possible, please turn around"
 msgstr "Када буде могуће, променити смер"
 
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
-
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "Прати пут до следећег %s"
 
 msgid "Enter the roundabout soon"
 msgstr "Ускоро прелазак на обилазницу"
-
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
 
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
@@ -239,19 +219,9 @@ msgstr "сад"
 msgid "then"
 msgstr "потом"
 
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|right"
-msgstr ""
-
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|left"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
@@ -259,15 +229,7 @@ msgstr ""
 msgid "Merge %1$s%2$s|left"
 msgstr ""
 
-msgid "on your left"
-msgstr ""
-
 msgid "on your right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -275,16 +237,7 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 msgid "at exit"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -292,19 +245,9 @@ msgstr ""
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -358,21 +301,6 @@ msgstr "потом променити смер"
 #, c-format
 msgid "Make a U-turn %1$s|right"
 msgstr "Променити смер %1$s"
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
-msgstr ""
 
 msgid "then you have reached your destination."
 msgstr "потом сте стигли на своје одредиште."
@@ -570,10 +498,6 @@ msgstr "Брунеј"
 #. Android resource: @strings/bolivia
 msgid "Bolivia"
 msgstr "Боливија"
-
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
 
 #. 076
 #. Android resource: @strings/brazil
@@ -2204,17 +2128,11 @@ msgstr ""
 msgid "Satellite Status"
 msgstr "Стање сателита"
 
-msgid "NMEA Data"
-msgstr ""
-
 msgid "car_shortest"
 msgstr "најкраћим_колима"
 
 msgid "car_avoid_tolls"
 msgstr "алати_избегавања_колима"
-
-msgid "car_pedantic"
-msgstr ""
 
 msgid "horse"
 msgstr "коњ"
@@ -2291,10 +2209,6 @@ msgstr "Изађи из Навита"
 msgid "Backup / Restore"
 msgstr "Остава / повратак са ње"
 
-#. Android resource: @strings/optionsmenu_set_map_location
-msgid "Set map location"
-msgstr ""
-
 #. Android resource: @strings/position_popup_drive_here
 msgid "Route to here"
 msgstr "Путања довде"
@@ -2319,10 +2233,6 @@ msgstr "Преузимање карте"
 msgid "Downloading:"
 msgstr "Преузимам:"
 
-#. Android resource: @strings/map_download_eta
-msgid "ETA"
-msgstr ""
-
 #. Android resource: @strings/map_download_ready
 msgid "ready"
 msgstr "спремно"
@@ -2339,12 +2249,6 @@ msgstr "Преузимање карте је отказано"
 msgid "Not enough free space"
 msgstr "Нема довољно расположивог простора"
 
-#. Android resource: @strings/map_download_oversize
-msgid ""
-"Sorry, we currently do not support maps above 3.8G on Android, please select "
-"a smaller one."
-msgstr ""
-
 #. Android resource: @strings/map_no_fix
 msgid "No location. Reopen after location fix."
 msgstr "Нема положаја. Отварам поново по исправци положаја."
@@ -2356,10 +2260,6 @@ msgstr "Карте које садрже тренутни положај"
 #. Android resource: @strings/map_downloading
 msgid "downloading"
 msgstr "преузимање"
-
-#. Android resource: @strings/map_download_medium_unavailable
-msgid "Media selected for map storage is not available"
-msgstr ""
 
 #. Android resource: @strings/map_download_error_writing_map
 msgid "Error writing map!"
@@ -2471,10 +2371,6 @@ msgstr "Остава"
 msgid "Restore"
 msgstr "Поврати"
 
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
-
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""
 "Navit can use any text to speech engine installed on your device. The "
@@ -2505,10 +2401,6 @@ msgstr "Тајван"
 #. Android resource: @strings/korea
 msgid "Korea"
 msgstr "Кореја"
-
-#. Android resource: @strings/uae_other
-msgid "UAE+Other"
-msgstr ""
 
 #. Android resource: @strings/oceania
 msgid "Oceania"
@@ -2546,10 +2438,6 @@ msgstr "Бенелукс"
 msgid "Alsace"
 msgstr "Алзас"
 
-#. Android resource: @strings/aquitaine
-msgid "Aquitaine"
-msgstr ""
-
 #. Android resource: @strings/auvergne
 msgid "Auvergne"
 msgstr ""
@@ -2562,10 +2450,6 @@ msgstr "Средиште"
 msgid "Bretagne"
 msgstr "Бретања"
 
-#. Android resource: @strings/bourgogne
-msgid "Bourgogne"
-msgstr ""
-
 #. Android resource: @strings/basse_normandie
 msgid "Basse-Normandie"
 msgstr ""
@@ -2574,24 +2458,12 @@ msgstr ""
 msgid "Champagne-Ardenne"
 msgstr "Шампањ-Арден"
 
-#. Android resource: @strings/corse
-msgid "Corse"
-msgstr ""
-
 #. Android resource: @strings/franche_comte
 msgid "Franche-Comte"
 msgstr ""
 
-#. Android resource: @strings/haute_normandie
-msgid "Haute-Normandie"
-msgstr ""
-
 #. Android resource: @strings/ile_de_france
 msgid "Ile-de-France"
-msgstr ""
-
-#. Android resource: @strings/languedoc_roussillon
-msgid "Languedoc-Roussillon"
 msgstr ""
 
 #. Android resource: @strings/limousin
@@ -2606,64 +2478,32 @@ msgstr "Лорена"
 msgid "Midi-Pyrenees"
 msgstr "Средњи Пиринеји"
 
-#. Android resource: @strings/nord_pas_de_calais
-msgid "Nord-pas-de-Calais"
-msgstr ""
-
 #. Android resource: @strings/pays_de_la_loire
 msgid "Pays-de-la-Loire"
-msgstr ""
-
-#. Android resource: @strings/picardie
-msgid "Picardie"
 msgstr ""
 
 #. Android resource: @strings/poitou_charentes
 msgid "Poitou-Charentes"
 msgstr ""
 
-#. Android resource: @strings/provence_alpes_cote_d_azur
-msgid "Provence-Alpes-Cote-d-Azur"
-msgstr ""
-
 #. Android resource: @strings/rhone_alpes
 msgid "Rhone-Alpes"
-msgstr ""
-
-#. Android resource: @strings/baden_wuerttemberg
-msgid "Baden-Wuerttemberg"
 msgstr ""
 
 #. Android resource: @strings/bayern
 msgid "Bayern"
 msgstr ""
 
-#. Android resource: @strings/mittelfranken
-msgid "Mittelfranken"
-msgstr ""
-
 #. Android resource: @strings/niederbayern
 msgid "Niederbayern"
-msgstr ""
-
-#. Android resource: @strings/oberbayern
-msgid "Oberbayern"
 msgstr ""
 
 #. Android resource: @strings/oberfranken
 msgid "Oberfranken"
 msgstr ""
 
-#. Android resource: @strings/oberpfalz
-msgid "Oberpfalz"
-msgstr ""
-
 #. Android resource: @strings/schwaben
 msgid "Schwaben"
-msgstr ""
-
-#. Android resource: @strings/unterfranken
-msgid "Unterfranken"
 msgstr ""
 
 #. Android resource: @strings/berlin
@@ -2682,24 +2522,12 @@ msgstr "Бремен"
 msgid "Hamburg"
 msgstr "Хамбург"
 
-#. Android resource: @strings/hessen
-msgid "Hessen"
-msgstr ""
-
 #. Android resource: @strings/mecklenburg_vorpommern
 msgid "Mecklenburg-Vorpommern"
 msgstr ""
 
-#. Android resource: @strings/niedersachsen
-msgid "Niedersachsen"
-msgstr ""
-
 #. Android resource: @strings/nordrhein_westfalen
 msgid "Nordrhein-westfalen"
-msgstr ""
-
-#. Android resource: @strings/rheinland_pfalz
-msgid "Rheinland-Pfalz"
 msgstr ""
 
 #. Android resource: @strings/saarland
@@ -2710,16 +2538,8 @@ msgstr "Сарланд"
 msgid "Sachsen-Anhalt"
 msgstr "Саксонија-Анхалт"
 
-#. Android resource: @strings/sachsen
-msgid "Sachsen"
-msgstr ""
-
 #. Android resource: @strings/schleswig_holstein
 msgid "Schleswig-Holstein"
-msgstr ""
-
-#. Android resource: @strings/thueringen
-msgid "Thueringen"
 msgstr ""
 
 #. Android resource: @strings/mallorca
@@ -2738,16 +2558,8 @@ msgstr "Скандинавија"
 msgid "England"
 msgstr "Енглеска"
 
-#. Android resource: @strings/buckinghamshire
-msgid "Buckinghamshire"
-msgstr ""
-
 #. Android resource: @strings/cambridgeshire
 msgid "Cambridgeshire"
-msgstr ""
-
-#. Android resource: @strings/cumbria
-msgid "Cumbria"
 msgstr ""
 
 #. Android resource: @strings/east_yorkshire_with_hull
@@ -2758,17 +2570,9 @@ msgstr ""
 msgid "Essex"
 msgstr "Есекс"
 
-#. Android resource: @strings/herefordshire
-msgid "Herefordshire"
-msgstr ""
-
 #. Android resource: @strings/kent
 msgid "Kent"
 msgstr "Кент"
-
-#. Android resource: @strings/lancashire
-msgid "Lancashire"
-msgstr ""
 
 #. Android resource: @strings/leicestershire
 msgid "Leicestershire"
@@ -2778,32 +2582,16 @@ msgstr ""
 msgid "Norfolk"
 msgstr "Норфолк"
 
-#. Android resource: @strings/nottinghamshire
-msgid "Nottinghamshire"
-msgstr ""
-
 #. Android resource: @strings/oxfordshire
 msgid "Oxfordshire"
-msgstr ""
-
-#. Android resource: @strings/shropshire
-msgid "Shropshire"
 msgstr ""
 
 #. Android resource: @strings/somerset
 msgid "Somerset"
 msgstr "Сомерсет"
 
-#. Android resource: @strings/south_yorkshire
-msgid "South yorkshire"
-msgstr ""
-
 #. Android resource: @strings/suffolk
 msgid "Suffolk"
-msgstr ""
-
-#. Android resource: @strings/surrey
-msgid "Surrey"
 msgstr ""
 
 #. Android resource: @strings/wiltshire
@@ -2817,10 +2605,6 @@ msgstr "Шкотска"
 #. Android resource: @strings/wales
 msgid "Wales"
 msgstr "Велс"
-
-#. Android resource: @strings/crete
-msgid "Crete"
-msgstr ""
 
 #. Android resource: @strings/north_america
 msgid "North America"
@@ -2837,10 +2621,6 @@ msgstr "Хаваји"
 #. Android resource: @strings/usa
 msgid "USA"
 msgstr "САД"
-
-#. Android resource: @strings/midwest
-msgid "Midwest"
-msgstr ""
 
 #. Android resource: @strings/michigan
 msgid "Michigan"
@@ -2865,10 +2645,6 @@ msgstr "Вермонт"
 #. Android resource: @strings/pacific
 msgid "Pacific"
 msgstr "Пацифик"
-
-#. Android resource: @strings/south
-msgid "South"
-msgstr ""
 
 #. Android resource: @strings/arkansas
 msgid "Arkansas"
@@ -2949,10 +2725,6 @@ msgstr "Орегон"
 #. Android resource: @strings/utah
 msgid "Utah"
 msgstr "Јута"
-
-#. Android resource: @strings/washington_state
-msgid "Washington State"
-msgstr ""
 
 #. Android resource: @strings/south_middle_america
 msgid "South+Middle America"

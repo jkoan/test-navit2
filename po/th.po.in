@@ -31,10 +31,6 @@ msgstr ""
 msgid "setting '%s' to '%s'\n"
 msgstr "กำหนด '%s' ถึง '%s'\n"
 
-#. TRANSLATORS: the following counts refer to streets
-msgid "zeroth"
-msgstr ""
-
 msgid "first"
 msgstr "ครั้งแรก"
 
@@ -50,41 +46,21 @@ msgstr "ที่สี่"
 msgid "fifth"
 msgstr "ที่ห้า"
 
-msgid "sixth"
-msgstr ""
-
 #. TRANSLATORS: the following counts refer to roundabout exits
 msgid "zeroth exit"
-msgstr ""
-
-msgid "first exit"
 msgstr ""
 
 msgid "second exit"
 msgstr ""
 
-msgid "third exit"
-msgstr ""
-
 msgid "fourth exit"
-msgstr ""
-
-msgid "fifth exit"
 msgstr ""
 
 msgid "sixth exit"
 msgstr ""
 
 #, c-format
-msgid "%d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d feet"
-msgstr ""
-
-#, c-format
-msgid "%d.%d miles"
 msgstr ""
 
 #, c-format
@@ -127,19 +103,9 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "อีก %d กิโลเมตร"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
-msgstr ""
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%1$sonto %2$s|masculine form"
 msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
@@ -175,34 +141,16 @@ msgstr "%sเข้าสู %s%s%s"
 msgid "%sinto %s%s%s|neuter form"
 msgstr "%sเข้าสู่ %s%s%s"
 
-#. TRANSLATORS: gives the name of the next road to turn into (into the E17)
-#, c-format
-msgid "%sinto the %s"
-msgstr ""
-
 msgid "When possible, please turn around"
 msgstr "ถ้าเป็นไปได้ ให้กลับรถ"
-
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
 
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "ตรงไปตามถนน แล้ว %s"
 
-msgid "Enter the roundabout soon"
-msgstr ""
-
 #. TRANSLATORS: %s is the distance to the roundabout
 #, c-format
 msgid "Enter the roundabout %s"
-msgstr ""
-
-#. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
-#, c-format
-msgid "Leave the roundabout at the %1$s %2$s"
 msgstr ""
 
 msgid "soon"
@@ -211,17 +159,9 @@ msgstr "ในไม่ช้า"
 msgid "now"
 msgstr "เดี๋ยวนี้"
 
-msgid "then"
-msgstr ""
-
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|right"
 msgstr ""
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
@@ -229,15 +169,7 @@ msgstr ""
 msgid "then merge%1$s|left"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|left"
-msgstr ""
-
 msgid "on your left"
-msgstr ""
-
-msgid "on your right"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
@@ -245,16 +177,8 @@ msgstr ""
 msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
-#, c-format
-msgid "Take the exit %1$s %2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
 msgid "at interchange"
-msgstr ""
-
-msgid "at exit"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -262,29 +186,14 @@ msgstr ""
 msgid "then continue straight%1$s"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then keep right%1$s"
 msgstr ""
 
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then keep left%1$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep left %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
@@ -295,43 +204,20 @@ msgstr "ขวา"
 msgid "left"
 msgstr "ซ้าย"
 
-#. TRANSLATORS: as in "turn easily right"
-msgid "easily "
-msgstr ""
-
 #. TRANSLATORS: as in "turn strongly right"
 msgid "strongly "
 msgstr "อย่างเคร่งคัด "
 
 #, c-format
-msgid "Take the %1$s road to the %2$s"
-msgstr ""
-
-#, c-format
 msgid "after %i roads"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is strength, the second is direction, the third is distance, the fourth is destination
-#, c-format
-msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr ""
 
 #. TRANSLATORS: Left U-turn, the stuff after | doesn't have to be included.
 msgid "then make a U-turn|left"
 msgstr ""
 
-#. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Make a U-turn %1$s|left"
-msgstr ""
-
 #. TRANSLATORS: Right U-turn, the stuff after | doesn't have to be included.
 msgid "then make a U-turn|right"
-msgstr ""
-
-#. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Make a U-turn %1$s|right"
 msgstr ""
 
 #. An empty placeholder that we can use in the future for
@@ -349,9 +235,6 @@ msgstr ""
 msgid "follow"
 msgstr ""
 
-msgid "then you have reached your destination."
-msgstr ""
-
 #. TRANSLATORS: the arg. is distance
 #, c-format
 msgid "You have reached your destination %s"
@@ -362,10 +245,6 @@ msgstr ""
 
 msgid "Exit"
 msgstr "ทางออก"
-
-#. Android resource: @strings/position_popup_title
-msgid "Position"
-msgstr ""
 
 msgid "Command"
 msgstr "คำสั่ง"
@@ -394,14 +273,8 @@ msgstr "ระยะทาง ถึงที่หมาย"
 msgid "Destination Time"
 msgstr "เวลา ถึงที่หมาย"
 
-msgid "Roadbook"
-msgstr ""
-
 #, c-format
 msgid "Waypoint %d"
-msgstr ""
-
-msgid "Visit before..."
 msgstr ""
 
 msgid "Set as position"
@@ -535,10 +408,6 @@ msgstr "บูรันดิ"
 msgid "Benin"
 msgstr "เบนิน"
 
-#. 652
-msgid "Saint Barthelemy"
-msgstr ""
-
 #. 060
 msgid "Bermuda"
 msgstr "เบอร์มิวดา"
@@ -551,10 +420,6 @@ msgstr "บรูไนดูรัสซาลาม"
 #. Android resource: @strings/bolivia
 msgid "Bolivia"
 msgstr "โบลิเวีย"
-
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
 
 #. 076
 #. Android resource: @strings/brazil
@@ -654,10 +519,6 @@ msgstr "คิวบา"
 #. 132
 msgid "Cape Verde"
 msgstr "แหลมเวอร์ดี"
-
-#. 531
-msgid "Curacao"
-msgstr ""
 
 #. 162
 msgid "Christmas Island"
@@ -1058,10 +919,6 @@ msgstr "มาดากัสกา"
 msgid "Marshall Islands"
 msgstr "หมู่เกาะมาแชล"
 
-#. 807
-msgid "Macedonia, the former Yugoslav Republic of"
-msgstr ""
-
 #. 466
 msgid "Mali"
 msgstr "มาลี"
@@ -1315,10 +1172,6 @@ msgstr "สฟาลบาร์ และ ยานไมเอน"
 msgid "Slovakia"
 msgstr "สโลวาเกีย"
 
-#. 694
-msgid "Sierra Leone"
-msgstr ""
-
 #. 674
 msgid "San Marino"
 msgstr "ซานมาริโน"
@@ -1336,10 +1189,6 @@ msgstr "โซมาเลีย"
 msgid "Suriname"
 msgstr "ซูรีนามิ"
 
-#. 728
-msgid "South Sudan"
-msgstr ""
-
 #. 678
 msgid "Sao Tome and Principe"
 msgstr "ซาวโทม และ พรินซิป"
@@ -1347,10 +1196,6 @@ msgstr "ซาวโทม และ พรินซิป"
 #. 222
 msgid "El Salvador"
 msgstr "เอลซัลวาดอร์"
-
-#. 534
-msgid "Sint Maarten (Dutch part)"
-msgstr ""
 
 #. 760
 msgid "Syrian Arab Republic"
@@ -1517,9 +1362,6 @@ msgstr "แซมเบีย"
 msgid "Zimbabwe"
 msgstr "ซิมบับเว"
 
-msgid "* Unknown, add is_in tags to those cities"
-msgstr ""
-
 msgid ""
 "navit usage:\n"
 "navit [options] [configfile]\n"
@@ -1554,15 +1396,7 @@ msgstr ""
 msgid "unknown street"
 msgstr ""
 
-#. Safe cast: attr_generic_set_attr does not modify its parameter.
-msgid "Unnamed vehicle"
-msgstr ""
-
 msgid "Failed to write bookmarks file"
-msgstr ""
-
-#. Strings from navit_shipped.xml
-msgid "Map Point"
 msgstr ""
 
 msgid "Car"
@@ -1601,14 +1435,8 @@ msgstr "รหัสไปรษณีย์"
 msgid "City"
 msgstr "เมือง"
 
-msgid "District/Township"
-msgstr ""
-
 msgid "Map"
 msgstr "แผนที่"
-
-msgid "Bookmark"
-msgstr ""
 
 msgid "Destination"
 msgstr "จุดหมาย"
@@ -1641,31 +1469,16 @@ msgstr "ยานพาหนะ"
 msgid "Zoom_Out"
 msgstr "ขยายออก"
 
-msgid "Decrease zoom level"
-msgstr ""
-
 msgid "Zoom_In"
 msgstr "ขยายเข้า"
-
-msgid "Increase zoom level"
-msgstr ""
 
 msgid "_Recalculate"
 msgstr "คำนวนใหม่"
 
-msgid "Redraw map"
-msgstr ""
-
 msgid "_Info"
 msgstr "ข้อมูล"
 
-msgid "Set _destination"
-msgstr ""
-
 msgid "Opens address search dialog"
-msgstr ""
-
-msgid "_POI search"
 msgstr ""
 
 msgid "Opens POI search dialog"
@@ -1680,9 +1493,6 @@ msgstr "ทดสอบ"
 msgid "_Quit"
 msgstr "_ออกจากโปรแกรม"
 
-msgid "Quit the application"
-msgstr ""
-
 msgid "Show position _cursor"
 msgstr ""
 
@@ -1695,19 +1505,10 @@ msgstr ""
 msgid "_Keep orientation to the North"
 msgstr ""
 
-msgid "Switches map orientation to the north or the vehicle"
-msgstr ""
-
 msgid "_Roadbook"
 msgstr ""
 
-msgid "Show/hide route description"
-msgstr ""
-
 msgid "_Autozoom"
-msgstr ""
-
-msgid "Enable/disable automatic zoom level changing"
 msgstr ""
 
 msgid "_Fullscreen"
@@ -1716,49 +1517,25 @@ msgstr "แสดงผลเต็มจอภาพ"
 msgid "Data"
 msgstr "ข้อมูล"
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant"
-msgstr ""
-
-msgid "Restaurant. Fast food"
 msgstr ""
 
 msgid "Hotel"
 msgstr ""
 
-msgid "Car parking"
-msgstr ""
-
 msgid "Fuel station"
-msgstr ""
-
-msgid "Bank"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "Train station"
-msgstr ""
-
-msgid "School"
 msgstr ""
 
 msgid "Police"
 msgstr ""
 
-msgid "Justice"
-msgstr ""
-
 msgid "Taxi"
-msgstr ""
-
-msgid "Shopping"
 msgstr ""
 
 #. Input is in kilometers
@@ -1794,13 +1571,7 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Category"
-msgstr ""
-
-msgid "Direction"
 msgstr ""
 
 msgid "Distance"
@@ -1836,14 +1607,7 @@ msgstr "ตะวันตก"
 msgid "NW"
 msgstr "ตะวันออกเฉียงเหนือ"
 
-#. Android resource: @strings/no
-msgid "No"
-msgstr ""
-
 msgid "2D"
-msgstr ""
-
-msgid "3D"
 msgstr ""
 
 msgid "OT"
@@ -1856,82 +1620,42 @@ msgstr ""
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "เส้นทาง 0000km 0+00:00 ETA"
 
-msgid "Help"
-msgstr ""
-
 #, c-format
 msgid "Waypoint %s"
 msgstr ""
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
-msgstr ""
-
-msgid "Item type"
 msgstr ""
 
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
 msgstr ""
 
-msgid "House numbers"
-msgstr ""
-
 msgid "View Attributes"
-msgstr ""
-
-msgid "Set as position (and deactivate vehicle)"
 msgstr ""
 
 msgid "POIs"
 msgstr ""
 
-msgid "View on map"
-msgstr ""
-
 msgid "Remove search results from the map"
-msgstr ""
-
-msgid "Show results on the map"
 msgstr ""
 
 msgid "Cut Bookmark"
 msgstr ""
 
-msgid "Copy Bookmark"
-msgstr ""
-
 msgid "Rename Bookmark"
-msgstr ""
-
-msgid "Paste Bookmark"
 msgstr ""
 
 msgid "Delete Bookmark"
 msgstr ""
 
-msgid "Delete waypoint"
-msgstr ""
-
 msgid "Bookmarks"
 msgstr "บุ๊กมาร์ก"
-
-msgid "Bookmarks as waypoints"
-msgstr ""
 
 msgid "Save waypoints"
 msgstr ""
 
-msgid "Replace with waypoints"
-msgstr ""
-
 msgid "Delete Folder"
-msgstr ""
-
-#. Adds the Bookmark folders
-msgid "Add Bookmark folder"
 msgstr ""
 
 #. Pastes the Bookmark
@@ -1939,96 +1663,45 @@ msgid "Paste bookmark"
 msgstr ""
 
 #, c-format
-msgid "Bookmark %s"
-msgstr ""
-
-#, c-format
 msgid "Download %s"
-msgstr ""
-
-msgid "Map Download"
 msgstr ""
 
 msgid "Active"
 msgstr ""
 
-msgid "Download Enabled"
-msgstr ""
-
 msgid "Download completely"
-msgstr ""
-
-msgid "Show Satellite Status"
 msgstr ""
 
 msgid " Elevation "
 msgstr ""
 
-msgid " Azimuth "
-msgstr ""
-
 msgid "Show NMEA Data"
 msgstr ""
 
-msgid "car"
-msgstr ""
-
 msgid "bike"
-msgstr ""
-
-msgid "pedestrian"
 msgstr ""
 
 #, c-format
 msgid "Current profile: %s"
 msgstr ""
 
-#, c-format
-msgid "Change profile to: %s"
-msgstr ""
-
 msgid "Set as active"
-msgstr ""
-
-msgid "Show Satellite status"
 msgstr ""
 
 msgid "Show NMEA data"
 msgstr ""
 
-msgid "Add Bookmark"
-msgstr ""
-
 msgid "Rename"
-msgstr ""
-
-msgid "About Navit"
 msgstr ""
 
 #. Authors
 msgid "By"
 msgstr ""
 
-#. Contributors
-msgid "And all the Navit Team"
-msgstr ""
-
 msgid "members and contributors."
 msgstr ""
 
-msgid "Waypoints"
-msgstr ""
-
 msgid "Enter Coordinates"
-msgstr ""
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
 msgstr ""
 
 msgid "Enter coordinates, for example:"
@@ -2037,29 +1710,17 @@ msgstr ""
 msgid "Vehicle"
 msgstr "ยานพาหนะ"
 
-msgid "Rules"
-msgstr ""
-
 msgid "Lock on road"
 msgstr ""
 
 msgid "Northing"
 msgstr "ทางทิศเหนือ"
 
-msgid "Map follows Vehicle"
-msgstr ""
-
 msgid "Plan with Waypoints"
-msgstr ""
-
-msgid "Maps"
 msgstr ""
 
 msgid "Layout"
 msgstr "การจัดเรียง"
-
-msgid "Height Profile"
-msgstr ""
 
 msgid "Route Description"
 msgstr ""
@@ -2073,39 +1734,20 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "ก่อนถึง ที่หมาย"
 
-msgid "- No former destinations available -"
-msgstr ""
-
 msgid "Message"
-msgstr ""
-
-msgid "Back"
 msgstr ""
 
 msgid "Back to map"
 msgstr ""
 
-msgid "Main Menu"
-msgstr ""
-
 msgid "House number"
-msgstr ""
-
-msgid "Next"
 msgstr ""
 
 msgid "Prev"
 msgstr ""
 
-msgid "Return to route!"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
-msgstr ""
-
-#. warning told
-msgid "Please decrease your speed"
 msgstr ""
 
 msgid "Vehicle Position"

@@ -135,11 +135,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "ühe kilomeetri pärast"
 msgstr[1] "%d kilomeetri pärast"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
@@ -190,11 +185,6 @@ msgstr "%steele %s"
 
 msgid "When possible, please turn around"
 msgstr "Kui võimalik, palun pööra ümber"
-
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
 
 #, c-format
 msgid "Follow the road for the next %s"
@@ -251,26 +241,12 @@ msgstr "vasakul pool"
 msgid "on your right"
 msgstr "paremal pool"
 
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 msgid "at exit"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -278,19 +254,9 @@ msgstr ""
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -344,21 +310,6 @@ msgstr "siis pööra ümber"
 #, c-format
 msgid "Make a U-turn %1$s|right"
 msgstr "Pööra ümber %1$s"
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
-msgstr ""
 
 msgid "then you have reached your destination."
 msgstr "siis oled jõudnud sihtpunkti."
@@ -1531,18 +1482,6 @@ msgstr "Zimbabwe"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "* Tundmatu, lisa \"is_in\" märge neile linnadele"
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -1676,9 +1615,6 @@ msgstr "Sihtpunkti _määramine"
 msgid "Opens address search dialog"
 msgstr "Ava aadressiotsingu aken"
 
-msgid "_POI search"
-msgstr ""
-
 msgid "Opens POI search dialog"
 msgstr ""
 
@@ -1762,9 +1698,6 @@ msgstr "Kool"
 
 msgid "Police"
 msgstr "Politsei"
-
-msgid "Justice"
-msgstr ""
 
 msgid "Taxi"
 msgstr "Takso"
@@ -2486,10 +2419,6 @@ msgstr "Varundamine"
 #. Android resource: @strings/restore
 msgid "Restore"
 msgstr "Taasta"
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""

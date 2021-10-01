@@ -150,11 +150,6 @@ msgstr[0] "za jeden kilometr"
 msgstr[1] "za %d kilometry"
 msgstr[2] "za %d kilometrów"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
@@ -205,11 +200,6 @@ msgstr "%s do %s"
 
 msgid "When possible, please turn around"
 msgstr "Zawróc, gdy będzie to możliwe"
-
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
 
 #, c-format
 msgid "Follow the road for the next %s"
@@ -266,11 +256,6 @@ msgstr "po twojej lewej"
 msgid "on your right"
 msgstr "po twojej prawej"
 
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
@@ -279,9 +264,6 @@ msgstr ""
 #. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
 msgid "at interchange"
 msgstr "na skrzyżowaniu"
-
-msgid "at exit"
-msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
@@ -359,21 +341,6 @@ msgstr "następnie zawróc"
 #, c-format
 msgid "Make a U-turn %1$s|right"
 msgstr "Zawróc %1$s"
-
-#. An empty placeholder that we can use in the future for
-#. * some motorway commands that are now suppressed but we
-#. * can in some cases make it say here :
-#. * 'follow destination blabla' without any further driving instructions,
-#. * in cases where relevant destination info is available.
-#. * Even if there is no driving command to be announced, in some cases
-#. * there is an overhead roadsign in preparation of an upcoming road-split,
-#. * and then we can give useful info to the driver.
-#. *
-#. *  UNTESTED !
-#. *
-#.
-msgid "follow"
-msgstr ""
 
 msgid "then you have reached your destination."
 msgstr "następnie dojechałeś do celu."
@@ -1546,18 +1513,6 @@ msgstr "Zimbabwe"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "* Nieznane, dodaj is w tagach dla tych miast"
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -1691,9 +1646,6 @@ msgstr "Ustaw _cel"
 msgid "Opens address search dialog"
 msgstr "Otwórz okno dialogowe wyszukiwania adresu"
 
-msgid "_POI search"
-msgstr ""
-
 msgid "Opens POI search dialog"
 msgstr ""
 
@@ -1778,9 +1730,6 @@ msgstr "Szkoła"
 msgid "Police"
 msgstr "Posterunek policji"
 
-msgid "Justice"
-msgstr ""
-
 msgid "Taxi"
 msgstr "Postój taksówek"
 
@@ -1811,9 +1760,6 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "POI search"
-msgstr ""
-
 msgid "Select a category"
 msgstr "Wybierz kategorię"
 
@@ -1834,9 +1780,6 @@ msgstr ""
 
 msgid "Name"
 msgstr "Nazwa"
-
-msgid "Visit Before"
-msgstr ""
 
 msgid "N"
 msgstr "N"
@@ -2047,15 +1990,6 @@ msgstr "Punkty trasy"
 
 msgid "Enter Coordinates"
 msgstr "Wprowadź współrzędne"
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
-msgstr ""
 
 msgid "Enter coordinates, for example:"
 msgstr "Wprowadź współrzędne, na przykład:"
@@ -2294,10 +2228,6 @@ msgstr "Oddal (-)"
 msgid "Download maps"
 msgstr "Pobierz Mapy"
 
-#. Android resource: @strings/optionsmenu_toggle_poi
-msgid "Toggle POIs"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_exit_navit
 msgid "Exit Navit"
 msgstr "Wyjdź z Navit"
@@ -2503,10 +2433,6 @@ msgstr "Kopia zapasowa"
 #. Android resource: @strings/restore
 msgid "Restore"
 msgstr "Przywróć"
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""

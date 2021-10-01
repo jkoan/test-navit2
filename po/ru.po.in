@@ -24,10 +24,7 @@
 # kisaa https://launchpad.net/~kisaa-mail
 # tryagain https://launchpad.net/~mdankov
 # Павел https://launchpad.net/~pavel-sgn
-<<<<<<< HEAD
 # Yurt Page <yurtpage@gmail.com>, 2025.
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
@@ -234,12 +231,9 @@ msgstr "Скоро круговое движение"
 msgid "Enter the roundabout %s"
 msgstr "%s круговое движение"
 
-<<<<<<< HEAD
 msgid "then enter the roundabout"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -344,13 +338,10 @@ msgid "strongly "
 msgstr "круто "
 
 #, c-format
-<<<<<<< HEAD
 msgid "then take the %1$s road to the %2$s"
 msgstr ""
 
 #, c-format
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Take the %1$s road to the %2$s"
 msgstr "Выезжайте на %1$s дорогу в направлении %2$s"
 
@@ -1567,18 +1558,6 @@ msgstr "Зимбабве"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "* Неизвестный, для выбора городов добавьте теги is_in"
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -2212,7 +2191,6 @@ msgstr "Во весь экран"
 msgid "Window Mode"
 msgstr "Режим окна"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2225,8 +2203,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Описание"
 

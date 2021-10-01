@@ -139,11 +139,6 @@ msgstr[0] "pēc %d kilometra"
 msgstr[1] "pēc %d kilometriem"
 msgstr[2] "pēc %d kilometriem"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Systematic Street Name 3: Separator (Space if required), 4: Street Name
-#, c-format
-msgid "%1$sonto the %2$s%3$s%4$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
 #, c-format
 msgid "%1$sonto %2$s"
@@ -195,22 +190,12 @@ msgstr "Uz %spagriezties pa %s"
 msgid "When possible, please turn around"
 msgstr "Kad iespējams apgriezieties"
 
-#. TRANSLATORS: the argument is the destination to follow
-#, c-format
-msgid "towards %s"
-msgstr ""
-
 #, c-format
 msgid "Follow the road for the next %s"
 msgstr "Turpiniet pa šo ceļu %s"
 
 msgid "Enter the roundabout soon"
 msgstr "Drīzumā uzbraukt uz apļa"
-
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
 
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
@@ -246,15 +231,7 @@ msgstr "tad apvieno%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Apvienošana %1$s%2$s"
 
-msgid "on your left"
-msgstr ""
-
 msgid "on your right"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
-#, c-format
-msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -262,36 +239,17 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 msgid "at exit"
 msgstr "nobrauktuvē"
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then continue straight%1$s"
-msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep left%1$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -563,10 +521,6 @@ msgstr "Bruneja Darusalama"
 #. Android resource: @strings/bolivia
 msgid "Bolivia"
 msgstr "Bolīvija"
-
-#. 535
-msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
 
 #. 076
 #. Android resource: @strings/brazil
@@ -1532,18 +1486,6 @@ msgstr "Zimbabve"
 msgid "* Unknown, add is_in tags to those cities"
 msgstr "* Nezināms, pievienot is_in tagus šīm pilsētām"
 
-msgid ""
-"navit usage:\n"
-"navit [options] [configfile]\n"
-"\t-c <file>: use <file> as config file, instead of using the default file.\n"
-"\t-d <n>: set the global debug output level to <n> (0=error, 1=warning, "
-"2=info, 3=debug).\n"
-"\tSettings from config file will still take effect where they set a higher "
-"level.\n"
-"\t-h: print this usage info and exit.\n"
-"\t-v: print the version and exit.\n"
-msgstr ""
-
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
@@ -1579,9 +1521,6 @@ msgstr "Punkts uz Kartes"
 
 msgid "Car"
 msgstr "Automašīna"
-
-msgid "Iso2"
-msgstr ""
 
 msgid "Iso3"
 msgstr ""
@@ -1858,9 +1797,6 @@ msgstr "2D"
 msgid "3D"
 msgstr "3D"
 
-msgid "OT"
-msgstr ""
-
 #, c-format
 msgid "Route %4.1f%s    %02d:%02d ETA"
 msgstr ""
@@ -2034,15 +1970,6 @@ msgstr "Pieturpunkti"
 msgid "Enter Coordinates"
 msgstr "Ievadiet Koordinātes"
 
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr "Ievadiet koordinātes, piemēram:"
 
@@ -2213,9 +2140,6 @@ msgstr "Auto - ātrākais ceļš"
 
 msgid "car_avoid_tolls"
 msgstr "Auto - izvairīties no maksas ceļiem"
-
-msgid "car_pedantic"
-msgstr ""
 
 msgid "horse"
 msgstr "zirgs"
@@ -2487,10 +2411,6 @@ msgstr "Rezerves kopija"
 #. Android resource: @strings/restore
 msgid "Restore"
 msgstr "Atjaunot"
-
-#. Android resource: @strings/TTS_title_data_missing
-msgid "System text to speech engine data is missing"
-msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
 msgid ""
