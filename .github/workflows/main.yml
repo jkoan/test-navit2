@@ -69,6 +69,8 @@ jobs:
     needs: sanity_check
     container:
         image: hoehnp/sailfishos-platform-sdk:3.1.0.12
+        options:
+          user: root
     steps:
       - uses: actions/checkout@v2
       # TODO currently broken because of USER in Dockerimage and probably because of double containers as well
