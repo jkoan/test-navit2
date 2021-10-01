@@ -119,11 +119,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "%d 킬로미터 후에"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
@@ -140,11 +135,6 @@ msgstr ""
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%sinto %s%s%s|masculine form"
-msgstr ""
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Neuter form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%sinto %s%s%s|neuter form"
 msgstr ""
 
 #. TRANSLATORS: gives the name of the next road to turn into (into the E17)
@@ -173,17 +163,9 @@ msgstr "곧"
 msgid "now"
 msgstr "지금"
 
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
-msgstr ""
-
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
-
-msgid "on your left"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
@@ -191,18 +173,9 @@ msgstr ""
 msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then continue straight%1$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -238,11 +211,6 @@ msgstr "%i 도로 이후에"
 #, c-format
 msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr "%3$s%4$s %1$s%2$s 회전 하세요"
-
-#. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Make a U-turn %1$s|left"
-msgstr ""
 
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
@@ -281,13 +249,7 @@ msgstr ""
 msgid "m"
 msgstr "m"
 
-msgid "Destination Length"
-msgstr ""
-
 msgid "Roadbook"
-msgstr ""
-
-msgid "Visit before..."
 msgstr ""
 
 msgid "Set as position"
@@ -295,10 +257,6 @@ msgstr "지점으로설정"
 
 msgid "Set as destination"
 msgstr "목적지로설정"
-
-#, c-format
-msgid "Point 0x%x 0x%x"
-msgstr ""
 
 #. 020
 msgid "Andorra"
@@ -1318,10 +1276,6 @@ msgstr "우루과이"
 msgid "Uzbekistan"
 msgstr "우즈베키스탄"
 
-#. 670
-msgid "Saint Vincent and the Grenadines"
-msgstr ""
-
 #. 862
 #. Android resource: @strings/venezuela
 msgid "Venezuela"
@@ -1402,13 +1356,7 @@ msgstr ""
 msgid "unknown street"
 msgstr ""
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 msgid "Car"
-msgstr ""
-
-msgid "Iso3"
 msgstr ""
 
 msgid "Country"
@@ -1453,9 +1401,6 @@ msgstr "북마크"
 msgid "_Map"
 msgstr "지도"
 
-msgid "_Projection"
-msgstr ""
-
 msgid "Zoom_Out"
 msgstr "줌아웃"
 
@@ -1465,13 +1410,7 @@ msgstr "줌인"
 msgid "_Recalculate"
 msgstr "재계산"
 
-msgid "_Info"
-msgstr ""
-
 msgid "Opens address search dialog"
-msgstr ""
-
-msgid "Opens POI search dialog"
 msgstr ""
 
 msgid "_Stop Navigation"
@@ -1495,34 +1434,19 @@ msgstr ""
 msgid "_Keep orientation to the North"
 msgstr ""
 
-msgid "_Roadbook"
-msgstr ""
-
 msgid "_Autozoom"
 msgstr ""
 
 msgid "_Fullscreen"
 msgstr "전체화면"
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant. Fast food"
-msgstr ""
-
-msgid "Car parking"
 msgstr ""
 
 msgid "Bank"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "School"
-msgstr ""
-
-msgid "Justice"
 msgstr ""
 
 msgid "Shopping"
@@ -1600,9 +1524,6 @@ msgstr "서"
 msgid "NW"
 msgstr "북서"
 
-msgid "2D"
-msgstr ""
-
 msgid "OT"
 msgstr ""
 
@@ -1617,26 +1538,14 @@ msgstr ""
 msgid "Waypoint %s"
 msgstr "경유지 %s"
 
-msgid "View in Browser"
-msgstr ""
-
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
-msgstr ""
-
-msgid "View Attributes"
 msgstr ""
 
 msgid "POIs"
 msgstr ""
 
-msgid "Remove search results from the map"
-msgstr ""
-
 msgid "Cut Bookmark"
-msgstr ""
-
-msgid "Rename Bookmark"
 msgstr ""
 
 msgid "Delete Bookmark"
@@ -1645,59 +1554,31 @@ msgstr ""
 msgid "Bookmarks"
 msgstr "북마크"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
-msgstr ""
-
-#. Pastes the Bookmark
-msgid "Paste bookmark"
 msgstr ""
 
 #, c-format
 msgid "Download %s"
 msgstr ""
 
-msgid "Active"
-msgstr ""
-
 msgid "Download completely"
 msgstr ""
 
-msgid " Elevation "
-msgstr ""
-
 msgid "Show NMEA Data"
-msgstr ""
-
-msgid "bike"
 msgstr ""
 
 #, c-format
 msgid "Current profile: %s"
 msgstr ""
 
-msgid "Set as active"
-msgstr ""
-
 msgid "Show NMEA data"
-msgstr ""
-
-msgid "Rename"
 msgstr ""
 
 #. Authors
 msgid "By"
 msgstr ""
 
-msgid "members and contributors."
-msgstr ""
-
 msgid "Enter Coordinates"
-msgstr ""
-
-msgid "Enter coordinates, for example:"
 msgstr ""
 
 msgid "Rules"
@@ -1724,20 +1605,10 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "이전목적지"
 
-msgid "Message"
-msgstr ""
-
 msgid "Back to map"
 msgstr ""
 
-msgid "House number"
-msgstr ""
-
 msgid "Prev"
-msgstr ""
-
-#. warning told
-msgid "Look out! Camera!"
 msgstr ""
 
 msgid "Vehicle Position"

@@ -135,11 +135,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "ühe kilomeetri pärast"
 msgstr[1] "%d kilomeetri pärast"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
@@ -241,27 +236,12 @@ msgstr "vasakul pool"
 msgid "on your right"
 msgstr "paremal pool"
 
-#. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
-#, c-format
-msgid "Take the exit %1$s %2$s%3$s"
-msgstr ""
-
 msgid "at exit"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep left %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
@@ -1614,9 +1594,6 @@ msgstr "Sihtpunkti _määramine"
 
 msgid "Opens address search dialog"
 msgstr "Ava aadressiotsingu aken"
-
-msgid "Opens POI search dialog"
-msgstr ""
 
 msgid "_Stop Navigation"
 msgstr "_Peata navigeerimine"

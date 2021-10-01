@@ -82,10 +82,6 @@ msgid "sixth exit"
 msgstr "第六个退出"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -124,11 +120,6 @@ msgstr[0] "%d千米"
 msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "距离%d千米"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
@@ -217,25 +208,14 @@ msgstr "然后合并%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "合并%1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -337,9 +317,6 @@ msgstr "距目的地时间"
 
 msgid "Roadbook"
 msgstr "路线指南"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "设置为起始位置"
@@ -1565,9 +1542,6 @@ msgstr "信息"
 msgid "Opens address search dialog"
 msgstr "打开地址搜索对话框"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "停止导航"
 
@@ -1610,19 +1584,10 @@ msgstr "全屏"
 msgid "Data"
 msgstr "数据"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1664,16 +1629,10 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1723,9 +1682,6 @@ msgstr "路线 0000千米  0+00:00 ETA"
 msgid "Help"
 msgstr "帮助"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "在浏览器中查看"
 
@@ -1745,9 +1701,6 @@ msgstr "您可能感兴趣的位置"
 msgid "View on map"
 msgstr "在地图中查看"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "剪切标签"
 
@@ -1766,9 +1719,6 @@ msgstr "删除标签"
 msgid "Bookmarks"
 msgstr "书签"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1783,9 +1733,6 @@ msgstr "粘帖标签"
 #, c-format
 msgid "Bookmark %s"
 msgstr "书签 %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1848,9 +1795,6 @@ msgstr "和整个的Navit组"
 msgid "members and contributors."
 msgstr "成员和贡献者"
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1905,9 +1849,6 @@ msgstr "主菜单"
 msgid "House number"
 msgstr "房屋编号（门牌号）"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1954,9 +1895,6 @@ msgid "Coordinates"
 msgstr ""
 
 msgid "NMEA Data"
-msgstr ""
-
-msgid "car_avoid_tolls"
 msgstr ""
 
 msgid "horse"

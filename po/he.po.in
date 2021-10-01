@@ -135,11 +135,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "בעוד קילומטר אחד"
 msgstr[1] "בעוד %d קילומטרים"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
@@ -199,17 +194,9 @@ msgstr "בקרוב"
 msgid "now"
 msgstr "כעת"
 
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
-msgstr ""
-
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
-
-msgid "on your left"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
@@ -217,18 +204,9 @@ msgstr ""
 msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then continue straight%1$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -264,11 +242,6 @@ msgstr "לאחר %i כבישים"
 #, c-format
 msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr "פנה %1$s %2$s %4$s %3$s"
-
-#. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Make a U-turn %1$s|left"
-msgstr ""
 
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
@@ -322,9 +295,6 @@ msgstr "זמן ליעד"
 
 msgid "Roadbook"
 msgstr "הוראות נסיעה"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "קבע כמיקום נוכחי"
@@ -1554,9 +1524,6 @@ msgstr "מידע"
 msgid "Set _destination"
 msgstr "הגדרת י_עד"
 
-msgid "_POI search"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "עצור ניווט"
 
@@ -1602,19 +1569,10 @@ msgstr "מסך מלא"
 msgid "Data"
 msgstr "מידע"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1650,9 +1608,6 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "Select a category"
-msgstr ""
-
 msgid "Select a POI"
 msgstr ""
 
@@ -1663,9 +1618,6 @@ msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1714,9 +1666,6 @@ msgstr "מסלול 0000ק\"מ 0+00:00 זמן הגעה משוער"
 
 msgid "Help"
 msgstr "עזרה"
-
-msgid "Select waypoint to insert the new one before"
-msgstr ""
 
 msgid "View in Browser"
 msgstr "צפה בדפדפן אינטרנט"
@@ -1767,9 +1716,6 @@ msgstr "מחק סימניה"
 msgid "Bookmarks"
 msgstr "סימניות"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr "מחיקת תיקייה"
 
@@ -1788,14 +1734,8 @@ msgstr "סימנייה %s"
 msgid "Map Download"
 msgstr "הורדת מפה"
 
-msgid "Download Enabled"
-msgstr ""
-
 msgid "Show Satellite Status"
 msgstr "הצגת מצב הלוויינים"
-
-msgid " Azimuth "
-msgstr ""
 
 msgid "Show NMEA Data"
 msgstr "הצגת נתוני NMEA"
@@ -1845,9 +1785,6 @@ msgstr "חברים ותורמים."
 msgid "Enter Coordinates"
 msgstr "נא להזין נקודות ציון"
 
-msgid "Enter coordinates, for example:"
-msgstr ""
-
 msgid "Vehicle"
 msgstr "רכב (ׂGPS)"
 
@@ -1896,9 +1833,6 @@ msgstr "תפריט ראשי"
 msgid "House number"
 msgstr "מספר בית"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1937,9 +1871,6 @@ msgstr "יציאה"
 
 msgid "Actions"
 msgstr "פעולות"
-
-msgid "Coordinates"
-msgstr ""
 
 msgid ""
 "Stop\n"
@@ -1985,9 +1916,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr ""
 
@@ -2026,10 +1954,6 @@ msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_out
-msgid "Zoom out"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_toggle_poi
@@ -2180,24 +2104,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

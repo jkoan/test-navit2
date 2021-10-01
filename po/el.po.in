@@ -137,11 +137,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "σε ένα χιλιόμετρο"
 msgstr[1] "σε %d χιλιόμετρα"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
@@ -229,25 +224,14 @@ msgstr "τότε συγχώνευση%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Συγχώνευση %1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -349,9 +333,6 @@ msgstr "Χρόνος που απομένει"
 
 msgid "Roadbook"
 msgstr "Οδηγίες Διαδρομής"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Ορισμός ως αφετηρία"
@@ -1479,9 +1460,6 @@ msgstr ""
 msgid "unknown street"
 msgstr "άγνωστος δρόμος"
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 #. Strings from navit_shipped.xml
 msgid "Map Point"
 msgstr "Σημείο Χάρτη"
@@ -1582,9 +1560,6 @@ msgstr "Πληροφορίες"
 
 msgid "Opens address search dialog"
 msgstr "Ανοιγμα διαλόγου αναζήτησης διεύθυνσης"
-
-msgid "Opens POI search dialog"
-msgstr ""
 
 msgid "_Stop Navigation"
 msgstr "Διακοπή πλοήγησης"
@@ -1688,16 +1663,10 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "POI search"
-msgstr ""
-
 msgid "Select a category"
 msgstr "Επιλέξτε μια κατηγορία"
 
 msgid "Select a POI"
-msgstr ""
-
-msgid " "
 msgstr ""
 
 msgid "Direction"
@@ -1707,9 +1676,6 @@ msgid "Distance"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1759,9 +1725,6 @@ msgstr "Διαδρομή 0000χλμ Χρόνος που απομένει 0+00:00
 msgid "Help"
 msgstr "Βοήθεια"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Επισκόπηση σε Φυλλομετρητή"
 
@@ -1781,9 +1744,6 @@ msgstr "Σημεία Ενδιαφέροντος"
 msgid "View on map"
 msgstr "Προβολή στο χάρτη"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Αποκοπή Σελιδοδείκτη"
 
@@ -1802,9 +1762,6 @@ msgstr "Διαγραφή Σελιδοδείκτη"
 msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1819,9 +1776,6 @@ msgstr "Επικόληση σελιδοδείκτη"
 #, c-format
 msgid "Bookmark %s"
 msgstr "Σελιδοδείκτης %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1884,9 +1838,6 @@ msgstr "Και όλη την ομάδα του Navit"
 msgid "members and contributors."
 msgstr "μέλη και συνεισφέροντες"
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1940,9 +1891,6 @@ msgstr "Κύριο Μενού"
 
 msgid "House number"
 msgstr "Αριθμός σπιτιού"
-
-msgid "Prev"
-msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"
@@ -2001,7 +1949,6 @@ msgstr "Πλήρης Οθόνη"
 msgid "Window Mode"
 msgstr "Λειτουργία παραθύρων"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -2014,8 +1961,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Περιγραφή"
 

@@ -142,11 +142,6 @@ msgstr[0] "o %d kilometrov"
 msgstr[1] "o jeden kilometer"
 msgstr[2] "o %d kilometre"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
@@ -234,25 +229,14 @@ msgstr "potom merge%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Zlúčenie %1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -1611,9 +1595,6 @@ msgstr "Nastaviť _destination"
 msgid "Opens address search dialog"
 msgstr "Otvorí dialóg hľadania adresy"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "Zastaviť navigáciu"
 
@@ -1659,19 +1640,10 @@ msgstr "Celá obrazovka"
 msgid "Data"
 msgstr "Dáta"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1713,16 +1685,10 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"

@@ -153,11 +153,6 @@ msgstr[3] "بعد %d كلم"
 msgstr[4] "بعد %d كلم"
 msgstr[5] "بعد %d كلم"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
@@ -244,11 +239,6 @@ msgstr "على يسارك"
 msgid "on your right"
 msgstr "على يمينك"
 
-#. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
-#, c-format
-msgid "Take the exit %1$s %2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
 msgid "at interchange"
 msgstr "عند التبادل"
@@ -258,17 +248,7 @@ msgstr "عند المخرج"
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep left %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
@@ -1610,9 +1590,6 @@ msgstr "معلومات"
 msgid "Opens address search dialog"
 msgstr "إفتح حوار البحث عن عنوان"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "قف الملاحة"
 
@@ -1652,38 +1629,20 @@ msgstr "ملء الشاشة"
 msgid "Data"
 msgstr "المعطيات"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
-msgstr ""
-
-msgid "Fuel station"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Train station"
-msgstr ""
-
 msgid "Police"
-msgstr ""
-
-msgid "Taxi"
 msgstr ""
 
 #, c-format
 msgid "POI %s. %s"
 msgstr ""
 
-msgid "Select a category"
-msgstr ""
-
 msgid " "
-msgstr ""
-
-msgid "Direction"
 msgstr ""
 
 msgid "Visit Before"
@@ -1732,9 +1691,6 @@ msgstr "الطريك 0000كلم  0+00:00 ETA"
 msgid "Help"
 msgstr "المساعدة"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "أعرض في المتصفح"
 
@@ -1780,9 +1736,6 @@ msgstr "إحذف العلامة"
 
 msgid "Bookmarks"
 msgstr "إشارات مرجعية"
-
-msgid "Save waypoints"
-msgstr ""
 
 msgid "Delete Folder"
 msgstr "احذف المجلد"
@@ -2011,9 +1964,6 @@ msgstr "الوصف"
 msgid "Satellite Status"
 msgstr "حالة القمر الأصطناعي"
 
-msgid "car_shortest"
-msgstr ""
-
 msgid "car_pedantic"
 msgstr ""
 
@@ -2125,10 +2075,6 @@ msgstr "تم إجهاض عملية تنزيل الخريطة"
 msgid "Not enough free space"
 msgstr "لا يوجد مجال فارغ كافي"
 
-#. Android resource: @strings/map_no_fix
-msgid "No location. Reopen after location fix."
-msgstr ""
-
 #. Android resource: @strings/maps_for_current_location
 msgid "Maps containing current location"
 msgstr "الخرائط المحتوية على الموقع الحالي"
@@ -2231,13 +2177,6 @@ msgstr "حفظ احتياطي"
 msgid "Restore"
 msgstr "استعادة"
 
-#. Android resource: @strings/TTS_qery_install_data
-msgid ""
-"Navit can use any text to speech engine installed on your device. The "
-"currently selected engine reports it is unable to speak in your language. "
-"Should we ask the system to show voice download dialog?"
-msgstr ""
-
 #. Android resource: @strings/whole_planet
 msgid "Whole Planet"
 msgstr "كامل القرة الأرضية"
@@ -2302,17 +2241,9 @@ msgstr "بلجيكا هولاندة اللكسمبرغ"
 msgid "Alsace"
 msgstr "الألزاس"
 
-#. Android resource: @strings/auvergne
-msgid "Auvergne"
-msgstr ""
-
 #. Android resource: @strings/centre
 msgid "Centre"
 msgstr "الوسط"
-
-#. Android resource: @strings/bourgogne
-msgid "Bourgogne"
-msgstr ""
 
 #. Android resource: @strings/champagne_ardenne
 msgid "Champagne-Ardenne"
@@ -2322,24 +2253,12 @@ msgstr ""
 msgid "Corse"
 msgstr "كورسيكا"
 
-#. Android resource: @strings/haute_normandie
-msgid "Haute-Normandie"
-msgstr ""
-
 #. Android resource: @strings/ile_de_france
 msgid "Ile-de-France"
 msgstr "عاصمة فرنسا و ضواحيها"
 
-#. Android resource: @strings/limousin
-msgid "Limousin"
-msgstr ""
-
 #. Android resource: @strings/midi_pyrenees
 msgid "Midi-Pyrenees"
-msgstr ""
-
-#. Android resource: @strings/pays_de_la_loire
-msgid "Pays-de-la-Loire"
 msgstr ""
 
 #. Android resource: @strings/picardie
@@ -2473,10 +2392,6 @@ msgstr "كامبريدجشاير"
 #. Android resource: @strings/cumbria
 msgid "Cumbria"
 msgstr "كمبريا"
-
-#. Android resource: @strings/essex
-msgid "Essex"
-msgstr ""
 
 #. Android resource: @strings/herefordshire
 msgid "Herefordshire"

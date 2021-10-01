@@ -87,10 +87,6 @@ msgid "sixth exit"
 msgstr "a șasea ieșire"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -137,11 +133,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "într-un kilometru"
 msgstr[1] "în %d kilometri"
 msgstr[2] "în %d de kilometri"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
@@ -235,25 +226,14 @@ msgstr "atunci fuzionează%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Îmbinare %1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -355,9 +335,6 @@ msgstr "Timpul până la destinaţie"
 
 msgid "Roadbook"
 msgstr "Drum blocat"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Configurează ca poziție"
@@ -1583,9 +1560,6 @@ msgstr "Informații"
 msgid "Opens address search dialog"
 msgstr "Deschide căutare adresa"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "Oprește navigarea"
 
@@ -1628,19 +1602,10 @@ msgstr "Pe tot ecranul"
 msgid "Data"
 msgstr "Date"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1682,16 +1647,10 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1741,9 +1700,6 @@ msgstr "Rută 0000 km sosire estimată 0+00:00"
 msgid "Help"
 msgstr "Ajutor"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Arată în navigator"
 
@@ -1763,9 +1719,6 @@ msgstr "Puncte de interes"
 msgid "View on map"
 msgstr "Arată pe hartă"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Taie semnul de carte"
 
@@ -1784,9 +1737,6 @@ msgstr "Șterge semnul de carte"
 msgid "Bookmarks"
 msgstr "Semne de carte"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1801,9 +1751,6 @@ msgstr "Lipește semn de carte"
 #, c-format
 msgid "Bookmark %s"
 msgstr "%s ca semn de carte"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1866,9 +1813,6 @@ msgstr "Și întreaga echipă Navit"
 msgid "members and contributors."
 msgstr "membri și colaboratori."
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1923,9 +1867,6 @@ msgstr "Meniu principal"
 msgid "House number"
 msgstr "Număr casă"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1964,9 +1905,6 @@ msgstr "Ieși"
 
 msgid "Actions"
 msgstr "Acțiuni"
-
-msgid "Coordinates"
-msgstr ""
 
 msgid ""
 "Stop\n"
@@ -2012,9 +1950,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr "cal"
 
@@ -2053,10 +1988,6 @@ msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_out
-msgid "Zoom out"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_toggle_poi
@@ -2207,24 +2138,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

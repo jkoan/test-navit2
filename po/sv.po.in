@@ -85,10 +85,6 @@ msgid "sixth exit"
 msgstr "sjätte utfarten"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -131,11 +127,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "om en kilometer"
 msgstr[1] "om %d kilometer"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
@@ -231,11 +222,6 @@ msgstr "Sammanslagning %1$s%2$s"
 
 msgid "on your right"
 msgstr "på högra sidan"
-
-#. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
-#, c-format
-msgid "Take the exit %1$s %2$s%3$s"
-msgstr ""
 
 msgid "at exit"
 msgstr "vid avfarten"
@@ -1833,9 +1819,6 @@ msgstr "Rutt 0000km  0+00:00 Ankomsttid"
 msgid "Help"
 msgstr "Hjälp"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Visa i webbläsare"
 
@@ -1855,9 +1838,6 @@ msgstr "Intressepunkter"
 msgid "View on map"
 msgstr "Visa på karta"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Klipp ut bokmärke"
 
@@ -1875,9 +1855,6 @@ msgstr "Ta bort bokmärke"
 
 msgid "Bookmarks"
 msgstr "Bokmärken"
-
-msgid "Save waypoints"
-msgstr ""
 
 msgid "Delete Folder"
 msgstr "Ta bort mapp"
@@ -1897,9 +1874,6 @@ msgstr "Bokmärk %s"
 #, c-format
 msgid "Download %s"
 msgstr "Hämta %s"
-
-msgid "Active"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr "Nedladdning aktiverad"
@@ -1962,9 +1936,6 @@ msgstr "Och alla bakom Navit"
 msgid "members and contributors."
 msgstr "medlemmar och alla som bidragit."
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -2018,9 +1989,6 @@ msgstr "Husnummer"
 
 msgid "Next"
 msgstr "Nästa"
-
-msgid "Return to route!"
-msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"
@@ -2083,14 +2051,8 @@ msgstr "Fönsterläge"
 msgid "Description"
 msgstr "Beskrivning"
 
-msgid "NMEA Data"
-msgstr ""
-
 msgid "car_shortest"
 msgstr "bil_kortast"
-
-msgid "car_pedantic"
-msgstr ""
 
 msgid "horse"
 msgstr "häst"
@@ -2131,41 +2093,21 @@ msgid ""
 "Enjoy Navit!"
 msgstr ""
 
-#. Android resource: @strings/initial_info_box_more_info
-msgid "More info"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_zoom_out
 msgid "Zoom out"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_toggle_poi
-msgid "Toggle POIs"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_backup_restore
 msgid "Backup / Restore"
 msgstr ""
 
-#. Android resource: @strings/position_popup_drive_here
-msgid "Route to here"
-msgstr ""
-
 #. Android resource: @strings/map_download_title
 msgid "Map download"
-msgstr ""
-
-#. Android resource: @strings/map_download_eta
-msgid "ETA"
 msgstr ""
 
 #. Android resource: @strings/map_download_ready
 msgid "ready"
 msgstr "klar"
-
-#. Android resource: @strings/map_download_download_aborted
-msgid "Map download aborted"
-msgstr ""
 
 #. Android resource: @strings/map_download_oversize
 msgid ""
@@ -2173,16 +2115,8 @@ msgid ""
 "a smaller one."
 msgstr ""
 
-#. Android resource: @strings/maps_for_current_location
-msgid "Maps containing current location"
-msgstr ""
-
 #. Android resource: @strings/map_download_medium_unavailable
 msgid "Media selected for map storage is not available"
-msgstr ""
-
-#. Android resource: @strings/address_search_title
-msgid "Address search"
 msgstr ""
 
 #. Android resource: @strings/address_partial_match
@@ -2203,16 +2137,8 @@ msgstr ""
 msgid "Getting search results"
 msgstr ""
 
-#. Android resource: @strings/address_search_no_results
-msgid "No results found"
-msgstr ""
-
 #. Android resource: @strings/address_search_set_destination
 msgid "Setting destination to:"
-msgstr ""
-
-#. Android resource: @strings/choose_an_action
-msgid "Choose an action"
 msgstr ""
 
 #. Android resource: @strings/please_insert_an_sd_card
@@ -2227,27 +2153,12 @@ msgstr ""
 msgid "No backup found"
 msgstr ""
 
-#. Android resource: @strings/backup_successful
-msgid "Backup successful"
-msgstr ""
-
 #. Android resource: @strings/backup_not_found
 msgid "Backup not found"
 msgstr ""
 
-#. Android resource: @strings/select_backup
-msgid "Select backup"
-msgstr ""
-
 #. Android resource: @strings/restore
 msgid "Restore"
-msgstr ""
-
-#. Android resource: @strings/TTS_qery_install_data
-msgid ""
-"Navit can use any text to speech engine installed on your device. The "
-"currently selected engine reports it is unable to speak in your language. "
-"Should we ask the system to show voice download dialog?"
 msgstr ""
 
 #. Android resource: @strings/africa
@@ -2265,10 +2176,6 @@ msgstr "Taiwan"
 #. Android resource: @strings/korea
 msgid "Korea"
 msgstr "Korea"
-
-#. Android resource: @strings/oceania
-msgid "Oceania"
-msgstr ""
 
 #. Android resource: @strings/victoria
 msgid "Victoria"
@@ -2386,16 +2293,8 @@ msgstr "Bayern"
 msgid "Mittelfranken"
 msgstr "Mittelfranken"
 
-#. Android resource: @strings/oberbayern
-msgid "Oberbayern"
-msgstr ""
-
 #. Android resource: @strings/oberpfalz
 msgid "Oberpfalz"
-msgstr ""
-
-#. Android resource: @strings/unterfranken
-msgid "Unterfranken"
 msgstr ""
 
 #. Android resource: @strings/berlin
@@ -2578,10 +2477,6 @@ msgstr "Massachusetts"
 msgid "Vermont"
 msgstr "Vermont"
 
-#. Android resource: @strings/south
-msgid "South"
-msgstr ""
-
 #. Android resource: @strings/arkansas
 msgid "Arkansas"
 msgstr "Arkansas"
@@ -2657,10 +2552,6 @@ msgstr "Oregon"
 #. Android resource: @strings/utah
 msgid "Utah"
 msgstr "Utah"
-
-#. Android resource: @strings/south_middle_america
-msgid "South+Middle America"
-msgstr ""
 
 #. Android resource: @strings/guyane_francaise
 msgid "Guyane Francaise"

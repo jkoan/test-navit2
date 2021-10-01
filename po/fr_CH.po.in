@@ -77,10 +77,6 @@ msgid "sixth exit"
 msgstr "la sixième sortie"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -226,9 +222,6 @@ msgstr "alors fusionner %1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Fusionner %1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
 #, c-format
 msgid "Take exit %1$s %2$s %3$s"
@@ -248,17 +241,7 @@ msgstr "à la sortie"
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep left %1$s%2$s%3$s"
 msgstr ""
 
 # tournez à droite
@@ -373,9 +356,6 @@ msgstr "Temps de parcours"
 
 msgid "Roadbook"
 msgstr "Carnet de route"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Définir comme position"
@@ -1589,9 +1569,6 @@ msgstr "Recalculer"
 msgid "_Info"
 msgstr "Info"
 
-msgid "Opens address search dialog"
-msgstr ""
-
 msgid "Opens POI search dialog"
 msgstr ""
 
@@ -1603,9 +1580,6 @@ msgstr "Test"
 
 msgid "_Quit"
 msgstr "_Quitter"
-
-msgid "Show position _cursor"
-msgstr ""
 
 msgid "_Lock on Road"
 msgstr "Coller à la route"
@@ -1631,19 +1605,10 @@ msgstr "Plein écran"
 msgid "Data"
 msgstr "Données"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1685,16 +1650,10 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1744,9 +1703,6 @@ msgstr "Trajet 0000 km  temps estimé 0+00:00"
 msgid "Help"
 msgstr "Aide"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Voir dans le navigateur"
 
@@ -1766,13 +1722,7 @@ msgstr "Points d'intérêt"
 msgid "View on map"
 msgstr "Voir sur la carte"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Copy Bookmark"
-msgstr ""
-
-msgid "Paste Bookmark"
 msgstr ""
 
 msgid "Delete waypoint"
@@ -1781,22 +1731,12 @@ msgstr ""
 msgid "Bookmarks"
 msgstr "Favoris"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
-msgstr ""
-
-#. Pastes the Bookmark
-msgid "Paste bookmark"
 msgstr ""
 
 #, c-format
 msgid "Bookmark %s"
 msgstr "Ajouter %s aux favoris"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1856,9 +1796,6 @@ msgstr "Et tous les membres du projet Navit"
 msgid "members and contributors."
 msgstr "membres et contributeurs"
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1913,9 +1850,6 @@ msgstr "Menu principal"
 msgid "House number"
 msgstr "Numéro de maison"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1954,9 +1888,6 @@ msgstr "Quitter"
 
 msgid "Actions"
 msgstr "Actions"
-
-msgid "Coordinates"
-msgstr ""
 
 msgid ""
 "Stop\n"
@@ -2002,9 +1933,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr "cheval"
 
@@ -2043,10 +1971,6 @@ msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_out
-msgid "Zoom out"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_toggle_poi
@@ -2197,24 +2121,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

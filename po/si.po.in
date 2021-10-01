@@ -75,10 +75,6 @@ msgid "sixth exit"
 msgstr "සයවන පිටවුම"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -121,11 +117,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "කිලෝ මීටරයකින්"
 msgstr[1] "කිලෝ මීටර %d කින්"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
@@ -172,11 +163,6 @@ msgstr "හැකියාව ඇතිවිට දී, කරුණාකර �
 msgid "Follow the road for the next %s"
 msgstr "මීළඟ %s දක්වා මාර්ගය හඹායන්න."
 
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
-
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -188,17 +174,9 @@ msgstr "ලඟදීම"
 msgid "now"
 msgstr "දැන්"
 
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
-msgstr ""
-
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
-
-msgid "on your left"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
@@ -206,18 +184,9 @@ msgstr ""
 msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then continue straight%1$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -253,11 +222,6 @@ msgstr "මාර්ග %i පසු"
 #, c-format
 msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr "%1$s%2$s %3$s%4$s හරවන්න"
-
-#. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Make a U-turn %1$s|left"
-msgstr ""
 
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
@@ -311,9 +275,6 @@ msgstr "ගමනාන්තයට කාලය"
 
 msgid "Roadbook"
 msgstr "මාර්ග පොත"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "ස්ථානය ලෙස සිටුවන්න"
@@ -1490,13 +1451,7 @@ msgstr "පිටුසන"
 msgid "Destination"
 msgstr "ගමනාන්තය"
 
-msgid "_Route"
-msgstr ""
-
 msgid "_Bookmarks"
-msgstr ""
-
-msgid "_Layout"
 msgstr ""
 
 msgid "_Vehicle"
@@ -1511,14 +1466,8 @@ msgstr "විශාලන මට්ටම වැඩිකරන්න"
 msgid "Redraw map"
 msgstr "නැවත සිතියම අඳින්න"
 
-msgid "Set _destination"
-msgstr ""
-
 msgid "Opens address search dialog"
 msgstr "ලිපින සෙවුම් සංවාදය විවෘත කරයි"
-
-msgid "Opens POI search dialog"
-msgstr ""
 
 msgid "Test"
 msgstr "පිරික්සුම"
@@ -1550,19 +1499,10 @@ msgstr "සක්‍රීය/ අක්‍රීය කරන්න ස්ව�
 msgid "Data"
 msgstr "දත්ත"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1598,9 +1538,6 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "Select a category"
-msgstr ""
-
 msgid "Select a POI"
 msgstr ""
 
@@ -1611,9 +1548,6 @@ msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1663,9 +1597,6 @@ msgstr "රවුට් කරන්න 0000 කි.මී. 0+00:00 ETA"
 msgid "Help"
 msgstr "සහාය"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "බ්‍රවුසරයේ දක්වන්න"
 
@@ -1685,9 +1616,6 @@ msgstr "POIs"
 msgid "View on map"
 msgstr "සිතියමේ දක්වන්න"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "පිටුසන කපන්න"
 
@@ -1706,9 +1634,6 @@ msgstr "පිටුසන මකන්න"
 msgid "Bookmarks"
 msgstr "පිටුසන්"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1723,9 +1648,6 @@ msgstr "පිටුසන අලවන්න"
 #, c-format
 msgid "Bookmark %s"
 msgstr "පිටුසන් කරන්න %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1788,9 +1710,6 @@ msgstr "Navit කණ්ඩායමේ සියලුම දෙනා"
 msgid "members and contributors."
 msgstr "සාමාජිකයන් සහ දායකයන්"
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1845,9 +1764,6 @@ msgstr "ප්‍රධාන මෙනුව"
 msgid "House number"
 msgstr "ගෘහ අංකය"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1886,9 +1802,6 @@ msgstr "ඉවත්වන්න"
 
 msgid "Actions"
 msgstr "ක්‍රියා"
-
-msgid "Coordinates"
-msgstr ""
 
 msgid ""
 "Stop\n"
@@ -1934,9 +1847,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr "අශ්ව"
 
@@ -1975,10 +1885,6 @@ msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_out
-msgid "Zoom out"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_toggle_poi
@@ -2129,24 +2035,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

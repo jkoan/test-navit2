@@ -80,10 +80,6 @@ msgid "sixth exit"
 msgstr "第六個出口"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -122,11 +118,6 @@ msgstr[0] "%d 千米"
 msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "在 %d 千米內"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
@@ -178,11 +169,6 @@ msgstr "如可以請掉頭"
 msgid "Follow the road for the next %s"
 msgstr "直走到下一个%s"
 
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
-
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -217,25 +203,14 @@ msgstr "然后合并%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "合并%1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -334,10 +309,6 @@ msgstr "抵达终点距离"
 
 msgid "Destination Time"
 msgstr "抵达终点时间"
-
-#, c-format
-msgid "Waypoint %d"
-msgstr ""
 
 msgid "Set as position"
 msgstr "设置您所在位置"
@@ -1466,14 +1437,8 @@ msgstr ""
 msgid "unknown street"
 msgstr ""
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 msgid "Car"
 msgstr "汽車"
-
-msgid "Iso3"
-msgstr ""
 
 msgid "Country"
 msgstr "国家"
@@ -1524,9 +1489,6 @@ msgstr "路"
 msgid "_Former Destinations"
 msgstr "前一个目的地"
 
-msgid "_Map"
-msgstr ""
-
 msgid "_Projection"
 msgstr "投影"
 
@@ -1550,9 +1512,6 @@ msgstr "重畫地圖"
 
 msgid "_Info"
 msgstr "信息"
-
-msgid "Opens address search dialog"
-msgstr ""
 
 msgid "Opens POI search dialog"
 msgstr ""
@@ -1593,19 +1552,10 @@ msgstr "全屏"
 msgid "Data"
 msgstr "資料"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1647,9 +1597,6 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
@@ -1657,9 +1604,6 @@ msgid "Distance"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1703,10 +1647,6 @@ msgstr ""
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "路線 0000千米  0+00:00 ETA"
 
-#, c-format
-msgid "Waypoint %s"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "於瀏覽器檢視"
 
@@ -1720,14 +1660,8 @@ msgstr "門牌號"
 msgid "View Attributes"
 msgstr "檢視屬性"
 
-msgid "POIs"
-msgstr ""
-
 msgid "View on map"
 msgstr "於地圖檢視"
-
-msgid "Show results on the map"
-msgstr ""
 
 msgid "Cut Bookmark"
 msgstr "剪下書籤"
@@ -1747,9 +1681,6 @@ msgstr "刪除書籤"
 msgid "Bookmarks"
 msgstr "書籤"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1764,9 +1695,6 @@ msgstr "貼上書籤"
 #, c-format
 msgid "Bookmark %s"
 msgstr "書籤 %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1812,20 +1740,7 @@ msgstr "改名"
 msgid "About Navit"
 msgstr "關於 Navit"
 
-#. Contributors
-msgid "And all the Navit Team"
-msgstr ""
-
 msgid "Waypoints"
-msgstr ""
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
 msgstr ""
 
 msgid "Vehicle"
@@ -1842,9 +1757,6 @@ msgstr "地圖跟隨車輛前進方向"
 
 msgid "Maps"
 msgstr "地圖"
-
-msgid "Height Profile"
-msgstr ""
 
 msgid "Route Description"
 msgstr "路線說明"
@@ -1872,9 +1784,6 @@ msgstr "主選單"
 
 msgid "House number"
 msgstr "屋號"
-
-msgid "Prev"
-msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"

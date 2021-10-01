@@ -12,29 +12,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: navit 0.5.6\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2025-12-16 19:22+0100\n"
 "PO-Revision-Date: 2024-04-13 17:26+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/navit/navit-core/"
 "sr/>\n"
-=======
-"PO-Revision-Date: 2018-05-10 17:33+0000\n"
-"Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
-"Language-Team: српски <xfce4@xfce4.org>\n"
->>>>>>> 1c9d7d11e (Update translation files)
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.5-dev\n"
-=======
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
->>>>>>> 1c9d7d11e (Update translation files)
 "X-Report-Errors: https://translations.launchpad.net/navit/trunk/+pots/navit\n"
 
 msgid "Running from source directory\n"
@@ -152,11 +141,6 @@ msgstr[0] "за %d километара"
 msgstr[1] "за %d километара"
 msgstr[2] "за %d километара"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
@@ -219,17 +203,9 @@ msgstr "сад"
 msgid "then"
 msgstr "потом"
 
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
-
-msgid "on your right"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -237,17 +213,9 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -1475,19 +1443,15 @@ msgid ""
 "\t-v: print the version and exit.\n"
 msgstr ""
 
-<<<<<<< HEAD
 #. We have not found an existing config file from all possibilities
 msgid "No config file navit.xml, navit.xml.local found"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 #, c-format
 msgid "Error parsing config file '%s': %s"
 msgstr ""
 
 #, c-format
-<<<<<<< HEAD
 msgid "Using config file '%s'"
 msgstr ""
 
@@ -1497,10 +1461,6 @@ msgstr ""
 
 msgid "Internal initialization failed, exiting. Check previous error messages."
 msgstr ""
-=======
-msgid "Error: No configuration found in config file '%s'"
-msgstr "ГРЕШКА: Нису пронађене поставке у датотеци подешавања „%s"
->>>>>>> 1c9d7d11e (Update translation files)
 
 msgid "unknown street"
 msgstr "непозната улица"
@@ -1722,23 +1682,17 @@ msgid "POI %s. %s"
 msgstr "Занимљива тачка %s. %s"
 
 #, c-format
-<<<<<<< HEAD
 msgid "Set destination to %ld, %ld "
 msgstr ""
 
 #, c-format
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Set map to %ld, %ld "
 msgstr ""
 
-<<<<<<< HEAD
 #, c-format
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "POI search"
 msgstr "Претрага занимљивих тачака"
 
@@ -2371,13 +2325,6 @@ msgstr "Остава"
 msgid "Restore"
 msgstr "Поврати"
 
-#. Android resource: @strings/TTS_qery_install_data
-msgid ""
-"Navit can use any text to speech engine installed on your device. The "
-"currently selected engine reports it is unable to speak in your language. "
-"Should we ask the system to show voice download dialog?"
-msgstr ""
-
 #. Android resource: @strings/whole_planet
 msgid "Whole Planet"
 msgstr "Читава планета"
@@ -2438,10 +2385,6 @@ msgstr "Бенелукс"
 msgid "Alsace"
 msgstr "Алзас"
 
-#. Android resource: @strings/auvergne
-msgid "Auvergne"
-msgstr ""
-
 #. Android resource: @strings/centre
 msgid "Centre"
 msgstr "Средиште"
@@ -2450,24 +2393,12 @@ msgstr "Средиште"
 msgid "Bretagne"
 msgstr "Бретања"
 
-#. Android resource: @strings/basse_normandie
-msgid "Basse-Normandie"
-msgstr ""
-
 #. Android resource: @strings/champagne_ardenne
 msgid "Champagne-Ardenne"
 msgstr "Шампањ-Арден"
 
-#. Android resource: @strings/franche_comte
-msgid "Franche-Comte"
-msgstr ""
-
 #. Android resource: @strings/ile_de_france
 msgid "Ile-de-France"
-msgstr ""
-
-#. Android resource: @strings/limousin
-msgid "Limousin"
 msgstr ""
 
 #. Android resource: @strings/lorraine
@@ -2478,32 +2409,16 @@ msgstr "Лорена"
 msgid "Midi-Pyrenees"
 msgstr "Средњи Пиринеји"
 
-#. Android resource: @strings/pays_de_la_loire
-msgid "Pays-de-la-Loire"
-msgstr ""
-
 #. Android resource: @strings/poitou_charentes
 msgid "Poitou-Charentes"
-msgstr ""
-
-#. Android resource: @strings/rhone_alpes
-msgid "Rhone-Alpes"
 msgstr ""
 
 #. Android resource: @strings/bayern
 msgid "Bayern"
 msgstr ""
 
-#. Android resource: @strings/niederbayern
-msgid "Niederbayern"
-msgstr ""
-
 #. Android resource: @strings/oberfranken
 msgid "Oberfranken"
-msgstr ""
-
-#. Android resource: @strings/schwaben
-msgid "Schwaben"
 msgstr ""
 
 #. Android resource: @strings/berlin
@@ -2522,10 +2437,6 @@ msgstr "Бремен"
 msgid "Hamburg"
 msgstr "Хамбург"
 
-#. Android resource: @strings/mecklenburg_vorpommern
-msgid "Mecklenburg-Vorpommern"
-msgstr ""
-
 #. Android resource: @strings/nordrhein_westfalen
 msgid "Nordrhein-westfalen"
 msgstr ""
@@ -2537,10 +2448,6 @@ msgstr "Сарланд"
 #. Android resource: @strings/sachsen_anhalt
 msgid "Sachsen-Anhalt"
 msgstr "Саксонија-Анхалт"
-
-#. Android resource: @strings/schleswig_holstein
-msgid "Schleswig-Holstein"
-msgstr ""
 
 #. Android resource: @strings/mallorca
 msgid "Mallorca"
@@ -2558,10 +2465,6 @@ msgstr "Скандинавија"
 msgid "England"
 msgstr "Енглеска"
 
-#. Android resource: @strings/cambridgeshire
-msgid "Cambridgeshire"
-msgstr ""
-
 #. Android resource: @strings/east_yorkshire_with_hull
 msgid "East yorkshire with hull"
 msgstr ""
@@ -2574,25 +2477,13 @@ msgstr "Есекс"
 msgid "Kent"
 msgstr "Кент"
 
-#. Android resource: @strings/leicestershire
-msgid "Leicestershire"
-msgstr ""
-
 #. Android resource: @strings/norfolk
 msgid "Norfolk"
 msgstr "Норфолк"
 
-#. Android resource: @strings/oxfordshire
-msgid "Oxfordshire"
-msgstr ""
-
 #. Android resource: @strings/somerset
 msgid "Somerset"
 msgstr "Сомерсет"
-
-#. Android resource: @strings/suffolk
-msgid "Suffolk"
-msgstr ""
 
 #. Android resource: @strings/wiltshire
 msgid "Wiltshire"

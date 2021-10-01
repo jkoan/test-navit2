@@ -78,10 +78,6 @@ msgid "sixth exit"
 msgstr "sixth exit"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -124,11 +120,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "in one kilometre"
 msgstr[1] "in %d kilometres"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
@@ -175,11 +166,6 @@ msgstr "When possible, please turn around"
 msgid "Follow the road for the next %s"
 msgstr "Follow the road for the next %s"
 
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
-
 msgid "soon"
 msgstr "soon"
 
@@ -206,25 +192,14 @@ msgstr "then merge%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Merge %1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -326,9 +301,6 @@ msgstr "Destination Time"
 
 msgid "Roadbook"
 msgstr "Roadbook"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Set as position"
@@ -1560,9 +1532,6 @@ msgstr "Set destination"
 msgid "Opens address search dialog"
 msgstr "Opens address search dialogue"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "Stop Navigation"
 
@@ -1608,19 +1577,10 @@ msgstr "FullScreen"
 msgid "Data"
 msgstr "Data"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1662,9 +1622,6 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
@@ -1672,9 +1629,6 @@ msgid "Distance"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1724,9 +1678,6 @@ msgstr "Route 0000km  0+00:00 ETA"
 msgid "Help"
 msgstr "Help"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "View in Browser"
 
@@ -1746,9 +1697,6 @@ msgstr "POIs"
 msgid "View on map"
 msgstr "View on map"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Cut Bookmark"
 
@@ -1767,9 +1715,6 @@ msgstr "Delete Bookmark"
 msgid "Bookmarks"
 msgstr "Bookmarks"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1784,9 +1729,6 @@ msgstr "Paste bookmark"
 #, c-format
 msgid "Bookmark %s"
 msgstr "Bookmark %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1849,9 +1791,6 @@ msgstr "And all the Navit Team"
 msgid "members and contributors."
 msgstr "members and contributors."
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1905,9 +1844,6 @@ msgstr "Main Menu"
 
 msgid "House number"
 msgstr "House number"
-
-msgid "Prev"
-msgstr ""
 
 #. warning told
 msgid "Look out! Camera!"
@@ -1968,7 +1904,6 @@ msgstr "FullScreen"
 msgid "Window Mode"
 msgstr "Window Mode"
 
-<<<<<<< HEAD
 msgid "Auto zoom"
 msgstr ""
 
@@ -1981,8 +1916,6 @@ msgstr ""
 msgid "Zoom to route"
 msgstr ""
 
-=======
->>>>>>> 1c9d7d11e (Update translation files)
 msgid "Description"
 msgstr "Description"
 

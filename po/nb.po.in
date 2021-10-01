@@ -93,10 +93,6 @@ msgid "in %d feet"
 msgstr "om %d fot"
 
 #, c-format
-msgid "in %d.%d miles"
-msgstr ""
-
-#, c-format
 msgid "one mile"
 msgid_plural "%d miles"
 msgstr[0] "engelsk mil"
@@ -135,11 +131,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "om en kilometer"
 msgstr[1] "om %d kilometer"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
@@ -242,11 +233,6 @@ msgstr "på venstresiden"
 msgid "on your right"
 msgstr "på høyresiden"
 
-#. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
-#, c-format
-msgid "Take the exit %1$s %2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
 msgid "at interchange"
 msgstr "avkjøring"
@@ -256,17 +242,7 @@ msgstr "Ved utgang"
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
 msgid "Keep right %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep left %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: "right" as in "turn right"
@@ -382,9 +358,6 @@ msgstr "Tid til målet"
 
 msgid "Roadbook"
 msgstr "Kjørebok"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Sett som posisjon"
@@ -1520,9 +1493,6 @@ msgstr ""
 msgid "unknown street"
 msgstr "Ukjent adresse"
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 #. Strings from navit_shipped.xml
 msgid "Map Point"
 msgstr "Kartpunkt"
@@ -1623,9 +1593,6 @@ msgstr "Info"
 
 msgid "Opens address search dialog"
 msgstr "Åpne søkedialog for adresser"
-
-msgid "Opens POI search dialog"
-msgstr ""
 
 msgid "_Stop Navigation"
 msgstr "Stopp navigasjon"
@@ -1732,14 +1699,8 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "POI search"
-msgstr ""
-
 msgid "Select a category"
 msgstr "Velg en kategori"
-
-msgid "Select a POI"
-msgstr ""
 
 msgid " "
 msgstr " "
@@ -1803,9 +1764,6 @@ msgstr "Rute 0000km 0+00:00 estimert tid"
 msgid "Help"
 msgstr "Hjelp"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Vis i browser"
 
@@ -1825,9 +1783,6 @@ msgstr "Landemerker"
 msgid "View on map"
 msgstr "Vis på kart"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Klipp bokmerke"
 
@@ -1845,9 +1800,6 @@ msgstr "Slett bokmerke"
 
 msgid "Bookmarks"
 msgstr "Bokmerker"
-
-msgid "Save waypoints"
-msgstr ""
 
 msgid "Delete Folder"
 msgstr "Slett mappe"
@@ -1870,9 +1822,6 @@ msgstr "Last ned %s"
 
 msgid "Active"
 msgstr "Aktiv"
-
-msgid "Download completely"
-msgstr ""
 
 msgid "Show Satellite Status"
 msgstr "Vis satelittstatus"
@@ -1931,9 +1880,6 @@ msgstr "Og alle i Navit teamet"
 
 msgid "members and contributors."
 msgstr "medlemmer og bidragsytere."
-
-msgid "Enter Coordinates"
-msgstr ""
 
 msgid "Enter coordinates, for example:"
 msgstr ""
@@ -2081,9 +2027,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr "hest"
 
@@ -2123,10 +2066,6 @@ msgid ""
 "Enjoy Navit!"
 msgstr ""
 
-#. Android resource: @strings/initial_info_box_more_info
-msgid "More info"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_zoom_in
 msgid "Zoom in"
 msgstr "Zoom inn"
@@ -2134,10 +2073,6 @@ msgstr "Zoom inn"
 #. Android resource: @strings/optionsmenu_zoom_out
 msgid "Zoom out"
 msgstr "Zoom ut"
-
-#. Android resource: @strings/optionsmenu_toggle_poi
-msgid "Toggle POIs"
-msgstr ""
 
 #. Android resource: @strings/optionsmenu_backup_restore
 msgid "Backup / Restore"
@@ -2251,10 +2186,6 @@ msgstr "Søk"
 msgid "    <string name="
 msgstr ""
 
-#. Android resource: @strings/address_search_getting_results
-msgid "Getting search results"
-msgstr ""
-
 #. Android resource: @strings/address_search_no_results
 msgid "No results found"
 msgstr "Fant ingen resultater"
@@ -2283,18 +2214,10 @@ msgstr ""
 msgid "Backup failed"
 msgstr "Sikkerhetskopiering feilet"
 
-#. Android resource: @strings/failed_to_restore
-msgid "Failed to restore"
-msgstr ""
-
 #. Android resource: @strings/restore_successful_please_restart_navit
 msgid ""
 "Restore Successful\n"
 "Please restart Navit"
-msgstr ""
-
-#. Android resource: @strings/restore_failed
-msgid "Restore failed"
 msgstr ""
 
 #. Android resource: @strings/backup

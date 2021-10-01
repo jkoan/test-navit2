@@ -84,10 +84,6 @@ msgid "sixth exit"
 msgstr "kuudennesta liittymästä"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -130,11 +126,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "Yhden kilometrin päästä"
 msgstr[1] "%d kilometrin päästä"
-
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
@@ -189,11 +180,6 @@ msgstr "Seuraa tätä tietä %s"
 msgid "Enter the roundabout soon"
 msgstr "Liity liikenneympyrään pian"
 
-#. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
-#, c-format
-msgid "Leave the roundabout at the %1$s %2$s"
-msgstr ""
-
 msgid "soon"
 msgstr "pian"
 
@@ -223,25 +209,14 @@ msgstr "sitten sulauta%1$s"
 msgid "Merge %1$s%2$s|left"
 msgstr "Yhdistäminen %1$s%2$s"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -343,9 +318,6 @@ msgstr "Kohde"
 
 msgid "Roadbook"
 msgstr "Ohjeistaja"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Aseta sijainniksi"
@@ -1575,9 +1547,6 @@ msgstr "Info"
 msgid "Opens address search dialog"
 msgstr "Avaa osoitehaun ikkunan"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "Lopeta navigointi"
 
@@ -1620,19 +1589,10 @@ msgstr "Koko ruutu"
 msgid "Data"
 msgstr "Tieto"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1674,16 +1634,10 @@ msgstr ""
 msgid "Select a POI"
 msgstr ""
 
-msgid " "
-msgstr ""
-
 msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1733,9 +1687,6 @@ msgstr "Reitti 0000km, arvioitu aika 0+00:00"
 msgid "Help"
 msgstr "Ohje"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Näytä selaimessa"
 
@@ -1755,9 +1706,6 @@ msgstr "POIt"
 msgid "View on map"
 msgstr "Näytä kartalla"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Leikkaa kirjanmerkki"
 
@@ -1776,9 +1724,6 @@ msgstr "Poista kirjanmerkki"
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1793,9 +1738,6 @@ msgstr "Liitä kirjanmerkki"
 #, c-format
 msgid "Bookmark %s"
 msgstr "Tee kirjanmerkki %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1858,9 +1800,6 @@ msgstr "sekä koko Navit-tiimi"
 msgid "members and contributors."
 msgstr "jäsenet ja osallistujat."
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1915,9 +1854,6 @@ msgstr "Päävalikko"
 msgid "House number"
 msgstr "Talon numero"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1956,9 +1892,6 @@ msgstr "Lopeta"
 
 msgid "Actions"
 msgstr "Toiminnat"
-
-msgid "Coordinates"
-msgstr ""
 
 msgid ""
 "Stop\n"
@@ -2004,9 +1937,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr "hevonen"
 
@@ -2045,10 +1975,6 @@ msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_out
-msgid "Zoom out"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_toggle_poi
@@ -2199,24 +2125,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

@@ -271,11 +271,6 @@ msgstr "sankryžoje"
 msgid "at exit"
 msgstr "išvažiavime"
 
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then keep right%1$s"
@@ -1838,9 +1833,6 @@ msgstr "Liko kelio 0000km 0+00:00 atvykimo laikas"
 msgid "Help"
 msgstr "Žinynas"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Peržiūrėti naršyklėje"
 
@@ -1887,9 +1879,6 @@ msgstr "Pašalinti žymą"
 msgid "Bookmarks"
 msgstr "Adresynas"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr "Pašalinti katalogą"
 
@@ -1920,9 +1909,6 @@ msgstr "Parsiuntimas leidžiamas"
 
 msgid "Show Satellite Status"
 msgstr "Parodyti palydovų būseną"
-
-msgid " Azimuth "
-msgstr ""
 
 msgid "Show NMEA Data"
 msgstr "Rodyti NMEA duomenis"
@@ -2041,9 +2027,6 @@ msgstr "Pagrindinis meniu"
 
 msgid "House number"
 msgstr "Namo numeris"
-
-msgid "Prev"
-msgstr ""
 
 msgid "Return to route!"
 msgstr "Grįžti į maršrutą!"

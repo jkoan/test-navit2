@@ -75,10 +75,6 @@ msgid "sixth exit"
 msgstr "sechst Ausfahrt"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -178,24 +174,12 @@ msgstr "%sop d' %s"
 msgid "When possible, please turn around"
 msgstr "Wann meiglech, wannechglift dreinen"
 
-#, c-format
-msgid "Follow the road for the next %s"
-msgstr ""
-
 #. TRANSLATORS: %s is the distance to the roundabout
 #, c-format
 msgid "Enter the roundabout %s"
 msgstr ""
 
-msgid "soon"
-msgstr ""
-
 msgid "then"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|right"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
@@ -203,25 +187,14 @@ msgstr ""
 msgid "Merge %1$s%2$s|left"
 msgstr ""
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -244,10 +217,6 @@ msgstr "liicht "
 #. TRANSLATORS: as in "turn strongly right"
 msgid "strongly "
 msgstr "schaarf "
-
-#, c-format
-msgid "after %i roads"
-msgstr ""
 
 #. TRANSLATORS: Left U-turn, the stuff after | doesn't have to be included.
 msgid "then make a U-turn|left"
@@ -301,22 +270,11 @@ msgstr ""
 msgid "Destination Time"
 msgstr ""
 
-#, c-format
-msgid "Waypoint %d"
-msgstr ""
-
 msgid "Set as position"
-msgstr ""
-
-msgid "Add as bookmark"
 msgstr ""
 
 #, c-format
 msgid "Screen coord : %d %d"
-msgstr ""
-
-#. 784
-msgid "United Arab Emirates"
 msgstr ""
 
 #. 028
@@ -419,10 +377,6 @@ msgstr ""
 msgid "Brazil"
 msgstr ""
 
-#. 064
-msgid "Bhutan"
-msgstr ""
-
 #. 072
 #. Android resource: @strings/botswana
 msgid "Botswana"
@@ -491,10 +445,6 @@ msgstr ""
 #. 192
 #. Android resource: @strings/cuba
 msgid "Cuba"
-msgstr ""
-
-#. 531
-msgid "Curacao"
 msgstr ""
 
 #. 196
@@ -580,10 +530,6 @@ msgstr ""
 
 #. 268
 msgid "Georgia"
-msgstr ""
-
-#. 831
-msgid "Guernsey"
 msgstr ""
 
 #. 292
@@ -720,10 +666,6 @@ msgstr ""
 msgid "Comoros"
 msgstr ""
 
-#. 408
-msgid "Korea, Democratic People's Republic of"
-msgstr ""
-
 #. 414
 msgid "Kuwait"
 msgstr ""
@@ -735,10 +677,6 @@ msgstr ""
 
 #. 422
 msgid "Lebanon"
-msgstr ""
-
-#. 438
-msgid "Liechtenstein"
 msgstr ""
 
 #. 430
@@ -792,25 +730,13 @@ msgstr ""
 msgid "Marshall Islands"
 msgstr ""
 
-#. 466
-msgid "Mali"
-msgstr ""
-
 #. 496
 #. Android resource: @strings/mongolia
 msgid "Mongolia"
 msgstr ""
 
-#. 580
-msgid "Northern Mariana Islands"
-msgstr ""
-
 #. 478
 msgid "Mauritania"
-msgstr ""
-
-#. 470
-msgid "Malta"
 msgstr ""
 
 #. 462
@@ -900,10 +826,6 @@ msgstr ""
 msgid "Poland"
 msgstr ""
 
-#. 612
-msgid "Pitcairn"
-msgstr ""
-
 #. 275
 msgid "Palestinian Territory, Occupied"
 msgstr ""
@@ -981,25 +903,13 @@ msgstr ""
 msgid "Sierra Leone"
 msgstr ""
 
-#. 686
-msgid "Senegal"
-msgstr ""
-
 #. 740
 #. Android resource: @strings/suriname
 msgid "Suriname"
 msgstr ""
 
-#. 678
-msgid "Sao Tome and Principe"
-msgstr ""
-
 #. 534
 msgid "Sint Maarten (Dutch part)"
-msgstr ""
-
-#. 748
-msgid "Swaziland"
 msgstr ""
 
 #. 148
@@ -1082,10 +992,6 @@ msgstr ""
 msgid "Virgin Islands, British"
 msgstr ""
 
-#. 704
-msgid "Viet Nam"
-msgstr ""
-
 #. 876
 msgid "Wallis and Futuna"
 msgstr ""
@@ -1105,10 +1011,6 @@ msgstr ""
 #. 710
 #. Android resource: @strings/south_africa
 msgid "South Africa"
-msgstr ""
-
-#. 716
-msgid "Zimbabwe"
 msgstr ""
 
 msgid ""
@@ -1148,62 +1050,31 @@ msgstr ""
 msgid "Failed to write bookmarks file"
 msgstr ""
 
-msgid "Car"
-msgstr ""
-
 msgid "Iso3"
-msgstr ""
-
-msgid "Postal"
 msgstr ""
 
 msgid "District"
 msgstr ""
 
-msgid "Number"
-msgstr ""
-
 msgid "Zip Code"
-msgstr ""
-
-msgid "District/Township"
 msgstr ""
 
 msgid "Bookmark"
 msgstr ""
 
-#. TRANSLATORS: These texts are for menu items in GTK GUI. The _ indicates the mnemonic key (=underlined character) for this menu item. Please place the _ before a suitable character in the translation (or omit it if no mnemonic key is desired).
-msgid "_Display"
-msgstr ""
-
 msgid "_Former Destinations"
-msgstr ""
-
-msgid "_Map"
 msgstr ""
 
 msgid "_Projection"
 msgstr ""
 
-msgid "Zoom_Out"
-msgstr ""
-
 msgid "Zoom_In"
-msgstr ""
-
-msgid "_Recalculate"
 msgstr ""
 
 msgid "_Info"
 msgstr ""
 
-msgid "Opens address search dialog"
-msgstr ""
-
 msgid "Opens POI search dialog"
-msgstr ""
-
-msgid "Test"
 msgstr ""
 
 msgid "Quit the application"
@@ -1221,31 +1092,16 @@ msgstr ""
 msgid "Switches map orientation to the north or the vehicle"
 msgstr ""
 
-msgid "Show/hide route description"
-msgstr ""
-
 msgid "Enable/disable automatic zoom level changing"
-msgstr ""
-
-msgid "Data"
 msgstr ""
 
 msgid "Restaurant"
 msgstr ""
 
-msgid "Hotel"
-msgstr ""
-
 msgid "Fuel station"
 msgstr ""
 
-msgid "Hospital"
-msgstr ""
-
 msgid "Train station"
-msgstr ""
-
-msgid "Police"
 msgstr ""
 
 msgid "Taxi"
@@ -1281,9 +1137,6 @@ msgstr ""
 msgid "Select a category"
 msgstr ""
 
-msgid "Select a POI"
-msgstr ""
-
 msgid "Category"
 msgstr ""
 
@@ -1296,19 +1149,10 @@ msgstr ""
 msgid "Visit Before"
 msgstr ""
 
-msgid "NE"
-msgstr ""
-
 msgid "SE"
 msgstr ""
 
-msgid "SW"
-msgstr ""
-
 msgid "NW"
-msgstr ""
-
-msgid "2D"
 msgstr ""
 
 msgid "OT"
@@ -1325,14 +1169,8 @@ msgstr ""
 msgid "Waypoint %s"
 msgstr ""
 
-msgid "View in Browser"
-msgstr ""
-
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
-msgstr ""
-
-msgid "View Attributes"
 msgstr ""
 
 msgid "POIs"

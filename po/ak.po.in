@@ -18,29 +18,16 @@ msgstr ""
 "X-Generator: Weblate 4.9-dev\n"
 "X-Report-Errors: https://translations.launchpad.net/navit/trunk/+pots/navit\n"
 
-#, c-format
-msgid "setting '%s' to '%s'\n"
-msgstr ""
-
 msgid "first"
 msgstr ""
 
 msgid "second"
 msgstr "sima"
 
-msgid "fourth"
-msgstr ""
-
 msgid "sixth"
 msgstr ""
 
-msgid "first exit"
-msgstr ""
-
 msgid "third exit"
-msgstr ""
-
-msgid "fifth exit"
 msgstr ""
 
 #, c-format
@@ -48,15 +35,7 @@ msgid "%d m"
 msgstr ""
 
 #, c-format
-msgid "%d feet"
-msgstr ""
-
-#, c-format
 msgid "%d meters"
-msgstr ""
-
-#, c-format
-msgid "%d.%d miles"
 msgstr ""
 
 #, c-format
@@ -87,18 +66,9 @@ msgid_plural "in %d kilometers"
 msgstr[0] ""
 msgstr[1] ""
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
-msgstr ""
-
-#. TRANSLATORS: motorway ramp refers to the slip road for entering a motorway.
-msgid "onto the motorway ramp"
 msgstr ""
 
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Masculine form. The stuff after | doesn't have to be included
@@ -106,16 +76,7 @@ msgstr ""
 msgid "%sinto %s%s%s|masculine form"
 msgstr ""
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name 3: Separator (Space if required), 4: Systematic Street Name. Neuter form. The stuff after | doesn't have to be included
-#, c-format
-msgid "%sinto %s%s%s|neuter form"
-msgstr ""
-
 msgid "When possible, please turn around"
-msgstr ""
-
-#, c-format
-msgid "Follow the road for the next %s"
 msgstr ""
 
 #. TRANSLATORS: %s is the distance to the roundabout
@@ -123,17 +84,7 @@ msgstr ""
 msgid "Enter the roundabout %s"
 msgstr ""
 
-#. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
-#, c-format
-msgid "Leave the roundabout at the %1$s %2$s"
-msgstr ""
-
 msgid "now"
-msgstr ""
-
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
 msgstr ""
 
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
@@ -141,16 +92,9 @@ msgstr ""
 msgid "then merge%1$s|left"
 msgstr ""
 
-msgid "on your left"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
 #, c-format
 msgid "Take exit %1$s %2$s %3$s"
-msgstr ""
-
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -160,24 +104,11 @@ msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
-msgid "then keep right%1$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
 msgid "then keep left%1$s"
-msgstr ""
-
-#. TRANSLATORS: "right" as in "turn right"
-msgid "right"
 msgstr ""
 
 #. TRANSLATORS: as in "turn easily right"
 msgid "easily "
-msgstr ""
-
-#, c-format
-msgid "Take the %1$s road to the %2$s"
 msgstr ""
 
 #. cave: no else - may come from 'if (skip_roads)' above !
@@ -186,794 +117,397 @@ msgstr ""
 msgid "Turn %1$s%2$s %3$s%4$s"
 msgstr ""
 
-#. TRANSLATORS: the arg. is distance. Left U-turn, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Make a U-turn %1$s|left"
-msgstr ""
-
 #. TRANSLATORS: the arg. is distance. Right U-turn, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Make a U-turn %1$s|right"
-msgstr ""
-
-msgid "then you have reached your destination."
 msgstr ""
 
 #. TRANSLATORS: Exit as a noun, as in "Exit 43 Greenmound-East"
 msgid "Interchange"
 msgstr ""
 
-#. Android resource: @strings/position_popup_title
-msgid "Position"
-msgstr ""
-
 msgid "Length"
-msgstr ""
-
-msgid "m"
 msgstr ""
 
 msgid "Destination Length"
 msgstr ""
 
-msgid "Roadbook"
-msgstr ""
-
 msgid "Visit before..."
-msgstr ""
-
-msgid "Set as destination"
 msgstr ""
 
 #, c-format
 msgid "Point 0x%x 0x%x"
 msgstr ""
 
-#. 020
-msgid "Andorra"
-msgstr ""
-
 #. 004
 msgid "Afghanistan"
-msgstr ""
-
-#. 660
-msgid "Anguilla"
 msgstr ""
 
 #. 051
 msgid "Armenia"
 msgstr ""
 
-#. 024
-msgid "Angola"
-msgstr ""
-
 #. 032
 msgid "Argentina"
-msgstr ""
-
-#. 040
-msgid "Austria"
 msgstr ""
 
 #. 533
 msgid "Aruba"
 msgstr ""
 
-#. 031
-msgid "Azerbaijan"
-msgstr ""
-
 #. 052
 msgid "Barbados"
-msgstr ""
-
-#. 056
-msgid "Belgium"
 msgstr ""
 
 #. 100
 msgid "Bulgaria"
 msgstr ""
 
-#. 108
-msgid "Burundi"
-msgstr ""
-
 #. 652
 msgid "Saint Barthelemy"
-msgstr ""
-
-#. 096
-msgid "Brunei Darussalam"
 msgstr ""
 
 #. 535
 msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
-#. 044
-msgid "Bahamas"
-msgstr ""
-
 #. 074
 msgid "Bouvet Island"
-msgstr ""
-
-#. 112
-msgid "Belarus"
 msgstr ""
 
 #. 124
 msgid "Canada"
 msgstr ""
 
-#. 180
-msgid "Congo, Democratic Republic of the"
-msgstr ""
-
 #. 178
 msgid "Congo"
-msgstr ""
-
-#. 384
-msgid "Cote d'Ivoire"
 msgstr ""
 
 #. 152
 msgid "Chile"
 msgstr ""
 
-#. 156
-msgid "China"
-msgstr ""
-
 #. 188
 msgid "Costa Rica"
-msgstr ""
-
-#. 132
-msgid "Cape Verde"
 msgstr ""
 
 #. 162
 msgid "Christmas Island"
 msgstr ""
 
-#. 203
-msgid "Czech Republic"
-msgstr ""
-
 #. 262
 msgid "Djibouti"
-msgstr ""
-
-#. 212
-msgid "Dominica"
 msgstr ""
 
 #. 012
 msgid "Algeria"
 msgstr ""
 
-#. 233
-msgid "Estonia"
-msgstr ""
-
 #. 732
 msgid "Western Sahara"
-msgstr ""
-
-#. 724
-msgid "Spain"
 msgstr ""
 
 #. 246
 msgid "Finland"
 msgstr ""
 
-#. 238
-msgid "Falkland Islands (Malvinas)"
-msgstr ""
-
 #. 234
 msgid "Faroe Islands"
-msgstr ""
-
-#. 266
-msgid "Gabon"
 msgstr ""
 
 #. 308
 msgid "Grenada"
 msgstr ""
 
-#. 254
-msgid "French Guiana"
-msgstr ""
-
 #. 288
 msgid "Ghana"
-msgstr ""
-
-#. 304
-msgid "Greenland"
 msgstr ""
 
 #. 324
 msgid "Guinea"
 msgstr ""
 
-#. 226
-msgid "Equatorial Guinea"
-msgstr ""
-
 #. 239
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
-
-#. 316
-msgid "Guam"
 msgstr ""
 
 #. 328
 msgid "Guyana"
 msgstr ""
 
-#. 334
-msgid "Heard Island and McDonald Islands"
-msgstr ""
-
 #. 191
 msgid "Croatia"
-msgstr ""
-
-#. 348
-msgid "Hungary"
 msgstr ""
 
 #. 372
 msgid "Ireland"
 msgstr ""
 
-#. 833
-msgid "Isle of Man"
-msgstr ""
-
 #. 086
 msgid "British Indian Ocean Territory"
-msgstr ""
-
-#. 364
-msgid "Iran, Islamic Republic of"
 msgstr ""
 
 #. 380
 msgid "Italy"
 msgstr ""
 
-#. 388
-msgid "Jamaica"
-msgstr ""
-
 #. 392
 msgid "Japan"
-msgstr ""
-
-#. 417
-msgid "Kyrgyzstan"
 msgstr ""
 
 #. 296
 msgid "Kiribati"
 msgstr ""
 
-#. 659
-msgid "Saint Kitts and Nevis"
-msgstr ""
-
 #. 410
 msgid "Korea, Republic of"
-msgstr ""
-
-#. 136
-msgid "Cayman Islands"
 msgstr ""
 
 #. 418
 msgid "Lao People's Democratic Republic"
 msgstr ""
 
-#. 662
-msgid "Saint Lucia"
-msgstr ""
-
 #. 144
 msgid "Sri Lanka"
-msgstr ""
-
-#. 426
-msgid "Lesotho"
 msgstr ""
 
 #. 442
 msgid "Luxembourg"
 msgstr ""
 
-#. 434
-msgid "Libya"
-msgstr ""
-
 #. 492
 msgid "Monaco"
-msgstr ""
-
-#. 499
-msgid "Montenegro"
 msgstr ""
 
 #. 450
 msgid "Madagascar"
 msgstr ""
 
-#. 807
-msgid "Macedonia, the former Yugoslav Republic of"
-msgstr ""
-
 #. 104
 msgid "Myanmar"
-msgstr ""
-
-#. 446
-msgid "Macao"
 msgstr ""
 
 #. 474
 msgid "Martinique"
 msgstr ""
 
-#. 500
-msgid "Montserrat"
-msgstr ""
-
 #. 480
 msgid "Mauritius"
-msgstr ""
-
-#. 454
-msgid "Malawi"
 msgstr ""
 
 #. 458
 msgid "Malaysia"
 msgstr ""
 
-#. 516
-msgid "Namibia"
-msgstr ""
-
 #. 562
 msgid "Niger"
-msgstr ""
-
-#. 566
-msgid "Nigeria"
 msgstr ""
 
 #. 528
 msgid "Netherlands"
 msgstr ""
 
-#. 524
-msgid "Nepal"
-msgstr ""
-
 #. 570
 msgid "Niue"
-msgstr ""
-
-#. 512
-msgid "Oman"
 msgstr ""
 
 #. 604
 msgid "Peru"
 msgstr ""
 
-#. 598
-msgid "Papua New Guinea"
-msgstr ""
-
 #. 586
 msgid "Pakistan"
-msgstr ""
-
-#. 666
-msgid "Saint Pierre and Miquelon"
 msgstr ""
 
 #. 630
 msgid "Puerto Rico"
 msgstr ""
 
-#. 620
-msgid "Portugal"
-msgstr ""
-
 #. 600
 msgid "Paraguay"
-msgstr ""
-
-#. 638
-msgid "Reunion"
 msgstr ""
 
 #. 688
 msgid "Serbia"
 msgstr ""
 
-#. 646
-msgid "Rwanda"
-msgstr ""
-
 #. 090
 msgid "Solomon Islands"
-msgstr ""
-
-#. 736
-msgid "Sudan"
 msgstr ""
 
 #. 702
 msgid "Singapore"
 msgstr ""
 
-#. 705
-msgid "Slovenia"
-msgstr ""
-
 #. 703
 msgid "Slovakia"
-msgstr ""
-
-#. 674
-msgid "San Marino"
 msgstr ""
 
 #. 706
 msgid "Somalia"
 msgstr ""
 
-#. 728
-msgid "South Sudan"
-msgstr ""
-
 #. 222
 msgid "El Salvador"
-msgstr ""
-
-#. 760
-msgid "Syrian Arab Republic"
 msgstr ""
 
 #. 796
 msgid "Turks and Caicos Islands"
 msgstr ""
 
-#. 260
-msgid "French Southern Territories"
-msgstr ""
-
 #. 764
 msgid "Thailand"
-msgstr ""
-
-#. 772
-msgid "Tokelau"
 msgstr ""
 
 #. 795
 msgid "Turkmenistan"
 msgstr ""
 
-#. 776
-msgid "Tonga"
-msgstr ""
-
 #. 780
 msgid "Trinidad and Tobago"
-msgstr ""
-
-#. 158
-msgid "Taiwan, Province of China"
 msgstr ""
 
 #. 804
 msgid "Ukraine"
 msgstr ""
 
-#. 581
-msgid "United States Minor Outlying Islands"
-msgstr ""
-
 #. 858
 msgid "Uruguay"
-msgstr ""
-
-#. 336
-msgid "Holy See (Vatican City State)"
 msgstr ""
 
 #. 862
 msgid "Venezuela"
 msgstr ""
 
-#. 850
-msgid "Virgin Islands, U.S."
-msgstr ""
-
 #. 548
 msgid "Vanuatu"
-msgstr ""
-
-#. 882
-msgid "Samoa"
 msgstr ""
 
 #. 175
 msgid "Mayotte"
 msgstr ""
 
-#. 894
-msgid "Zambia"
-msgstr ""
-
 msgid "* Unknown, add is_in tags to those cities"
-msgstr ""
-
-#. We have not found an existing config file from all possibilities
-msgid "No config file navit.xml, navit.xml.local found\n"
 msgstr ""
 
 #, c-format
 msgid "Using config file '%s'\n"
 msgstr ""
 
-msgid ""
-"Internal initialization failed, exiting. Check previous error messages.\n"
-msgstr ""
-
 #. Safe cast: attr_generic_set_attr does not modify its parameter.
 msgid "Unnamed vehicle"
-msgstr ""
-
-#. Strings from navit_shipped.xml
-msgid "Map Point"
 msgstr ""
 
 msgid "Iso2"
 msgstr ""
 
-msgid "Country"
-msgstr ""
-
 msgid "Town"
-msgstr ""
-
-msgid "Street"
 msgstr ""
 
 msgid "Enter Destination"
 msgstr ""
 
-msgid "City"
-msgstr ""
-
 msgid "Map"
-msgstr ""
-
-msgid "Destination"
 msgstr ""
 
 msgid "_Route"
 msgstr ""
 
-msgid "_Bookmarks"
-msgstr ""
-
 msgid "_Layout"
-msgstr ""
-
-msgid "_Vehicle"
 msgstr ""
 
 msgid "Decrease zoom level"
 msgstr ""
 
-msgid "Increase zoom level"
-msgstr ""
-
 msgid "Redraw map"
-msgstr ""
-
-msgid "Set _destination"
 msgstr ""
 
 msgid "_POI search"
 msgstr ""
 
-msgid "_Stop Navigation"
-msgstr ""
-
 msgid "_Quit"
-msgstr ""
-
-msgid "Show position _cursor"
 msgstr ""
 
 msgid "_Keep orientation to the North"
 msgstr ""
 
-msgid "_Roadbook"
-msgstr ""
-
 msgid "_Autozoom"
-msgstr ""
-
-msgid "_Fullscreen"
 msgstr ""
 
 msgid "Pharmacy"
 msgstr ""
 
-msgid "Restaurant. Fast food"
-msgstr ""
-
 msgid "Car parking"
-msgstr ""
-
-msgid "Bank"
 msgstr ""
 
 msgid "Cinema"
 msgstr ""
 
-msgid "School"
-msgstr ""
-
 msgid "Justice"
-msgstr ""
-
-msgid "Shopping"
 msgstr ""
 
 #, c-format
 msgid "POI %s. %s"
 msgstr ""
 
-#, c-format
-msgid "Set map to %ld, %ld \n"
-msgstr ""
-
 msgid "POI search"
-msgstr ""
-
-msgid "Select a distance to look for (km)"
 msgstr ""
 
 msgid " "
 msgstr ""
 
-msgid "Direction"
-msgstr ""
-
 msgid "Name"
-msgstr ""
-
-msgid "N"
 msgstr ""
 
 msgid "E"
 msgstr ""
 
-msgid "S"
-msgstr ""
-
 msgid "W"
-msgstr ""
-
-#. Android resource: @strings/no
-msgid "No"
 msgstr ""
 
 msgid "3D"
 msgstr ""
 
-#, c-format
-msgid "Route %4.0fkm    %02d:%02d ETA"
-msgstr ""
-
 msgid "Help"
-msgstr ""
-
-msgid "Select waypoint to insert the new one before"
 msgstr ""
 
 msgid "Item type"
 msgstr ""
 
-msgid "House numbers"
-msgstr ""
-
 msgid "Set as position (and deactivate vehicle)"
-msgstr ""
-
-msgid "View on map"
 msgstr ""
 
 msgid "Show results on the map"
 msgstr ""
 
-msgid "Copy Bookmark"
-msgstr ""
-
 msgid "Paste Bookmark"
 msgstr ""
 
-msgid "Delete waypoint"
-msgstr ""
-
 msgid "Bookmarks as waypoints"
-msgstr ""
-
-msgid "Replace with waypoints"
 msgstr ""
 
 #. Adds the Bookmark folders
 msgid "Add Bookmark folder"
 msgstr ""
 
-#, c-format
-msgid "Bookmark %s"
-msgstr ""
-
 msgid "Map Download"
-msgstr ""
-
-msgid "Download Enabled"
 msgstr ""
 
 msgid "Show Satellite Status"
 msgstr ""
 
-msgid " Azimuth "
-msgstr ""
-
 msgid "car"
-msgstr ""
-
-msgid "pedestrian"
 msgstr ""
 
 #, c-format
 msgid "Change profile to: %s"
 msgstr ""
 
-msgid "Show Satellite status"
-msgstr ""
-
 msgid "Add Bookmark"
-msgstr ""
-
-msgid "About Navit"
 msgstr ""
 
 #. Contributors
 msgid "And all the Navit Team"
-msgstr ""
-
-msgid "Waypoints"
 msgstr ""
 
 #.
@@ -985,45 +519,23 @@ msgstr ""
 msgid "Latitude Longitude"
 msgstr ""
 
-msgid "Vehicle"
-msgstr ""
-
 msgid "Lock on road"
-msgstr ""
-
-msgid "Map follows Vehicle"
 msgstr ""
 
 msgid "Maps"
 msgstr ""
 
-msgid "Height Profile"
-msgstr ""
-
 msgid "Show Locale"
-msgstr ""
-
-msgid "- No former destinations available -"
 msgstr ""
 
 msgid "Back"
 msgstr ""
 
-msgid "Main Menu"
-msgstr ""
-
 msgid "Next"
-msgstr ""
-
-msgid "Return to route!"
 msgstr ""
 
 #. warning told
 msgid "Please decrease your speed"
-msgstr ""
-
-#. Android resource: @strings/address_search_button
-msgid "Search"
 msgstr ""
 
 #. Android resource: @strings/position_popup_drive_here
@@ -1031,218 +543,109 @@ msgid "Route to here"
 msgstr ""
 
 msgid ""
-"Current map location %s is not available\n"
-"Please restart Navit after you attach an SD card or select a different map "
-"location."
-msgstr ""
-
-msgid ""
 "Sorry, we currently do not support maps above 3.8G on Android, please select "
 "a smaller one."
-msgstr ""
-
-msgid "filenamePath"
 msgstr ""
 
 msgid "Whole Planet"
 msgstr ""
 
-msgid "Canary Islands"
-msgstr ""
-
 msgid "Korea"
-msgstr ""
-
-msgid "UAE+Other"
 msgstr ""
 
 msgid "Tasmania"
 msgstr ""
 
-msgid "New South Wales"
-msgstr ""
-
 msgid "Western Europe"
-msgstr ""
-
-msgid "BeNeLux"
 msgstr ""
 
 msgid "Aquitaine"
 msgstr ""
 
-msgid "Basse-Normandie"
-msgstr ""
-
 msgid "Bretagne"
-msgstr ""
-
-msgid "Champagne-Ardenne"
 msgstr ""
 
 msgid "Franche-Comte"
 msgstr ""
 
-msgid "Ile-de-France"
-msgstr ""
-
 msgid "Limousin"
-msgstr ""
-
-msgid "Midi-Pyrenees"
 msgstr ""
 
 msgid "Pays-de-la-Loire"
 msgstr ""
 
-msgid "Poitou-Charentes"
-msgstr ""
-
 msgid "Rhone-Alpes"
-msgstr ""
-
-msgid "Bayern"
 msgstr ""
 
 msgid "Niederbayern"
 msgstr ""
 
-msgid "Oberfranken"
-msgstr ""
-
 msgid "Schwaben"
-msgstr ""
-
-msgid "Berlin"
 msgstr ""
 
 msgid "Bremen"
 msgstr ""
 
-msgid "Hessen"
-msgstr ""
-
 msgid "Niedersachsen"
-msgstr ""
-
-msgid "Rheinland-Pfalz"
 msgstr ""
 
 msgid "Sachsen-Anhalt"
 msgstr ""
 
-msgid "Schleswig-Holstein"
-msgstr ""
-
 msgid "Mallorca"
-msgstr ""
-
-msgid "Scandinavia"
 msgstr ""
 
 msgid "Buckinghamshire"
 msgstr ""
 
-msgid "Cumbria"
-msgstr ""
-
 msgid "Essex"
-msgstr ""
-
-msgid "Kent"
 msgstr ""
 
 msgid "Leicestershire"
 msgstr ""
 
-msgid "Nottinghamshire"
-msgstr ""
-
 msgid "Shropshire"
-msgstr ""
-
-msgid "South yorkshire"
 msgstr ""
 
 msgid "Surrey"
 msgstr ""
 
-msgid "Scotland"
-msgstr ""
-
 msgid "Crete"
-msgstr ""
-
-msgid "Alaska"
 msgstr ""
 
 msgid "USA"
 msgstr ""
 
-msgid "Midwest"
-msgstr ""
-
 msgid "Ohio"
-msgstr ""
-
-msgid "Massachusetts"
 msgstr ""
 
 msgid "Pacific"
 msgstr ""
 
-msgid "Arkansas"
-msgstr ""
-
 msgid "Florida"
-msgstr ""
-
-msgid "Maryland"
 msgstr ""
 
 msgid "Oklahoma"
 msgstr ""
 
-msgid "Virginia"
-msgstr ""
-
 msgid "West"
-msgstr ""
-
-msgid "California"
 msgstr ""
 
 msgid "Idaho"
 msgstr ""
 
-msgid "New Mexico"
-msgstr ""
-
 msgid "Oregon"
 msgstr ""
 
-msgid "Washington State"
-msgstr ""
-
 msgid "Guyane Francaise"
-msgstr ""
-
-#. Android resource: @strings/map_download_ready
-msgid "ready"
 msgstr ""
 
 #. Android resource: @strings/map_download_not_enough_free_space
 msgid "Not enough free space"
 msgstr ""
 
-msgid "Error writing map!"
-msgstr ""
-
 #. Android resource: @strings/map_download_eta
 msgid "ETA"
-msgstr ""
-
-msgid "Vehicle Position"
 msgstr ""
 
 msgid ""
@@ -1250,129 +653,63 @@ msgid ""
 "Map"
 msgstr ""
 
-msgid "Tools"
-msgstr ""
-
 msgid "About"
-msgstr ""
-
-msgid "Actions"
 msgstr ""
 
 msgid "Coordinates"
 msgstr ""
 
-msgid "Display"
-msgstr ""
-
 msgid "Window Mode"
-msgstr ""
-
-msgid ""
-"Drop last \n"
-"Waypoint"
 msgstr ""
 
 msgid "Satellite Status"
 msgstr ""
 
-msgid "car_shortest"
-msgstr ""
-
 msgid "car_pedantic"
-msgstr ""
-
-msgid "Truck"
 msgstr ""
 
 #. Android resource: @strings/notification_ticker
 msgid "Navit started"
 msgstr ""
 
-#. Android resource: @strings/initial_info_box_title
-msgid "Welcome to Navit"
-msgstr ""
-
 #. Android resource: @strings/initial_info_box_OK
 msgid "OK"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_in
-msgid "Zoom in"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_download_maps
 msgid "Download maps"
 msgstr ""
 
-#. Android resource: @strings/optionsmenu_exit_navit
-msgid "Exit Navit"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_set_map_location
 msgid "Set map location"
-msgstr ""
-
-#. Android resource: @strings/map_download_downloading
-msgid "Downloading:"
 msgstr ""
 
 #. Android resource: @strings/map_download_download_aborted
 msgid "Map download aborted"
 msgstr ""
 
-#. Android resource: @strings/maps_for_current_location
-msgid "Maps containing current location"
-msgstr ""
-
 #. Android resource: @strings/address_enter_destination
 msgid "Enter destination"
-msgstr ""
-
-#. Android resource: @strings/address_search_searching
-msgid "Searching..."
 msgstr ""
 
 #. Android resource: @strings/address_search_getting_results
 msgid "Getting search results"
 msgstr ""
 
-#. Android resource: @strings/address_search_no_results
-msgid "No results found"
-msgstr ""
-
 #. Android resource: @strings/address_search_set_destination
 msgid "Setting destination to:"
-msgstr ""
-
-#. Android resource: @strings/please_insert_an_sd_card
-msgid "Please insert an SD Card"
 msgstr ""
 
 #. Android resource: @strings/restoring
 msgid "Restoring..."
 msgstr ""
 
-#. Android resource: @strings/backup_failed
-msgid "Backup failed"
-msgstr ""
-
 #. Android resource: @strings/failed_to_restore
 msgid "Failed to restore"
 msgstr ""
 
-#. Android resource: @strings/restore_successful_please_restart_navit
-msgid ""
-"Restore Successful\n"
-"Please restart Navit"
-msgstr ""
-
 #. Android resource: @strings/restore_failed
 msgid "Restore failed"
-msgstr ""
-
-#. Android resource: @strings/backup
-msgid "Backup"
 msgstr ""
 
 #. Android resource: @strings/TTS_title_data_missing

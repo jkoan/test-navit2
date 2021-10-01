@@ -77,10 +77,6 @@ msgid "sixth exit"
 msgstr "6番出口"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -175,11 +171,6 @@ msgstr "可能な限り、後ろを向いてください"
 msgid "Follow the road for the next %s"
 msgstr "次の%sに向けて道を進む。"
 
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
-
 msgid "soon"
 msgstr "まもなく"
 
@@ -206,25 +197,14 @@ msgstr "とすると、マージ%1$s。"
 msgid "Merge %1$s%2$s|left"
 msgstr "マージ%1$s%2$sの場合"
 
-msgid "on your right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
 #, c-format
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -311,13 +291,7 @@ msgstr ""
 msgid "m"
 msgstr "m"
 
-msgid "Destination Length"
-msgstr ""
-
 msgid "Roadbook"
-msgstr ""
-
-msgid "Visit before..."
 msgstr ""
 
 msgid "Set as position"
@@ -325,10 +299,6 @@ msgstr "現在地として設定"
 
 msgid "Set as destination"
 msgstr "目的地として設定"
-
-#, c-format
-msgid "Point 0x%x 0x%x"
-msgstr ""
 
 #. 020
 msgid "Andorra"
@@ -1324,10 +1294,6 @@ msgstr "ウルグアイ"
 msgid "Uzbekistan"
 msgstr "ウズベキスタン"
 
-#. 670
-msgid "Saint Vincent and the Grenadines"
-msgstr ""
-
 #. 862
 #. Android resource: @strings/venezuela
 msgid "Venezuela"
@@ -1408,20 +1374,11 @@ msgstr ""
 msgid "unknown street"
 msgstr ""
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 msgid "Car"
-msgstr ""
-
-msgid "Iso3"
 msgstr ""
 
 msgid "Country"
 msgstr "国"
-
-msgid "Town"
-msgstr ""
 
 msgid "Street"
 msgstr ""
@@ -1431,9 +1388,6 @@ msgstr "目的地を入力"
 
 msgid "Zip Code"
 msgstr "郵便番号"
-
-msgid "District/Township"
-msgstr ""
 
 msgid "Map"
 msgstr "地図"
@@ -1456,9 +1410,6 @@ msgstr "ブックマーク"
 msgid "_Map"
 msgstr "地図"
 
-msgid "_Projection"
-msgstr ""
-
 msgid "Zoom_Out"
 msgstr "ズームアウト"
 
@@ -1468,13 +1419,7 @@ msgstr "ズームイン"
 msgid "_Recalculate"
 msgstr "再計算"
 
-msgid "_Info"
-msgstr ""
-
 msgid "Opens address search dialog"
-msgstr ""
-
-msgid "Opens POI search dialog"
 msgstr ""
 
 msgid "_Stop Navigation"
@@ -1482,9 +1427,6 @@ msgstr "案内中止"
 
 msgid "Test"
 msgstr "テスト"
-
-msgid "Quit the application"
-msgstr ""
 
 msgid "_Lock on Road"
 msgstr ""
@@ -1501,31 +1443,16 @@ msgstr ""
 msgid "Show/hide route description"
 msgstr ""
 
-msgid "Enable/disable automatic zoom level changing"
-msgstr ""
-
 msgid "_Fullscreen"
 msgstr "全画面表示"
 
-msgid "Pharmacy"
-msgstr ""
-
 msgid "Restaurant. Fast food"
-msgstr ""
-
-msgid "Car parking"
 msgstr ""
 
 msgid "Bank"
 msgstr ""
 
-msgid "Cinema"
-msgstr ""
-
 msgid "School"
-msgstr ""
-
-msgid "Justice"
 msgstr ""
 
 msgid "Shopping"
@@ -1600,9 +1527,6 @@ msgstr "西"
 msgid "NW"
 msgstr "北西"
 
-msgid "2D"
-msgstr ""
-
 msgid "OT"
 msgstr ""
 
@@ -1617,26 +1541,14 @@ msgstr ""
 msgid "Waypoint %s"
 msgstr ""
 
-msgid "View in Browser"
-msgstr ""
-
 #. Android resource: @strings/address_search_streets
 msgid "Streets"
-msgstr ""
-
-msgid "View Attributes"
 msgstr ""
 
 msgid "POIs"
 msgstr ""
 
-msgid "Remove search results from the map"
-msgstr ""
-
 msgid "Cut Bookmark"
-msgstr ""
-
-msgid "Rename Bookmark"
 msgstr ""
 
 msgid "Delete Bookmark"
@@ -1645,59 +1557,31 @@ msgstr ""
 msgid "Bookmarks"
 msgstr "ブックマーク"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
-msgstr ""
-
-#. Pastes the Bookmark
-msgid "Paste bookmark"
 msgstr ""
 
 #, c-format
 msgid "Download %s"
 msgstr ""
 
-msgid "Active"
-msgstr ""
-
 msgid "Download completely"
 msgstr ""
 
-msgid " Elevation "
-msgstr ""
-
 msgid "Show NMEA Data"
-msgstr ""
-
-msgid "bike"
 msgstr ""
 
 #, c-format
 msgid "Current profile: %s"
 msgstr ""
 
-msgid "Set as active"
-msgstr ""
-
 msgid "Show NMEA data"
-msgstr ""
-
-msgid "Rename"
 msgstr ""
 
 #. Authors
 msgid "By"
 msgstr ""
 
-msgid "members and contributors."
-msgstr ""
-
 msgid "Enter Coordinates"
-msgstr ""
-
-msgid "Enter coordinates, for example:"
 msgstr ""
 
 msgid "Rules"
@@ -1724,20 +1608,10 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "前の目的地"
 
-msgid "Message"
-msgstr ""
-
 msgid "Back to map"
 msgstr ""
 
-msgid "House number"
-msgstr ""
-
 msgid "Prev"
-msgstr ""
-
-#. warning told
-msgid "Look out! Camera!"
 msgstr ""
 
 msgid "Vehicle Position"

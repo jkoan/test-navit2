@@ -80,10 +80,6 @@ msgid "sixth exit"
 msgstr "šesti izlaz"
 
 #, c-format
-msgid "in %d feet"
-msgstr ""
-
-#, c-format
 msgid "in %d.%d miles"
 msgstr ""
 
@@ -131,11 +127,6 @@ msgstr[0] "za %d kilometar"
 msgstr[1] "za %d kilometara"
 msgstr[2] "za %d kilometara"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
@@ -181,11 +172,6 @@ msgstr "Ako je moguće okrenite se"
 msgid "Follow the road for the next %s"
 msgstr "Pratite cestu za idući %s"
 
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
-
 #. TRANSLATORS: first arg. is the manieth exit, second arg. is the destination to follow
 #, c-format
 msgid "Leave the roundabout at the %1$s %2$s"
@@ -200,17 +186,9 @@ msgstr "sada"
 msgid "then"
 msgstr "onda"
 
-#. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "Merge %1$s%2$s|right"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "Merge %1$s%2$s|left"
-msgstr ""
-
-msgid "on your right"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is the direction of exit, the second is distance, the third is destination
@@ -218,17 +196,9 @@ msgstr ""
 msgid "Take the exit %1$s %2$s%3$s"
 msgstr ""
 
-msgid "at exit"
-msgstr ""
-
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
 #, c-format
 msgid "Continue straight %1$s%2$s%3$s"
-msgstr ""
-
-#. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
-#, c-format
-msgid "Keep right %1$s%2$s%3$s"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is distance, the second is where to do the maneuver, the third is destination
@@ -330,9 +300,6 @@ msgstr "Vrijeme dolaska"
 
 msgid "Roadbook"
 msgstr "Cestovni dnevnik"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Namjestite poziciju"
@@ -1552,9 +1519,6 @@ msgstr "Info"
 msgid "Opens address search dialog"
 msgstr "Otvara dijalog za pretragu adresa"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "Stop navigaciju"
 
@@ -1591,19 +1555,10 @@ msgstr "_Cijeli zaslon"
 msgid "Data"
 msgstr "Podaci"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1639,9 +1594,6 @@ msgstr ""
 msgid "Set next visit to %ld, %ld "
 msgstr ""
 
-msgid "Select a category"
-msgstr ""
-
 msgid "Select a POI"
 msgstr ""
 
@@ -1652,9 +1604,6 @@ msgid "Direction"
 msgstr ""
 
 msgid "Distance"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1704,9 +1653,6 @@ msgstr "Ruta 0000km  0+00:00 ETA"
 msgid "Help"
 msgstr "Pomoć"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Vidi u pregledniku"
 
@@ -1726,9 +1672,6 @@ msgstr "POIs"
 msgid "View on map"
 msgstr "Gledaj na kartu"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Cut Bookmark"
 msgstr "Izreži zabilješku"
 
@@ -1747,9 +1690,6 @@ msgstr "Obriši zabilješku"
 msgid "Bookmarks"
 msgstr "Oznake"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
 msgstr ""
 
@@ -1764,9 +1704,6 @@ msgstr "Zalijepi zabilješku"
 #, c-format
 msgid "Bookmark %s"
 msgstr "Zabilješka %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1829,9 +1766,6 @@ msgstr "I sav Navit tim"
 msgid "members and contributors."
 msgstr "članovi i doprinositelji"
 
-msgid "Enter Coordinates"
-msgstr ""
-
 msgid "Enter coordinates, for example:"
 msgstr ""
 
@@ -1886,9 +1820,6 @@ msgstr "Glavni meni"
 msgid "House number"
 msgstr "Kućni broj"
 
-msgid "Prev"
-msgstr ""
-
 #. warning told
 msgid "Look out! Camera!"
 msgstr ""
@@ -1927,9 +1858,6 @@ msgstr "Izlaz"
 
 msgid "Actions"
 msgstr "Akcije"
-
-msgid "Coordinates"
-msgstr ""
 
 msgid ""
 "Stop\n"
@@ -1975,9 +1903,6 @@ msgstr ""
 msgid "NMEA Data"
 msgstr ""
 
-msgid "car_avoid_tolls"
-msgstr ""
-
 msgid "horse"
 msgstr "konj"
 
@@ -2016,10 +1941,6 @@ msgstr ""
 
 #. Android resource: @strings/initial_info_box_more_info
 msgid "More info"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_zoom_out
-msgid "Zoom out"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_toggle_poi
@@ -2170,24 +2091,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data

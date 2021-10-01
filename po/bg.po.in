@@ -136,11 +136,6 @@ msgid_plural "in %d kilometers"
 msgstr[0] "след един километър"
 msgstr[1] "след %d километра"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Masculine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|masculine form"
@@ -397,9 +392,6 @@ msgstr "Време до целта"
 
 msgid "Roadbook"
 msgstr "Пътна книга"
-
-msgid "Visit before..."
-msgstr ""
 
 msgid "Set as position"
 msgstr "Установете като позиция"
@@ -1528,9 +1520,6 @@ msgstr "Точка на карта"
 msgid "Car"
 msgstr "Автомобил"
 
-msgid "Iso3"
-msgstr ""
-
 msgid "Country"
 msgstr "Държава"
 
@@ -1613,9 +1602,6 @@ msgstr "Информация"
 msgid "Opens address search dialog"
 msgstr "Отваря прозорец Търсене на адрес"
 
-msgid "Opens POI search dialog"
-msgstr ""
-
 msgid "_Stop Navigation"
 msgstr "Спри Навигацията"
 
@@ -1630,9 +1616,6 @@ msgstr "Изход от приложението"
 
 msgid "_Lock on Road"
 msgstr "Придържай към пътя"
-
-msgid "Switches map orientation to the north or the vehicle"
-msgstr ""
 
 msgid "_Roadbook"
 msgstr "Пътна книга"
@@ -1649,38 +1632,20 @@ msgstr "Цял екран"
 msgid "Data"
 msgstr "Данни"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
-msgstr ""
-
-msgid "Fuel station"
 msgstr ""
 
 msgid "Hospital"
 msgstr ""
 
-msgid "Train station"
-msgstr ""
-
 msgid "Police"
-msgstr ""
-
-msgid "Taxi"
 msgstr ""
 
 #, c-format
 msgid "POI %s. %s"
 msgstr ""
 
-msgid "Select a category"
-msgstr ""
-
 msgid " "
-msgstr ""
-
-msgid "Direction"
 msgstr ""
 
 msgid "Visit Before"
@@ -1722,9 +1687,6 @@ msgstr "Маршрут 0000fкм 0+00:00 ОВП"
 msgid "Help"
 msgstr "Помощ"
 
-msgid "Select waypoint to insert the new one before"
-msgstr ""
-
 msgid "View in Browser"
 msgstr "Виж в Браузър"
 
@@ -1735,19 +1697,10 @@ msgstr "Улици"
 msgid "View Attributes"
 msgstr "Виж Атрибутите"
 
-msgid "POIs"
-msgstr ""
-
 msgid "View on map"
 msgstr "Виж на картата"
 
-msgid "Show results on the map"
-msgstr ""
-
 msgid "Copy Bookmark"
-msgstr ""
-
-msgid "Paste Bookmark"
 msgstr ""
 
 msgid "Delete waypoint"
@@ -1756,22 +1709,12 @@ msgstr ""
 msgid "Bookmarks"
 msgstr "Отметки"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
-msgstr ""
-
-#. Pastes the Bookmark
-msgid "Paste bookmark"
 msgstr ""
 
 #, c-format
 msgid "Bookmark %s"
 msgstr "Отметка %s"
-
-msgid "Map Download"
-msgstr ""
 
 msgid "Download Enabled"
 msgstr ""
@@ -1823,20 +1766,7 @@ msgstr "Преименувай"
 msgid "About Navit"
 msgstr "За Navit"
 
-#. Contributors
-msgid "And all the Navit Team"
-msgstr ""
-
 msgid "Waypoints"
-msgstr ""
-
-#.
-#. w=gui_internal_box_new(this, gravity_left_top|orientation_vertical|flags_expand|flags_fill)
-#. gui_internal_widget_append(wb, w)
-#.
-#. we=gui_internal_box_new(this, gravity_left_center|orientation_horizontal|flags_fill)
-#. gui_internal_widget_append(w, we)
-msgid "Latitude Longitude"
 msgstr ""
 
 msgid "Vehicle"
@@ -1878,14 +1808,7 @@ msgstr "Обратно към картата"
 msgid "Main Menu"
 msgstr "Основно меню"
 
-msgid "Next"
-msgstr ""
-
 msgid "Return to route!"
-msgstr ""
-
-#. warning told
-msgid "Please decrease your speed"
 msgstr ""
 
 msgid "Vehicle Position"
@@ -1919,9 +1842,6 @@ msgstr "Излез"
 msgid "Actions"
 msgstr "Действия"
 
-msgid "Coordinates"
-msgstr ""
-
 msgid ""
 "Stop\n"
 "Navigation"
@@ -1940,9 +1860,6 @@ msgstr "Режим Прозорец"
 
 msgid "Description"
 msgstr "Описание"
-
-msgid "NMEA Data"
-msgstr ""
 
 msgid "car_avoid_tolls"
 msgstr ""
@@ -1987,16 +1904,8 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#. Android resource: @strings/optionsmenu_zoom_in
-msgid "Zoom in"
-msgstr ""
-
 #. Android resource: @strings/optionsmenu_download_maps
 msgid "Download maps"
-msgstr ""
-
-#. Android resource: @strings/optionsmenu_exit_navit
-msgid "Exit Navit"
 msgstr ""
 
 #. Android resource: @strings/optionsmenu_set_map_location
@@ -2023,26 +1932,12 @@ msgstr ""
 msgid "Downloading:"
 msgstr ""
 
-#. Android resource: @strings/map_download_ready
-msgid "ready"
-msgstr ""
-
 #. Android resource: @strings/map_download_download_aborted
 msgid "Map download aborted"
 msgstr ""
 
-#. Android resource: @strings/map_download_oversize
-msgid ""
-"Sorry, we currently do not support maps above 3.8G on Android, please select "
-"a smaller one."
-msgstr ""
-
 #. Android resource: @strings/maps_for_current_location
 msgid "Maps containing current location"
-msgstr ""
-
-#. Android resource: @strings/map_download_medium_unavailable
-msgid "Media selected for map storage is not available"
 msgstr ""
 
 #. Android resource: @strings/address_search_title
@@ -2063,16 +1958,8 @@ msgstr ""
 msgid "Address not found"
 msgstr ""
 
-#. Android resource: @strings/address_search_getting_results
-msgid "Getting search results"
-msgstr ""
-
 #. Android resource: @strings/address_search_no_results
 msgid "No results found"
-msgstr ""
-
-#. Android resource: @strings/address_search_set_destination
-msgid "Setting destination to:"
 msgstr ""
 
 #. Android resource: @strings/choose_an_action
@@ -2087,24 +1974,12 @@ msgstr ""
 msgid "Failed to create backup directory"
 msgstr ""
 
-#. Android resource: @strings/no_backup_found
-msgid "No backup found"
-msgstr ""
-
 #. Android resource: @strings/backup_successful
 msgid "Backup successful"
 msgstr ""
 
-#. Android resource: @strings/backup_not_found
-msgid "Backup not found"
-msgstr ""
-
 #. Android resource: @strings/select_backup
 msgid "Select backup"
-msgstr ""
-
-#. Android resource: @strings/restore
-msgid "Restore"
 msgstr ""
 
 #. Android resource: @strings/TTS_qery_install_data
@@ -2114,240 +1989,120 @@ msgid ""
 "Should we ask the system to show voice download dialog?"
 msgstr ""
 
-#. Android resource: @strings/africa
-msgid "Africa"
-msgstr ""
-
 #. Android resource: @strings/asia
 msgid "Asia"
-msgstr ""
-
-#. Android resource: @strings/korea
-msgid "Korea"
 msgstr ""
 
 #. Android resource: @strings/oceania
 msgid "Oceania"
 msgstr ""
 
-#. Android resource: @strings/victoria
-msgid "Victoria"
-msgstr ""
-
 #. Android resource: @strings/europe
 msgid "Europe"
-msgstr ""
-
-#. Android resource: @strings/azores
-msgid "Azores"
 msgstr ""
 
 #. Android resource: @strings/alsace
 msgid "Alsace"
 msgstr ""
 
-#. Android resource: @strings/auvergne
-msgid "Auvergne"
-msgstr ""
-
 #. Android resource: @strings/bretagne
 msgid "Bretagne"
-msgstr ""
-
-#. Android resource: @strings/basse_normandie
-msgid "Basse-Normandie"
 msgstr ""
 
 #. Android resource: @strings/corse
 msgid "Corse"
 msgstr ""
 
-#. Android resource: @strings/haute_normandie
-msgid "Haute-Normandie"
-msgstr ""
-
 #. Android resource: @strings/languedoc_roussillon
 msgid "Languedoc-Roussillon"
-msgstr ""
-
-#. Android resource: @strings/lorraine
-msgid "Lorraine"
 msgstr ""
 
 #. Android resource: @strings/nord_pas_de_calais
 msgid "Nord-pas-de-Calais"
 msgstr ""
 
-#. Android resource: @strings/picardie
-msgid "Picardie"
-msgstr ""
-
 #. Android resource: @strings/provence_alpes_cote_d_azur
 msgid "Provence-Alpes-Cote-d-Azur"
-msgstr ""
-
-#. Android resource: @strings/baden_wuerttemberg
-msgid "Baden-Wuerttemberg"
 msgstr ""
 
 #. Android resource: @strings/mittelfranken
 msgid "Mittelfranken"
 msgstr ""
 
-#. Android resource: @strings/oberbayern
-msgid "Oberbayern"
-msgstr ""
-
 #. Android resource: @strings/oberpfalz
 msgid "Oberpfalz"
-msgstr ""
-
-#. Android resource: @strings/unterfranken
-msgid "Unterfranken"
 msgstr ""
 
 #. Android resource: @strings/brandenburg
 msgid "Brandenburg"
 msgstr ""
 
-#. Android resource: @strings/hamburg
-msgid "Hamburg"
-msgstr ""
-
 #. Android resource: @strings/mecklenburg_vorpommern
 msgid "Mecklenburg-Vorpommern"
-msgstr ""
-
-#. Android resource: @strings/nordrhein_westfalen
-msgid "Nordrhein-westfalen"
 msgstr ""
 
 #. Android resource: @strings/saarland
 msgid "Saarland"
 msgstr ""
 
-#. Android resource: @strings/sachsen
-msgid "Sachsen"
-msgstr ""
-
 #. Android resource: @strings/thueringen
 msgid "Thueringen"
-msgstr ""
-
-#. Android resource: @strings/galicia
-msgid "Galicia"
 msgstr ""
 
 #. Android resource: @strings/england
 msgid "England"
 msgstr ""
 
-#. Android resource: @strings/cambridgeshire
-msgid "Cambridgeshire"
-msgstr ""
-
 #. Android resource: @strings/east_yorkshire_with_hull
 msgid "East yorkshire with hull"
-msgstr ""
-
-#. Android resource: @strings/herefordshire
-msgid "Herefordshire"
 msgstr ""
 
 #. Android resource: @strings/lancashire
 msgid "Lancashire"
 msgstr ""
 
-#. Android resource: @strings/norfolk
-msgid "Norfolk"
-msgstr ""
-
 #. Android resource: @strings/oxfordshire
 msgid "Oxfordshire"
-msgstr ""
-
-#. Android resource: @strings/somerset
-msgid "Somerset"
 msgstr ""
 
 #. Android resource: @strings/suffolk
 msgid "Suffolk"
 msgstr ""
 
-#. Android resource: @strings/wiltshire
-msgid "Wiltshire"
-msgstr ""
-
 #. Android resource: @strings/wales
 msgid "Wales"
-msgstr ""
-
-#. Android resource: @strings/north_america
-msgid "North America"
 msgstr ""
 
 #. Android resource: @strings/hawaii
 msgid "Hawaii"
 msgstr ""
 
-#. Android resource: @strings/midwest
-msgid "Midwest"
-msgstr ""
-
 #. Android resource: @strings/ohio
 msgid "Ohio"
-msgstr ""
-
-#. Android resource: @strings/massachusetts
-msgid "Massachusetts"
 msgstr ""
 
 #. Android resource: @strings/pacific
 msgid "Pacific"
 msgstr ""
 
-#. Android resource: @strings/arkansas
-msgid "Arkansas"
-msgstr ""
-
 #. Android resource: @strings/florida
 msgid "Florida"
-msgstr ""
-
-#. Android resource: @strings/maryland
-msgid "Maryland"
 msgstr ""
 
 #. Android resource: @strings/oklahoma
 msgid "Oklahoma"
 msgstr ""
 
-#. Android resource: @strings/virginia
-msgid "Virginia"
-msgstr ""
-
 #. Android resource: @strings/west
 msgid "West"
-msgstr ""
-
-#. Android resource: @strings/california
-msgid "California"
 msgstr ""
 
 #. Android resource: @strings/idaho
 msgid "Idaho"
 msgstr ""
 
-#. Android resource: @strings/new_mexico
-msgid "New Mexico"
-msgstr ""
-
 #. Android resource: @strings/oregon
 msgid "Oregon"
-msgstr ""
-
-#. Android resource: @strings/washington_state
-msgid "Washington State"
 msgstr ""
 
 #. Android resource: @strings/guyane_francaise

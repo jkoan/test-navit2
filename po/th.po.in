@@ -46,21 +46,10 @@ msgstr "ที่สี่"
 msgid "fifth"
 msgstr "ที่ห้า"
 
-#. TRANSLATORS: the following counts refer to roundabout exits
-msgid "zeroth exit"
-msgstr ""
-
 msgid "second exit"
 msgstr ""
 
-msgid "fourth exit"
-msgstr ""
-
 msgid "sixth exit"
-msgstr ""
-
-#, c-format
-msgid "in %d feet"
 msgstr ""
 
 #, c-format
@@ -103,11 +92,6 @@ msgid "in one kilometer"
 msgid_plural "in %d kilometers"
 msgstr[0] "อีก %d กิโลเมตร"
 
-#. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name
-#, c-format
-msgid "%1$sonto %2$s"
-msgstr ""
-
 #. TRANSLATORS: Arguments: 1: Prefix (Space if required) 2: Street Name. Feminine form. The stuff after | doesn't have to be included
 #, c-format
 msgid "%1$sonto %2$s|feminine form"
@@ -148,28 +132,15 @@ msgstr "ถ้าเป็นไปได้ ให้กลับรถ"
 msgid "Follow the road for the next %s"
 msgstr "ตรงไปตามถนน แล้ว %s"
 
-#. TRANSLATORS: %s is the distance to the roundabout
-#, c-format
-msgid "Enter the roundabout %s"
-msgstr ""
-
 msgid "soon"
 msgstr "ในไม่ช้า"
 
 msgid "now"
 msgstr "เดี๋ยวนี้"
 
-#. TRANSLATORS: the arg. is the phrase 'onto ...'. Right merge, the stuff after | doesn't have to be included.
-#, c-format
-msgid "then merge%1$s|right"
-msgstr ""
-
 #. TRANSLATORS: the arg. is the phrase 'onto ...'. Left merge, the stuff after | doesn't have to be included.
 #, c-format
 msgid "then merge%1$s|left"
-msgstr ""
-
-msgid "on your left"
 msgstr ""
 
 #. TRANSLATORS: the first arg. is exit ref and/or name, the second is the direction of exit and the third is distance
@@ -177,18 +148,9 @@ msgstr ""
 msgid "Take exit %1$s %2$s %3$s"
 msgstr ""
 
-#. TRANSLATORS: as in "Keep right at interchange 42 Greenmond-West"
-msgid "at interchange"
-msgstr ""
-
 #. TRANSLATORS: the arg. is where to do the maneuver
 #, c-format
 msgid "then continue straight%1$s"
-msgstr ""
-
-#. TRANSLATORS: the arg. is where to do the maneuver
-#, c-format
-msgid "then keep right%1$s"
 msgstr ""
 
 #. TRANSLATORS: the arg. is where to do the maneuver
@@ -208,16 +170,8 @@ msgstr "ซ้าย"
 msgid "strongly "
 msgstr "อย่างเคร่งคัด "
 
-#, c-format
-msgid "after %i roads"
-msgstr ""
-
 #. TRANSLATORS: Left U-turn, the stuff after | doesn't have to be included.
 msgid "then make a U-turn|left"
-msgstr ""
-
-#. TRANSLATORS: Right U-turn, the stuff after | doesn't have to be included.
-msgid "then make a U-turn|right"
 msgstr ""
 
 #. An empty placeholder that we can use in the future for
@@ -272,10 +226,6 @@ msgstr "ระยะทาง ถึงที่หมาย"
 
 msgid "Destination Time"
 msgstr "เวลา ถึงที่หมาย"
-
-#, c-format
-msgid "Waypoint %d"
-msgstr ""
 
 msgid "Set as position"
 msgstr "กำหนดตำแหน่ง"
@@ -1396,9 +1346,6 @@ msgstr ""
 msgid "unknown street"
 msgstr ""
 
-msgid "Failed to write bookmarks file"
-msgstr ""
-
 msgid "Car"
 msgstr "รถยนต์"
 
@@ -1478,9 +1425,6 @@ msgstr "คำนวนใหม่"
 msgid "_Info"
 msgstr "ข้อมูล"
 
-msgid "Opens address search dialog"
-msgstr ""
-
 msgid "Opens POI search dialog"
 msgstr ""
 
@@ -1505,9 +1449,6 @@ msgstr ""
 msgid "_Keep orientation to the North"
 msgstr ""
 
-msgid "_Roadbook"
-msgstr ""
-
 msgid "_Autozoom"
 msgstr ""
 
@@ -1517,19 +1458,10 @@ msgstr "แสดงผลเต็มจอภาพ"
 msgid "Data"
 msgstr "ข้อมูล"
 
-msgid "Restaurant"
-msgstr ""
-
 msgid "Hotel"
 msgstr ""
 
-msgid "Fuel station"
-msgstr ""
-
 msgid "Hospital"
-msgstr ""
-
-msgid "Train station"
 msgstr ""
 
 msgid "Police"
@@ -1565,9 +1497,6 @@ msgstr ""
 msgid "POI search"
 msgstr ""
 
-msgid "Select a category"
-msgstr ""
-
 msgid "Select a POI"
 msgstr ""
 
@@ -1578,9 +1507,6 @@ msgid "Distance"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-
-msgid "Visit Before"
 msgstr ""
 
 msgid "N"
@@ -1607,9 +1533,6 @@ msgstr "ตะวันตก"
 msgid "NW"
 msgstr "ตะวันออกเฉียงเหนือ"
 
-msgid "2D"
-msgstr ""
-
 msgid "OT"
 msgstr ""
 
@@ -1620,104 +1543,53 @@ msgstr ""
 msgid "Route 0000km  0+00:00 ETA"
 msgstr "เส้นทาง 0000km 0+00:00 ETA"
 
-#, c-format
-msgid "Waypoint %s"
-msgstr ""
-
 msgid "View in Browser"
-msgstr ""
-
-#. Android resource: @strings/address_search_streets
-msgid "Streets"
 msgstr ""
 
 msgid "View Attributes"
 msgstr ""
 
-msgid "POIs"
-msgstr ""
-
 msgid "Remove search results from the map"
-msgstr ""
-
-msgid "Cut Bookmark"
 msgstr ""
 
 msgid "Rename Bookmark"
 msgstr ""
 
-msgid "Delete Bookmark"
-msgstr ""
-
 msgid "Bookmarks"
 msgstr "บุ๊กมาร์ก"
 
-msgid "Save waypoints"
-msgstr ""
-
 msgid "Delete Folder"
-msgstr ""
-
-#. Pastes the Bookmark
-msgid "Paste bookmark"
 msgstr ""
 
 #, c-format
 msgid "Download %s"
 msgstr ""
 
-msgid "Active"
-msgstr ""
-
 msgid "Download completely"
 msgstr ""
 
-msgid " Elevation "
-msgstr ""
-
 msgid "Show NMEA Data"
-msgstr ""
-
-msgid "bike"
 msgstr ""
 
 #, c-format
 msgid "Current profile: %s"
 msgstr ""
 
-msgid "Set as active"
-msgstr ""
-
 msgid "Show NMEA data"
-msgstr ""
-
-msgid "Rename"
 msgstr ""
 
 #. Authors
 msgid "By"
 msgstr ""
 
-msgid "members and contributors."
-msgstr ""
-
 msgid "Enter Coordinates"
-msgstr ""
-
-msgid "Enter coordinates, for example:"
 msgstr ""
 
 msgid "Vehicle"
 msgstr "ยานพาหนะ"
 
-msgid "Lock on road"
-msgstr ""
-
 msgid "Northing"
 msgstr "ทางทิศเหนือ"
-
-msgid "Plan with Waypoints"
-msgstr ""
 
 msgid "Layout"
 msgstr "การจัดเรียง"
@@ -1734,13 +1606,7 @@ msgstr ""
 msgid "Former Destinations"
 msgstr "ก่อนถึง ที่หมาย"
 
-msgid "Message"
-msgstr ""
-
 msgid "Back to map"
-msgstr ""
-
-msgid "House number"
 msgstr ""
 
 msgid "Prev"
