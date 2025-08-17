@@ -28,6 +28,7 @@
 #include "config.h"
 
 #ifdef HAVE_UNISTD_H
+
 #include <unistd.h>
 #endif
 
@@ -366,7 +367,7 @@ void main_init(const char *program) {
             buffer[2]=0;
         }
         setenv("NAVIT_PREFIX", buffer, 0);
-        main_setup_environment(0);
+        main_setup_environment(0 );
     } else {
         if (!getenv("NAVIT_PREFIX")) {
             int l;
@@ -390,7 +391,6 @@ void main_init(const char *program) {
         main_setup_environment(1);
 # endif
     }
-
 #else		/* _WIN32 || _WIN32_WCE */
     if (!getenv("NAVIT_PREFIX")) {
         char  filename[MAX_PATH + 1],
