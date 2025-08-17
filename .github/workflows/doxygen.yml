@@ -43,7 +43,8 @@ jobs:
           #enable-latex: # optional
           # Extra alpine packages for the build environment
           #additional-packages: # optional, default is 
-          
+      - name: Find
+        run: find -type f
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
