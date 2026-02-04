@@ -31,8 +31,8 @@ extern "C" {
 #ifndef __CEGCC__
 #    include <time.h>
 #endif
-#include "param.h"
 #include <stdio.h>
+#include "param.h"
 
 #include "glib.h"
 
