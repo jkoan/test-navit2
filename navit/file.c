@@ -17,6 +17,7 @@
  * Boston, MA  02110-1301, USA.
  */
 
+
 #include "config.h"
 #include "navit_lfs.h"
 #ifdef _MSC_VER
