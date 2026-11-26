@@ -14,10 +14,8 @@ jobs:
         - macos-14
         - macos-15
         - macos-26
-        - macos-latest-xlarge
         - windows-latest
         - ubuntu-24.04-arm
-        - codespaces-prebuild  
 
     runs-on: ["${{ matrix.runner }}"]
 
